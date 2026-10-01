@@ -1,0 +1,289 @@
+{% extends 'base.html' %}
+{% load i18n static %}
+
+{% block title %}{{ category.name }} | JB Car Textile{% endblock %}
+{% block description %}{{ category.meta_description }}{% endblock %}
+{% block preloader %}{% endblock %}
+{% block body_class %} overflow-visible{% endblock %}
+
+{% block content %}
+
+    <!-- SERVICE DETAILS -->
+    <div class="tmp-service-details-area tmp-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tmp-service-details">
+
+                        <div class="tmp-section-title-border text-center">
+                            <div class="pres-line-separator-wrapper text-center mb--10">
+                                <div class="line-separator line-left"></div>
+                                <span class="subtitle">
+                                    <span class="subtitle-text">{% trans "Υφάσματα Οροφής" %}</span>
+                                </span>
+                                <div class="line-separator line-right"></div>
+                            </div>
+                            <h1 class="title w-700 mb--30 tmp-title-split">{{ category.name }}</h1>
+                        </div>
+
+                        <div class="row g-5 mt--40 mt_md--20 mt_sm--20">
+
+                            <div class="col-lg-8">
+
+                                {% if category.image_main %}
+                                    <div class="thumbnail thumbnail-large-details h-auto mb--30 invers-anime">
+                                        <img class="radius-10 w-100" src="{{ category.image_main.url }}"
+                                                loading="eager" fetchpriority="high"
+                                                alt="{{ category.name }} - {% trans 'βελουτέ υφή' %}">
+                                    </div>
+                                {% endif %}
+
+                                <h2 class="title">{{ category.subtitle }}</h2>
+
+                                {{ category.intro|linebreaks }}
+
+                                <ul class="listing-style-solid">
+                                    <li>{{ category.intro3 }}</li>
+                                    <li>{{ category.intro4 }}</li>
+                                    <li>{{ category.intro5 }}</li>
+                                </ul>
+
+                                <ul class="feature-list-service row mt--40 g-5">
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon">
+                                            <i class="flaticon-yarn"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Σύνθεση" %}</h4>
+                                            <p class="text">{% trans "100% πολυεστερικό νήμα με ανεξίτηλη βαφή." %}</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon">
+                                            <i class="flaticon-layers"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Αφρολέξ 35kg" %}</h4>
+                                            <p class="text">{% trans "Λαμινάρισμα από 2 mm έως 8 mm." %}</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon">
+                                            <i class="flaticon-textile"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Επεξεργασία βελουτέ" %}</h4>
+                                            <p class="text">{% trans "Απαλή αίσθηση βελούδου σε πλεκτή βάση." %}</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <img src="{% static 'images/icons/bioelastic_icon_v2.webp' %}"
+                                                    alt="{% trans 'Βιοελαστικότητα υφάσματος' %}" style="height:38px;width:auto;">
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Διελαστικότητα" %}</h4>
+                                            <p class="text">{% trans "Εφαρμογή σε πλάτος και μήκος." %}</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                                <div class="row g-5 mb--30">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="thumbnail-service-details-small-2 invers-anime">
+                                            <img src="{{ category.image_2.url }}"
+                                                    alt="{{ category.name }}">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="thumbnail-service-details-small-2 invers-anime">
+                                            <img src="{{ category.image_3.url }}"
+                                                    alt="{{ category.name }}">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {{ category.intro2|linebreaks }}
+
+                            </div>
+
+                            <div class="col-lg-4 mt_md--30 mt_sm--30">
+                                <div class="sticky-top-service">
+
+                                    <div class="tmp-single-wized categorys mb--30 tmponhover">
+                                        <div class="wized-header">
+                                            <h4 class="title">{% trans "Η παραγωγή μας" %}</h4>
+                                        </div>
+                                        <div class="wized-body">
+                                            <ul class="single-categories">
+                                                {% for cat in categories %}
+                                                    <li class="tmponhover">
+                                                        <a href="{{ cat.get_absolute_url }}">
+                                                            {{ cat.intro8 }} <i class="feather-arrow-right"></i>
+                                                        </a>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="tmp-single-wized contact-with-us-service mb--0 tmponhover">
+                                        <div class="addd-contact">
+                                            <div class="contact-icon"><i class="feather-phone"></i></div>
+                                            <h2 class="title">{% trans "Καλέστε μας τώρα!" %}</h2>
+                                            <div class="contact">
+                                                <a href="tel:+302310792630">+30 2310 792 630</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="service-video-area details">
+        <div class="container">
+            <div class="tmp-present-banner-area bg_image bg_image--2-webp bg_image_fixed jarallax">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="present-banner-inner text-center">
+                                <h3>{% trans "Η τεχνογνωσία, η ευελιξία και η συνέπεια που χρειάζεστε!" %}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ΧΡΩΜΑΤΟΛΟΓΙΟ -->
+    {% if products %}
+    <div class="tmp-brand-area tmp-section-gap" id="xromatologio">
+        <div class="container">
+
+            <div class="row mb--20">
+                <div class="col-lg-12">
+                    <div class="tmp-section-title-border text-center">
+                        <div class="pres-line-separator-wrapper text-center mb--10">
+                            <div class="line-separator line-left"></div>
+                            <span class="subtitle">
+                                <span class="subtitle-text">{% trans "Χρωματολόγιο" %}</span>
+                            </span>
+                            <div class="line-separator line-right"></div>
+                        </div>
+                        <h2 class="title w-700">{% trans "ΥΦΑΣΜΑ ΟΥΡΑΝΟΥ ΒΕΛΟΥΤΕ" %}</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 mt--10">
+                    <div class="tmp-swatch-gallery row row-cols-2 row-cols-md-4 g-3 g-md-4" style="--color-primary:#d9d9d9;">
+
+                        {% for product in products %}
+                            <div class="col">
+                                <div class="tmponhover p-1 rounded">
+                                    {% if product.image_main %}
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-1x1 rounded overflow-hidden"
+                                                href="{{ product.image_main.url }}"
+                                                data-sub-html="{{ product.code }}">
+                                            <img class="w-100 h-100" src="{{ product.image_main.url }}"
+                                                    loading="lazy" decoding="async"
+                                                    alt="{{ category.name }} {{ product.code }}">
+                                        </a>
+                                    {% endif %}
+                                    <p class="description text-center mt--10 mb--0">
+                                        <strong>{{ product.code }}</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- LET'S TALK -->
+    <div class="about-area about-style-4 tmp-section-gapBottom">
+        <div class="container">
+            <div class="row row--40 g-5 align-items-center">
+
+                <div class="col-lg-6">
+                    <div class="content">
+                        <div class="inner">
+                            <h3 class="title w-700 mb--20">{% trans "Σταθερός Χρωματισμός" %}</h3>
+                            <p class="b1">{% trans "Η ανεξίτηλη βαφή και ο έλεγχος της παραγωγής κρατούν την απόχρωση σταθερή από παρτίδα σε παρτίδα, χωρίς αποκλίσεις σε επαναλαμβανόμενες παραγγελίες." %}</p>
+                            <p>{% trans "Δυνατότητα αποστολής δείγματος προς έγκριση. Επικοινωνήστε μαζί μας για προσφορά και χρόνο παράδοσης." %}</p>
+
+                            <div class="read-more-btn">
+                                <a class="tmp-btn icon-hover" href="{% url 'textapp:home' %}#contact">
+                                    <span class="btn-text">{% trans "Αίτημα προσφοράς" %}</span>
+                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt_md--40 mt_sm--40">
+                    {% if category.image_main %}
+                        <div class="thumbnail invers-anime">
+                            <img class="radius-small w-100" src="{{ category.image_main.url }}"
+                                    loading="lazy" decoding="async"
+                                    alt="{{ category.name }}">
+                        </div>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- cta modern style -->
+    <div class="cta-main-wrapper bg-cta-modern bg_image jarallax large-height" data-speed=".8" data-black-overlay="8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="call-to-action-modern-wrapper">
+                        <h2 class="title">
+                            {% trans "Βρείτε το κατάλληλο" %} <br>
+                            <span class="header-caption">
+                        <span class="cd-headline zoom">
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible theme-gradient">{% trans "ύφασμα." %}</b>
+                                <b class="is-hidden theme-gradient">{% trans "χρώμα." %}</b>
+                                <b class="is-hidden theme-gradient">{% trans "υλικό." %}</b>
+                            </span>
+                            </span>
+                            </span>
+                        </h2>
+                        <div class="right-wrapper mb--80 mb_sm--0">
+                            <p>
+                                {% blocktrans %}Επικοινωνία για συνεργάτες <br> <a href="mailto:info@cartextile.gr">info@cartextile.gr</a>{% endblocktrans %}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cta modern style end -->
+
+{% endblock %}

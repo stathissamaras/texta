@@ -1,0 +1,269 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Νομικές πληροφορίες" %} | JB Car Textile{% endblock %}
+{% block description %}{% trans "Όροι χρήσης, πολιτική απορρήτου και δικαιώματα προσωπικών δεδομένων της JB Car Textile." %}{% endblock %}
+
+{% block body_class %} overflow-visible{% endblock %}
+
+{% block content %}
+
+    <!-- LEGAL -->
+    <div class="tmp-service-details-area tmp-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tmp-service-details">
+
+                        <div class="tmp-section-title-border text-center">
+                            <div class="pres-line-separator-wrapper text-center mb--10">
+                                <div class="line-separator line-left"></div>
+                                <span class="subtitle">
+                                    <span class="subtitle-text">{% trans "Διαφάνεια" %}</span>
+                                </span>
+                                <div class="line-separator line-right"></div>
+                            </div>
+                            <h1 class="title w-700 mb--30 tmp-title-split">{% trans "Νομικές πληροφορίες" %}</h1>
+                        </div>
+
+                        <div class="row g-5 mt--40 mt_md--20 mt_sm--20">
+
+                            <div class="col-lg-8">
+
+                                {# ---------- Πολιτική απορρήτου ---------- #}
+                                <h2 id="privacy" class="title">{% trans "Πολιτική Απορρήτου" %}</h2>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Η JB CAR TEXTILE σέβεται τα προσωπικά σας δεδομένα και τα επεξεργάζεται
+                                    αποκλειστικά για τους σκοπούς που περιγράφονται παρακάτω, σύμφωνα με τον
+                                    Κανονισμό (ΕΕ) 2016/679 και την ελληνική νομοθεσία.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <ul class="feature-list-service row mt--40 g-5">
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon">
+                                            <i class="flaticon-shop"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Εντός Ευρωπαϊκής Ένωσης" %}</h4>
+                                            <p class="text">{% trans "Ο διακομιστής φιλοξενίας βρίσκεται στη Γερμανία." %}</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon">
+                                            <i class="flaticon-measuring"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Δώδεκα μήνες" %}</h4>
+                                            <p class="text">{% trans "Χρόνος διατήρησης των μηνυμάτων επικοινωνίας." %}</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon">
+                                            <i class="flaticon-layers"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Χωρίς παρακολούθηση" %}</h4>
+                                            <p class="text">{% trans "Μόνο τεχνικώς απαραίτητα cookies, χωρίς προφίλ επισκεπτών." %}</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-lg-6 col-md-6">
+                                        <div class="icon">
+                                            <i class="flaticon-textile" ></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 class="title">{% trans "Καμία διαβίβαση" %}</h4>
+                                            <p class="text">{% trans "Τα δεδομένα δεν παραχωρούνται σε τρίτους." %}</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                                <h3 class="mt--40">{% trans "Ποια δεδομένα συλλέγουμε" %}</h3>
+
+                                <ul class="listing-style-solid">
+                                    <li>{% trans "Φόρμα επικοινωνίας: ονοματεπώνυμο, τηλέφωνο, email και το μήνυμά σας." %}</li>
+                                    <li>{% trans "Newsletter: η διεύθυνση email σας και η IP από την οποία έγινε η εγγραφή." %}</li>
+                                    <li>{% trans "Η εγγραφή ολοκληρώνεται μόνο αφού την επιβεβαιώσετε μέσω συνδέσμου." %}</li>
+                                </ul>
+
+                                <h3 class="mt--40">{% trans "Νομική βάση" %}</h3>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Για τη φόρμα επικοινωνίας, το έννομο συμφέρον μας να απαντήσουμε σε αιτήματα
+                                    και η λήψη μέτρων πριν από τη σύναψη σύμβασης. Για το newsletter, η ρητή
+                                    συγκατάθεσή σας, την οποία μπορείτε να ανακαλέσετε ανά πάσα στιγμή.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <h3 class="mt--40">{% trans "Cookies" %}</h3>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Η ιστοσελίδα χρησιμοποιεί αποκλειστικά τεχνικώς απαραίτητα cookies: ένα για
+                                    τη συνεδρία σας, ένα για την προστασία των φορμών και ένα για τη γλώσσα που
+                                    έχετε επιλέξει. Δεν χρησιμοποιούνται cookies διαφήμισης ή παρακολούθησης.
+                                    {% endblocktrans %}
+                                </p>
+
+                                {# ---------- Όροι χρήσης ---------- #}
+                                <h2 id="terms" class="title mt--50">{% trans "Γενικοί Όροι Χρήσης" %}</h2>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Η JB CAR TEXTILE, μέσω του διαδικτυακού της τόπου www.cartextile.gr, παρέχει
+                                    στον επισκέπτη τη δυνατότητα να ενημερωθεί για την Εταιρεία και τα προϊόντα
+                                    της. Η χρήση της ιστοσελίδας προϋποθέτει την ανεπιφύλακτη αποδοχή των
+                                    παρόντων όρων, οι οποίοι ισχύουν για το σύνολο του περιεχομένου της.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Ο επισκέπτης οφείλει να χρησιμοποιεί την ιστοσελίδα αποκλειστικά για νόμιμους
+                                    σκοπούς και σύμφωνα με το ελληνικό, ενωσιακό και διεθνές δίκαιο, ενεργώντας
+                                    καλόπιστα και σύμφωνα με τα χρηστά ήθη, απέχοντας από κάθε συμπεριφορά που
+                                    δύναται να προκαλέσει βλάβη σε άλλους επισκέπτες ή δυσλειτουργία στην
+                                    ιστοσελίδα.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Το περιεχόμενο της ιστοσελίδας, συμπεριλαμβανομένων κειμένων, φωτογραφιών,
+                                    σημάτων και κωδίκων χρωμάτων, αποτελεί πνευματική ιδιοκτησία της Εταιρείας.
+                                    Απαγορεύεται, χωρίς προηγούμενη έγγραφη άδεια, η αντιγραφή, τροποποίηση,
+                                    αναπαραγωγή, μετάδοση ή με οποιονδήποτε άλλο τρόπο εκμετάλλευσή του.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Τα δείγματα χρωμάτων και υφών που παρουσιάζονται είναι ενδεικτικά. Η απόδοσή
+                                    τους στην οθόνη ενδέχεται να διαφέρει από το φυσικό υλικό. Για ακριβή
+                                    αντιστοίχιση χρώματος απευθυνθείτε στην Εταιρεία.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Η Εταιρεία διατηρεί το δικαίωμα να τροποποιεί οποτεδήποτε τους παρόντες όρους
+                                    και το περιεχόμενο της ιστοσελίδας. Η συνέχιση της χρήσης της ιστοσελίδας
+                                    τεκμαίρεται ως αποδοχή τους.
+                                    {% endblocktrans %}
+                                </p>
+
+                                {# ---------- GDPR ---------- #}
+                                <h2 id="gdpr" class="title mt--50">{% trans "Τα δικαιώματά σας - GDPR" %}</h2>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Ως υποκείμενο των δεδομένων έχετε τα ακόλουθα δικαιώματα, τα οποία ασκείτε
+                                    δωρεάν με αίτημά σας προς την Εταιρεία.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <ul class="listing-style-solid">
+                                    <li>{% trans "Πρόσβαση στα δεδομένα που σας αφορούν" %}</li>
+                                    <li>{% trans "Διόρθωση ανακριβών ή συμπλήρωση ελλιπών δεδομένων" %}</li>
+                                    <li>{% trans "Διαγραφή των δεδομένων σας" %}</li>
+                                    <li>{% trans "Περιορισμό της επεξεργασίας" %}</li>
+                                    <li>{% trans "Φορητότητα σε δομημένο μορφότυπο" %}</li>
+                                    <li>{% trans "Εναντίωση στην επεξεργασία" %}</li>
+                                    <li>{% trans "Ανάκληση της συγκατάθεσής σας ανά πάσα στιγμή" %}</li>
+                                </ul>
+
+                                <p class="disc mt--30">
+                                    {% blocktrans trimmed %}
+                                    Για την άσκηση των δικαιωμάτων σας επικοινωνήστε στο info@cartextile.gr ή στο
+                                    +30 2310 792 630. Απαντούμε εντός ενός μηνός από την παραλαβή του αιτήματος.
+                                    Κάθε newsletter περιλαμβάνει σύνδεσμο άμεσης διαγραφής.
+                                    {% endblocktrans %}
+                                </p>
+
+                                <p class="disc">
+                                    {% blocktrans trimmed %}
+                                    Εφόσον θεωρείτε ότι η επεξεργασία των δεδομένων σας παραβιάζει τη νομοθεσία,
+                                    έχετε δικαίωμα προσφυγής στην Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα,
+                                    Λεωφόρος Κηφισίας 1-3, 11523 Αθήνα, www.dpa.gr.
+                                    {% endblocktrans %}
+                                </p>
+
+                            </div>
+
+                            <div class="col-lg-4 mt_md--30 mt_sm--30">
+                                <div class="sticky-top-service">
+
+                                    <div class="tmp-single-wized categorys mb--30 tmponhover">
+                                        <div class="wized-header">
+                                            <h4 class="title">{% trans "Περιεχόμενα" %}</h4>
+                                        </div>
+                                        <div class="wized-body">
+                                            <ul class="single-categories">
+                                                <li class="tmponhover">
+                                                    <a href="#privacy">
+                                                        {% trans "Πολιτική Απορρήτου" %} <i class="feather-arrow-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="tmponhover">
+                                                    <a href="#terms">
+                                                        {% trans "Γενικοί Όροι Χρήσης" %} <i class="feather-arrow-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="tmponhover">
+                                                    <a href="#gdpr">
+                                                        {% trans "Δικαιώματα GDPR" %} <i class="feather-arrow-right"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="tmp-single-wized categorys mb--30 tmponhover">
+                                        <div class="wized-header">
+                                            <h4 class="title">{% trans "Στοιχεία Εταιρείας" %}</h4>
+                                        </div>
+                                        <div class="wized-body">
+                                            <ul class="list-unstyled mb-0">
+                                                <li class="p-3 mb-2 rounded bg-light text-dark">JB CAR TEXTILE Ο.Ε</li>
+                                                <li class="p-3 mb-2 rounded bg-light text-dark">{% trans "Βιοτεχνία καλυμμάτων αυτοκινήτων" %}</li>
+                                                <li class="p-3 mb-2 rounded bg-light text-dark">{% trans "Συγκολλήσεις υφασμάτων &amp; πλαστικών με αφρολέξ - Πλεκτήριο υφασμάτων" %}</li>
+                                                <li class="p-3 mb-2 rounded bg-light text-dark">{% trans "Χαλάστρα, Τ.Κ. 57300, Θεσσαλονίκη" %}</li>
+                                                <li class="p-3 mb-2 rounded bg-light"><a class="text-dark" href="tel:+302310792630">2310 792630</a></li>
+                                                <li class="p-3 mb-2 rounded bg-light text-dark">{% trans "ΑΦΜ 081570148 - ΔΟΥ Ιωνίας" %}</li>
+                                                <li class="p-3 mb-2 rounded bg-light text-dark">{% trans "ΓΕΜΗ 038034505000" %}</li>
+                                                <li class="p-3 mb-2 rounded bg-light text-dark">www.cartextile.gr</li>
+                                                <li class="p-3 mb-0 rounded bg-light"><a class="text-dark" href="mailto:info@cartextile.gr">info@cartextile.gr</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="tmp-single-wized contact-with-us-service mb--0 tmponhover">
+                                        <div class="addd-contact">
+                                            <div class="contact-icon"><i class="feather-phone"></i></div>
+                                            <h2 class="title">{% trans "Καλέστε μας τώρα!" %}</h2>
+                                            <div class="contact">
+                                                <a href="tel:+302310792630">+30 2310 792 630</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

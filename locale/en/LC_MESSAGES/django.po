@@ -1,0 +1,2175 @@
+# JB Car Textile - αγγλική μετάφραση
+# Γλώσσα πηγής: ελληνικά
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cartextile 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 15:03+0300\n"
+"PO-Revision-Date: 2026-10-01 14:00+0300\n"
+"Last-Translator: OktoWeb\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\base.html:10
+msgid ""
+"Υφάσματα εσωτερικής επένδυσης αυτοκινήτου από το 1985. Ουρανός, καλύμματα "
+"καθισμάτων και τεχνικά υφάσματα για επαγγελματίες του κλάδου."
+msgstr ""
+"Automotive interior lining fabrics since 1985. Headliners, seat covers and "
+"technical textiles for the professionals of the industry."
+
+#: .\templates\base.html:67
+msgid "Scroll to top"
+msgstr "Scroll to top"
+
+#: .\templates\categories\cotton-towel.html:22
+#: .\templates\categories\jacquard.html:22
+msgid "Υφάσματα Καθισμάτων"
+msgstr "Seat Cover Fabrics"
+
+#: .\templates\categories\cotton-towel.html:37
+msgid "πετσετέ πλέξη"
+msgstr "towelling knit"
+
+#: .\templates\categories\cotton-towel.html:58
+#: .\templates\categories\jacquard.html:59
+#: .\templates\categories\pique-headliner.html:58
+#: .\templates\categories\pvc-leatherette.html:59
+#: .\templates\categories\suede-headliner.html:59
+#: .\templates\categories\velvet-headliner.html:58
+msgid "Σύνθεση"
+msgstr "Composition"
+
+#: .\templates\categories\cotton-towel.html:59
+#, python-format
+msgid "100%% βαμβακερό νήμα."
+msgstr "100%% cotton yarn."
+
+#: .\templates\categories\cotton-towel.html:68
+#: .\templates\categories\jacquard.html:89
+#: .\templates\categories\pique-headliner.html:68
+#: .\templates\categories\pvc-leatherette.html:89
+#: .\templates\categories\suede-headliner.html:69
+#: .\templates\categories\velvet-headliner.html:68
+msgid "Αφρολέξ 35kg"
+msgstr "Foam 35kg"
+
+#: .\templates\categories\cotton-towel.html:69
+#: .\templates\categories\pique-headliner.html:69
+#: .\templates\categories\suede-headliner.html:70
+#: .\templates\categories\velvet-headliner.html:69
+msgid "Λαμινάρισμα από 2 mm έως 8 mm."
+msgstr "Lamination from 2 mm to 8 mm."
+
+#: .\templates\categories\cotton-towel.html:78
+msgid "Πετσετέ πλέξη"
+msgstr "Towelling knit"
+
+#: .\templates\categories\cotton-towel.html:79
+msgid "Απορροφητικότητα και αερισμός."
+msgstr "Absorbency and ventilation."
+
+#: .\templates\categories\cotton-towel.html:88 .\textapp\models.py:211
+msgid "Πάχος υλικού"
+msgstr "Material thickness"
+
+#: .\templates\categories\cotton-towel.html:89
+msgid "Standard Laminate 0,6 mm."
+msgstr "Standard Laminate 0,6 mm."
+
+#: .\templates\categories\cotton-towel.html:119
+#: .\templates\categories\jacquard.html:120
+#: .\templates\categories\pique-headliner.html:120
+#: .\templates\categories\pvc-leatherette.html:120
+#: .\templates\categories\suede-headliner.html:121
+#: .\templates\categories\velvet-headliner.html:120
+msgid "Η παραγωγή μας"
+msgstr "Our production"
+
+#: .\templates\categories\cotton-towel.html:137
+#: .\templates\categories\jacquard.html:138
+#: .\templates\categories\pique-headliner.html:138
+#: .\templates\categories\pvc-leatherette.html:138
+#: .\templates\categories\suede-headliner.html:139
+#: .\templates\categories\velvet-headliner.html:138 .\templates\legal.html:251
+msgid "Καλέστε μας τώρα!"
+msgstr "Call us right now!"
+
+#: .\templates\categories\cotton-towel.html:163
+#: .\templates\categories\jacquard.html:164
+#: .\templates\categories\pique-headliner.html:164
+#: .\templates\categories\pvc-leatherette.html:164
+#: .\templates\categories\suede-headliner.html:165
+#: .\templates\categories\velvet-headliner.html:164
+msgid "Η τεχνογνωσία, η ευελιξία και η συνέπεια που χρειάζεστε!"
+msgstr "The expertise, the flexibility and the consistency you need!"
+
+#: .\templates\categories\cotton-towel.html:183
+#: .\templates\categories\jacquard.html:184
+#: .\templates\categories\pique-headliner.html:184
+#: .\templates\categories\pvc-leatherette.html:184
+#: .\templates\categories\suede-headliner.html:185
+#: .\templates\categories\velvet-headliner.html:184 .\templates\home.html:301
+#: .\templates\home.html:326 .\templates\home.html:351
+#: .\templates\home.html:376
+msgid "Χρωματολόγιο"
+msgstr "Colour chart"
+
+#: .\templates\categories\cotton-towel.html:187
+msgid "ΠΕΤΣΕΤΑ COTTON"
+msgstr "COTTON TOWELLING"
+
+#: .\templates\categories\cotton-towel.html:231
+msgid "Διαδρομή με άνεση"
+msgstr "A comfortable ride"
+
+#: .\templates\categories\cotton-towel.html:232
+msgid ""
+"Η βαμβακερή επιφάνεια απορροφά τον ιδρώτα και αφήνει το ύφασμα να αναπνέει, "
+"διατηρώντας ευχάριστη θερμοκρασία στο κάθισμα τους καλοκαιρινούς μήνες."
+msgstr ""
+"The cotton surface absorbs perspiration and lets the fabric breathe, "
+"maintaining a pleasant temperature on the seat throughout the summer months."
+
+#: .\templates\categories\cotton-towel.html:233
+#: .\templates\categories\jacquard.html:234
+#: .\templates\categories\pique-headliner.html:234
+#: .\templates\categories\pvc-leatherette.html:234
+#: .\templates\categories\suede-headliner.html:235
+#: .\templates\categories\velvet-headliner.html:234
+msgid ""
+"Δυνατότητα αποστολής δείγματος προς έγκριση. Επικοινωνήστε μαζί μας για "
+"προσφορά και χρόνο παράδοσης."
+msgstr ""
+"Samples are available on request for approval. Please contact us for a "
+"quotation and delivery times."
+
+#: .\templates\categories\cotton-towel.html:237
+#: .\templates\categories\jacquard.html:238
+#: .\templates\categories\pique-headliner.html:238
+#: .\templates\categories\pvc-leatherette.html:238
+#: .\templates\categories\suede-headliner.html:239
+#: .\templates\categories\velvet-headliner.html:238 .\templates\home.html:238
+msgid "Αίτημα προσφοράς"
+msgstr "Request a quote"
+
+#: .\templates\categories\cotton-towel.html:266
+#: .\templates\categories\jacquard.html:267
+#: .\templates\categories\pique-headliner.html:267
+#: .\templates\categories\pvc-leatherette.html:267
+#: .\templates\categories\suede-headliner.html:268
+#: .\templates\categories\velvet-headliner.html:267
+msgid "Βρείτε το κατάλληλο"
+msgstr "Find the right"
+
+#: .\templates\categories\cotton-towel.html:270
+#: .\templates\categories\jacquard.html:271
+#: .\templates\categories\pique-headliner.html:271
+#: .\templates\categories\pvc-leatherette.html:271
+#: .\templates\categories\suede-headliner.html:272
+#: .\templates\categories\velvet-headliner.html:271
+msgid "ύφασμα."
+msgstr "fabric."
+
+#: .\templates\categories\cotton-towel.html:271
+#: .\templates\categories\jacquard.html:272
+#: .\templates\categories\pique-headliner.html:272
+#: .\templates\categories\pvc-leatherette.html:272
+#: .\templates\categories\suede-headliner.html:273
+#: .\templates\categories\velvet-headliner.html:272
+msgid "χρώμα."
+msgstr "colour."
+
+#: .\templates\categories\cotton-towel.html:272
+#: .\templates\categories\jacquard.html:273
+#: .\templates\categories\pique-headliner.html:273
+#: .\templates\categories\pvc-leatherette.html:273
+#: .\templates\categories\suede-headliner.html:274
+#: .\templates\categories\velvet-headliner.html:273
+msgid "υλικό."
+msgstr "material."
+
+#: .\templates\categories\cotton-towel.html:279
+#: .\templates\categories\jacquard.html:280
+#: .\templates\categories\pique-headliner.html:280
+#: .\templates\categories\pvc-leatherette.html:280
+#: .\templates\categories\suede-headliner.html:281
+#: .\templates\categories\velvet-headliner.html:280 .\templates\home.html:1094
+msgid ""
+"Επικοινωνία για συνεργάτες <br> <a "
+"href=\"mailto:info@cartextile.gr\">info@cartextile.gr</a>"
+msgstr ""
+"Contact for partners <br> <a "
+"href=\"mailto:info@cartextile.gr\">info@cartextile.gr</a>"
+
+#: .\templates\categories\jacquard.html:37
+msgid "ύφανση jacquard"
+msgstr "jacquard weave"
+
+#: .\templates\categories\jacquard.html:60
+msgid "Πολυεστερικό νήμα."
+msgstr "Polyester yarn."
+
+#: .\templates\categories\jacquard.html:69
+msgid "Ύφανση Jacquard"
+msgstr "Jacquard weave"
+
+#: .\templates\categories\jacquard.html:70
+msgid "Σχέδια απευθείας στη δομή."
+msgstr "Patterns formed in the weave."
+
+#: .\templates\categories\jacquard.html:79
+msgid "Σταθερή δομή"
+msgstr "Stable structure"
+
+#: .\templates\categories\jacquard.html:80
+msgid "Χωρίς ελαστικότητα, υψηλή αντοχή."
+msgstr "No elasticity, high durability."
+
+#: .\templates\categories\jacquard.html:90
+#: .\templates\categories\pvc-leatherette.html:90
+msgid "Standard 0,6 mm, στο πάχος που επιθυμείτε."
+msgstr "Standard 0,6 mm, in the thickness you need."
+
+#: .\templates\categories\jacquard.html:188
+msgid "ΥΦΑΝΤΑ JACQUARD"
+msgstr "WOVEN JACQUARD"
+
+#: .\templates\categories\jacquard.html:232
+msgid "Τι είναι το Jacquard."
+msgstr "What Jacquard fabric is."
+
+#: .\templates\categories\jacquard.html:233
+msgid ""
+"Το Jacquard είναι υφαντό ύφασμα στο οποίο κάθε νήμα ελέγχεται ανεξάρτητα, "
+"επιτρέποντας τη δημιουργία σύνθετων σχεδίων απευθείας στην ύφανση. Παράγεται "
+"κυρίως από πολυεστέρα υψηλής αντοχής και υφίσταται θερμοφιξάρισμα και "
+"επάλειψη με επιβραδυντικό φλόγας."
+msgstr ""
+"Jacquard is a woven fabric in which every single yarn is controlled "
+"independently, allowing complex patterns to be formed directly in the weave. "
+"It is produced mainly from high tenacity polyester and undergoes heat "
+"setting and flame retardant coating."
+
+#: .\templates\categories\pique-headliner.html:22
+#: .\templates\categories\suede-headliner.html:22
+#: .\templates\categories\velvet-headliner.html:22
+msgid "Υφάσματα Οροφής"
+msgstr "Headliner Fabrics"
+
+#: .\templates\categories\pique-headliner.html:37
+msgid "πλέξη πικέ"
+msgstr "pique knit"
+
+#: .\templates\categories\pique-headliner.html:59
+#: .\templates\categories\suede-headliner.html:60
+#: .\templates\categories\velvet-headliner.html:59
+#, python-format
+msgid "100%% πολυεστερικό νήμα με ανεξίτηλη βαφή."
+msgstr "100%% polyester yarn with colourfast dye."
+
+#: .\templates\categories\pique-headliner.html:78
+msgid "Πλέξη πικέ"
+msgstr "Pique knit"
+
+#: .\templates\categories\pique-headliner.html:79
+msgid "Διελαστικό πλέγμα, ασπίδα απέναντι στην κόλλα."
+msgstr "Bi-elastic mesh, a shield against the glue."
+
+#: .\templates\categories\pique-headliner.html:89
+#: .\templates\categories\suede-headliner.html:90
+#: .\templates\categories\velvet-headliner.html:89 .\textapp\models.py:221
+msgid "Διελαστικότητα"
+msgstr "Bi-elasticity"
+
+#: .\templates\categories\pique-headliner.html:90
+#: .\templates\categories\suede-headliner.html:91
+#: .\templates\categories\velvet-headliner.html:90
+msgid "Εφαρμογή σε πλάτος και μήκος."
+msgstr "Fits in width and in length."
+
+#: .\templates\categories\pique-headliner.html:188
+msgid "ΥΦΑΣΜΑ ΟΥΡΑΝΟΥ ΠΙΚΕ"
+msgstr "PIQUE HEADLINER FABRIC"
+
+#: .\templates\categories\pique-headliner.html:232
+msgid "Ιδανικό για Οροφές"
+msgstr "Ideal for Headliners"
+
+#: .\templates\categories\pique-headliner.html:233
+msgid ""
+"Σχεδιασμένο για την αποκατάσταση και την προσαρμογή εσωτερικών χώρων "
+"οχημάτων. Η Καινοτομία μας προσδίδει στο υλικό δυναμική και premium εμφάνιση "
+"σε σύγκριση με τα συνηθισμένα πικέ υφάσματα οροφής."
+msgstr ""
+"Designed for the restoration and the customisation of vehicle interiors. Our "
+"innovation gives the material a dynamic and premium appearance compared to "
+"the conventional pique headliner fabrics."
+
+#: .\templates\categories\pvc-leatherette.html:22
+msgid "Δερματίνες Καθισμάτων"
+msgstr "Leatherette for Seats"
+
+#: .\templates\categories\pvc-leatherette.html:37
+#, python-format
+msgid "100%% PVC"
+msgstr "100%% PVC"
+
+#: .\templates\categories\pvc-leatherette.html:60
+#, python-format
+msgid "100%% PVC."
+msgstr "100%% PVC."
+
+#: .\templates\categories\pvc-leatherette.html:69
+msgid "Πάχος δερματίνης"
+msgstr "Leatherette thickness"
+
+#: .\templates\categories\pvc-leatherette.html:70
+msgid "0,9 mm."
+msgstr "0,9 mm."
+
+#: .\templates\categories\pvc-leatherette.html:79
+msgid "Αντοχή στην τριβή"
+msgstr "Abrasion resistance"
+
+#: .\templates\categories\pvc-leatherette.html:80
+msgid "Για επιφάνειες καθημερινής χρήσης."
+msgstr "For surfaces of everyday use."
+
+#: .\templates\categories\pvc-leatherette.html:188
+#, python-format
+msgid "ΔΕΡΜΑΤΙΝΗ 100%% PVC"
+msgstr "100%% PVC LEATHERETTE"
+
+#: .\templates\categories\pvc-leatherette.html:232
+msgid "Αντοχή σε Καθημερινή Χρήση"
+msgstr "Resistance to Everyday Use"
+
+#: .\templates\categories\pvc-leatherette.html:233
+msgid ""
+"Η υψηλή αντοχή στην τριβή την κάνει κατάλληλη για επιφάνειες που δέχονται "
+"συνεχή καταπόνηση, μέσα και έξω από το αυτοκίνητο."
+msgstr ""
+"Its high resistance to abrasion makes it suitable for surfaces under "
+"constant stress, both inside and outside the vehicle."
+
+#: .\templates\categories\suede-headliner.html:37
+msgid "suede υφή"
+msgstr "suede finish"
+
+#: .\templates\categories\suede-headliner.html:79
+msgid "Επεξεργασία suede"
+msgstr "Suede finishing"
+
+#: .\templates\categories\suede-headliner.html:80
+msgid "Suede όψη και υφή στη μία πλευρά."
+msgstr "Suede look and feel on one side."
+
+#: .\templates\categories\suede-headliner.html:189
+msgid "ΥΦΑΣΜΑ ΟΥΡΑΝΟΥ SUEDE"
+msgstr "SUEDE HEADLINER FABRIC"
+
+#: .\templates\categories\suede-headliner.html:233
+msgid "Ιδανικό για Απαιτητικές Επιφάνειες"
+msgstr "Ideal for Demanding Geometries"
+
+#: .\templates\categories\suede-headliner.html:234
+msgid ""
+"Η επεξεργασία suede δίνει ματ όψη και βάθος χρώματος, χωρίς να θυσιάζει την "
+"ελαστικότητα του πλεκτού. Καλύπτει κολόνες, καμπύλες και σύνθετες γεωμετρίες "
+"χωρίς σημάδια τεντώματος."
+msgstr ""
+"The suede finish gives a matt look and depth of colour, without sacrificing "
+"the elasticity of the knitted base. It covers pillars, curves and complex "
+"geometries with no stretch marks."
+
+#: .\templates\categories\velvet-headliner.html:37
+msgid "βελουτέ υφή"
+msgstr "velour finish"
+
+#: .\templates\categories\velvet-headliner.html:78
+msgid "Επεξεργασία βελουτέ"
+msgstr "Velour finishing"
+
+#: .\templates\categories\velvet-headliner.html:79
+msgid "Απαλή αίσθηση βελούδου σε πλεκτή βάση."
+msgstr "A soft velvet feel on a knitted base."
+
+#: .\templates\categories\velvet-headliner.html:86
+msgid "Βιοελαστικότητα υφάσματος"
+msgstr "Bi-elasticity of the fabric"
+
+#: .\templates\categories\velvet-headliner.html:188
+msgid "ΥΦΑΣΜΑ ΟΥΡΑΝΟΥ ΒΕΛΟΥΤΕ"
+msgstr "VELOUR HEADLINER FABRIC"
+
+#: .\templates\categories\velvet-headliner.html:232
+msgid "Σταθερός Χρωματισμός"
+msgstr "Consistent Colouring"
+
+#: .\templates\categories\velvet-headliner.html:233
+msgid ""
+"Η ανεξίτηλη βαφή και ο έλεγχος της παραγωγής κρατούν την απόχρωση σταθερή "
+"από παρτίδα σε παρτίδα, χωρίς αποκλίσεις σε επαναλαμβανόμενες παραγγελίες."
+msgstr ""
+"The colourfast dyeing and the control of our production keep the shade "
+"consistent from batch to batch, with no deviations on repeated orders."
+
+#: .\templates\configurator.html:7
+msgid "Διαμόρφωση Καλύμματος"
+msgstr "Cover Configurator"
+
+#: .\templates\configurator.html:27
+msgid "Κεντρικό ύφασμα"
+msgstr "Main fabric"
+
+#: .\templates\configurator.html:38
+msgid "Πλαϊνή δερματίνη"
+msgstr "Side leatherette"
+
+#: .\templates\emails\newsletter_confirm.html:13
+msgid "Ένα κλικ ακόμη για να ολοκληρωθεί η εγγραφή σας."
+msgstr "One more click to complete your subscription."
+
+#: .\templates\emails\newsletter_confirm.html:49
+msgid "Επιβεβαιώστε την εγγραφή σας"
+msgstr "Confirm your subscription"
+
+#: .\templates\emails\newsletter_confirm.html:53
+#, python-format
+msgid ""
+"Ευχαριστούμε για το αίτημα εγγραφής <strong style=\"color:#1b1b1c;"
+"\">%(email)s</strong> στο newsletter της JB Car Textile."
+msgstr ""
+"Thank you for the subscription request <strong style=\"color:#1b1b1c;"
+"\">%(email)s</strong> to the JB Car Textile newsletter."
+
+#: .\templates\emails\newsletter_confirm.html:62
+msgid "Επιβεβαίωση εγγραφής"
+msgstr "Confirm subscription"
+
+#: .\templates\emails\newsletter_confirm.html:69
+msgid "Αν η επιβεβαίωση δεν λειτουργεί, αντιγράψτε αυτή τη διεύθυνση:"
+msgstr "If the confirmation button does not work, copy this address:"
+
+#: .\templates\emails\newsletter_confirm.html:82
+msgid "Αν δεν ζητήσατε εσείς την εγγραφή, αγνοήστε αυτό το μήνυμα."
+msgstr "If you did not request the subscription, ignore this message."
+
+#: .\templates\emails\newsletter_confirm.html:86
+msgid "Ανεμομύλου 3, Δέλτα 57300"
+msgstr "3 Anemomylou St., Delta 57300"
+
+#: .\templates\emails\newsletter_confirm.txt:1
+#, python-format
+msgid ""
+"Καλησπέρα,\n"
+"\n"
+"λάβαμε αίτημα εγγραφής του %(email)s στο newsletter της JB Car Textile.\n"
+"\n"
+"Για να ολοκληρωθεί η εγγραφή, ανοίξτε τον παρακάτω σύνδεσμο:\n"
+"\n"
+"%(confirm_url)s\n"
+"\n"
+"Αν δεν ζητήσατε εσείς την εγγραφή, αγνοήστε αυτό το μήνυμα.\n"
+"\n"
+"JB Car Textile\n"
+"Ανεμομύλου 3, Δέλτα 57300\n"
+"+30 2310 792 630"
+msgstr ""
+"Good day,\n"
+"\n"
+"we received a subscription request for %(email)s to the JB Car Textile "
+"newsletter.\n"
+"\n"
+"To complete the subscription, please open the link below:\n"
+"\n"
+"%(confirm_url)s\n"
+"\n"
+"If you did not request the subscription, ignore this message.\n"
+"\n"
+"JB Car Textile\n"
+"3 Anemomylou St., Delta 57300\n"
+"+30 2310 792 630"
+
+#: .\templates\facilities.html:4
+msgid "Εγκαταστάσεις"
+msgstr "Facilities"
+
+#: .\templates\facilities.html:5
+msgid ""
+"Η JB Car Textile από το 1985 στα υφάσματα αυτοκινήτου. Εγκαταστάσεις 2.000 "
+"τ.μ. με σύγχρονο εξοπλισμό παραγωγής."
+msgstr ""
+"JB Car Textile since 1985 in automotive textiles. Production facilities of "
+"2,000 sq.m. with modern equipment."
+
+#: .\templates\facilities.html:20 .\templates\home.html:207
+msgid "Η Εταιρεία"
+msgstr "The Company"
+
+#: .\templates\facilities.html:24
+msgid ""
+"Σταθερή παρουσία για πάνω από 40 χρόνια <br>\n"
+"                                    στα υφάσματα αυτοκινήτου"
+msgstr ""
+"A steady presence for more than 40 years <br>\n"
+"                                    in automotive textiles"
+
+#: .\templates\facilities.html:30 .\templates\home.html:1005
+#: .\templates\partials\_navbar.html:206 .\templates\partials\_navbar.html:296
+msgid "Επικοινωνία"
+msgstr "Contact us"
+
+#: .\templates\facilities.html:45
+msgid "Οι εγκαταστάσεις της JB Car Textile"
+msgstr "The facilities of JB Car Textile"
+
+#: .\templates\facilities.html:54 .\templates\home.html:237
+#: .\templates\partials\_navbar.html:190 .\templates\partials\_navbar.html:289
+msgid "Η ιστορία μας"
+msgstr "Our history"
+
+#: .\templates\facilities.html:57
+msgid ""
+"Το 1985 Ιδρύεται από τον Μιχάλη & Αντώνη Ιωαννίδη η εταιρία JB Car Textile. "
+"Αρχικά η εταιρεία δραστηριοποιείτα σε υλικά (πρώτες ύλες) επένδυσης "
+"εσωτερικού χώρου αυτοκινήτου."
+msgstr ""
+"In 1985 the company JB Car Textile is founded by Michalis & Antonis "
+"Ioannidis. Initially the company was active in materials (raw materials) for "
+"the lining of the car interior."
+
+#: .\templates\facilities.html:61 .\templates\facilities.html:85
+#: .\templates\facilities.html:119 .\templates\facilities.html:143
+msgid "Περισσότερα..."
+msgstr "Read more..."
+
+#: .\templates\facilities.html:76
+msgid "JB Car Textile"
+msgstr "JB Car Textile"
+
+#: .\templates\facilities.html:78
+msgid "Ανάπτυξη"
+msgstr "Growth"
+
+#: .\templates\facilities.html:81
+msgid ""
+"Το 2005 Πραγματοποιείται μια σημαντική επένδυση για την επέκταση των "
+"παραγωγικών εγκαταστάσεων, ώστε να ανταποκρίνονται στους υψηλούς στόχους της "
+"εταιρίας."
+msgstr ""
+"In 2005 a significant investment is carried out for the expansion of the "
+"production facilities, so that they meet the high targets of the company."
+
+#: .\templates\facilities.html:94
+msgid "Ιδιόκτητες εγκαταστάσεις 2.000 τ.μ."
+msgstr "Privately owned facilities of 2,000 sq.m."
+
+#: .\templates\facilities.html:103
+msgid "Σύγχρονος εξοπλισμός παραγωγής υφασμάτων"
+msgstr "Modern equipment for fabric production"
+
+#: .\templates\facilities.html:112
+msgid "Εξοπλισμός"
+msgstr "Equipment"
+
+#: .\templates\facilities.html:115
+msgid ""
+"Σήμερα, η Car Textile JB είναι μια πρωτοπόρος εταιρία με εγκαταστάσεις που "
+"εκτείνονται σε 2.000 τ.μ. και με σύγχρονο εξοπλισμό, δύναται να καλύψει με "
+"επιτυχία κάθε ανάγκη του επαγγελματία."
+msgstr ""
+"Today, Car Textile JB is a pioneering company with facilities that extend "
+"over 2,000 sq.m. and with modern production equipment, able to cover "
+"successfully every need of the professional."
+
+#: .\templates\facilities.html:136
+msgid "Αποστολή & όραμα"
+msgstr "Mission & vision"
+
+#: .\templates\facilities.html:139
+msgid ""
+"Με περισσότερα από 40 χρόνια εμπειρίας και τεχνογνωσίας, προσφέρουμε "
+"προϊόντα υψηλής ποιότητας για επαγγελματίες του κλάδου. Η σταθερή ποιότητα, "
+"η σωστή επιλογή των υλικών και η συνέπεια απέναντι στους συνεργάτες μας "
+"αποτελούν σταθερή προτεραιότητά μας."
+msgstr ""
+"With more than 40 years of experience and know-how, we offer products of "
+"high quality for the professionals of the sector. Consistent quality, the "
+"right selection of the materials and reliability towards our partners remain "
+"our constant priority."
+
+#: .\templates\facilities.html:152
+msgid "Υφάσματα εσωτερικής επένδυσης αυτοκινήτου"
+msgstr "Fabrics for automotive interior lining"
+
+#: .\templates\home.html:17
+msgid "Νέα γραμμή <br /> <span>Υφασμάτων </span> Ουρανού."
+msgstr "New range of <br /> <span>Headliner </span> Fabrics."
+
+#: .\templates\home.html:18
+msgid ""
+"Πλεκτό micro-suede με αφρολέξ, σχεδιασμένο για ουρανούς πολυτελών "
+"αυτοκινήτων, με απόλυτη ηχομόνωση και αντοχή."
+msgstr ""
+"Knitted micro-suede with foam, designed for the headliners of luxury cars, "
+"with absolute sound insulation and strength."
+
+#: .\templates\home.html:22
+msgid "Δείτε το χρωματολόγιο"
+msgstr "See the colour chart"
+
+#: .\templates\home.html:41
+msgid "Σωστή Επιλογή <br /> <span>Απόλυτη</span> Εφαρμογή."
+msgstr "Right Choice <br /> <span>Perfect</span> Fitting."
+
+#: .\templates\home.html:42
+msgid ""
+"Η αίσθηση και η αντοχή του αυθεντικού δέρματος, ανθεκτική στη θερμική "
+"καταπόνηση και στην τριβή, εύκολη στον καθαρισμό."
+msgstr ""
+"The feel and the durability of genuine leather, resistant to thermal stress "
+"and to abrasion, and easy to clean."
+
+#: .\templates\home.html:46
+msgid "Ζητήστε ένα δείγμα"
+msgstr "Request a sample"
+
+#: .\templates\home.html:65
+msgid "Εξαιρετική Δύναμη <br /> <span>Θερμής</span> Κόλλησης."
+msgstr "Exceptional Strength <br /> <span>Flame</span> Bonding."
+
+#: .\templates\home.html:66
+msgid ""
+"Υψηλή διελαστικότητα σε πλάτος και μήκος, με την απαλότητα και τις ιδιότητες "
+"των υλικών να παραμένουν ακέραιες στο χρόνο."
+msgstr ""
+"High bi-elasticity in width and in length, with the softness and the "
+"properties of the materials remaining intact in time."
+
+#: .\templates\home.html:70
+msgid "Επικοινωνήστε μαζί μας"
+msgstr "Get in touch with us"
+
+#: .\templates\home.html:101 .\templates\home.html:114
+msgid "Υφάσματα Αντοχής"
+msgstr "Durable Fabrics"
+
+#: .\templates\home.html:103
+msgid ""
+"Οι πρώτες ύλες επιλέγονται με αυστηρά κριτήρια, διακρίνονται για την ανώτερη "
+"υφή τους, την αντοχή στην τριβή και τη φθορά."
+msgstr ""
+"The raw materials are selected by strict criteria and stand out for their "
+"superior texture, their resistance to abrasion and wear."
+
+#: .\templates\home.html:106
+msgid "Υφάσματα αυτοκινήτου JB Car Textile"
+msgstr "JB Car Textile automotive fabrics"
+
+#: .\templates\home.html:116
+msgid ""
+"Τα χρώματα παραμένουν σταθερά και αναλλοίωτα στον χρόνο, εξασφαλίζοντας "
+"άριστη εμφάνιση και μεγάλη διάρκεια ζωής."
+msgstr ""
+"The colours remain stable and unaltered in time, ensuring an excellent "
+"appearance and a long service life."
+
+#: .\templates\home.html:117 .\templates\home.html:151
+#: .\templates\home.html:185
+msgid "Αναλυτικά..."
+msgstr "In detail..."
+
+#: .\templates\home.html:135 .\templates\home.html:148
+msgid "Τεχνογνωσία & Εξειδίκευση"
+msgstr "Know-how & Specialisation"
+
+#: .\templates\home.html:137
+msgid ""
+"Η εμπειρία μας στην κατασκευή υφασμάτων αυτοκινήτου διαμορφώνει λύσεις "
+"υψηλής απόδοσης για κάθε ανάγκη του επαγγελματία."
+msgstr ""
+"Our experience in the manufacture of automotive fabrics shapes high "
+"performance solutions for every need of the professional."
+
+#: .\templates\home.html:140
+msgid "Auto Textile"
+msgstr "Auto Textile"
+
+#: .\templates\home.html:150
+msgid ""
+"Η τεχνογνωσία μας μεταφράζεται σε σταθερή ποιότητα, ταχύτατη ανταπόκριση και "
+"άρτια προσαρμοσμένες λύσεις σε κάθε συνεργασία."
+msgstr ""
+"Our know-how translates into consistent quality, a very fast response and "
+"perfectly adapted solutions in every collaboration."
+
+#: .\templates\home.html:169 .\templates\home.html:182
+msgid "Εξοπλισμός & Δυνατότητες"
+msgstr "Equipment & Capabilities"
+
+#: .\templates\home.html:171
+msgid ""
+"Ο σύγχρονος εξοπλισμός μας εξασφαλίζει ταχύτατη παραγωγή, ακρίβεια στις "
+"λεπτομέρειες και σταθερή ποιότητα."
+msgstr ""
+"Our modern equipment ensures a very fast production, accuracy in the details "
+"and consistent quality."
+
+#: .\templates\home.html:184
+msgid ""
+"Ο αυστηρός έλεγχος σε κάθε στάδιο εγγυάται προϊόντα υψηλής ακρίβειας, χωρίς "
+"αποκλίσεις και με μηδενικά περιθώρια λάθους."
+msgstr ""
+"The strict control at every stage guarantees products of high precision, "
+"with no deviations and zero margin for error."
+
+#: .\templates\home.html:211
+msgid ""
+"Παραγωγή Υφασμάτων <br>\n"
+"                                Εσωτερικής Επένδυσης."
+msgstr ""
+"Production of Fabrics <br>\n"
+"                                for Interior Lining."
+
+#: .\templates\home.html:214
+msgid ""
+"Η JB Car Textile είναι ένας κορυφαίος προμηθευτής και εξαγωγέας <br> που "
+"ειδικεύεται σε υφάσματα ουρανού και καθισμάτων αυτοκινήτων."
+msgstr ""
+"JB Car Textile is a leading supplier and exporter <br> specialising in "
+"headliner and seat fabrics for the automotive industry."
+
+#: .\templates\home.html:217
+msgid "Ιδιόκτητες εγκαταστάσεις"
+msgstr "Privately owned premises"
+
+#: .\templates\home.html:220
+msgid "+2000 τ.μ"
+msgstr "+2000 sq.m"
+
+#: .\templates\home.html:225 .\templates\home.html:250
+#: .\templates\home.html:289 .\templates\partials\_navbar.html:63
+#: .\templates\partials\_navbar.html:142 .\templates\partials\_navbar.html:274
+msgid "Πικέ Ουρανού"
+msgstr "Pique Headliner"
+
+#: .\templates\home.html:226 .\templates\home.html:251
+#: .\templates\home.html:314 .\templates\partials\_navbar.html:70
+#: .\templates\partials\_navbar.html:147 .\templates\partials\_navbar.html:275
+msgid "Βελουτέ Ουρανού"
+msgstr "Velour Headliner"
+
+#: .\templates\home.html:227 .\templates\home.html:252
+#: .\templates\home.html:339 .\templates\partials\_navbar.html:77
+#: .\templates\partials\_navbar.html:159 .\templates\partials\_navbar.html:277
+msgid "Suede Ουρανού"
+msgstr "Suede Headliner"
+
+#: .\templates\home.html:228 .\templates\home.html:253
+#: .\templates\home.html:364 .\templates\partials\_navbar.html:84
+#: .\templates\partials\_navbar.html:153 .\templates\partials\_navbar.html:276
+msgid "Πετσέτα Cotton"
+msgstr "Cotton Towelling"
+
+#: .\templates\home.html:231
+msgid "Πλήρες χρωματολόγιο"
+msgstr "Full colour chart"
+
+#: .\templates\home.html:246
+msgid "Γραμμή παραγωγής JB Car Textile"
+msgstr "JB Car Textile production line"
+
+#: .\templates\home.html:255
+msgid "Αποχρώσεις"
+msgstr "Shades"
+
+#: .\templates\home.html:274
+msgid "εφαρμογές"
+msgstr "applications"
+
+#: .\templates\home.html:278
+msgid "Υφάσματα Αυτοκινήτου"
+msgstr "Automotive Fabrics"
+
+#: .\templates\home.html:294 .\templates\partials\_footer.html:80
+msgid "Πικέ"
+msgstr "Pique"
+
+#: .\templates\home.html:295 .\templates\home.html:320
+#: .\templates\home.html:345
+msgid "Ουρανού"
+msgstr "Headliner"
+
+#: .\templates\home.html:302 .\templates\home.html:327
+#: .\templates\home.html:352 .\templates\home.html:377 .\textapp\admin.py:135
+msgid "Τεχνικά χαρακτηριστικά"
+msgstr "Technical data sheet"
+
+#: .\templates\home.html:303 .\templates\home.html:328
+#: .\templates\home.html:353 .\templates\home.html:378
+msgid "Αίτημα δείγματος"
+msgstr "Sample request"
+
+#: .\templates\home.html:319 .\templates\partials\_footer.html:81
+msgid "Βελουτέ"
+msgstr "Velour"
+
+#: .\templates\home.html:344 .\templates\partials\_footer.html:82
+msgid "Suede"
+msgstr "Suede"
+
+#: .\templates\home.html:369 .\templates\partials\_footer.html:83
+msgid "Πετσέτα"
+msgstr "Towelling"
+
+#: .\templates\home.html:370
+msgid "Cotton"
+msgstr "Cotton"
+
+#: .\templates\home.html:399
+msgid "Δειγματολόγιο"
+msgstr "Sample range"
+
+#: .\templates\home.html:403
+msgid "Υφαντά Jacquard"
+msgstr "Woven Jacquard"
+
+#: .\templates\home.html:416
+msgid "Άνοιξη"
+msgstr "Spring"
+
+#: .\templates\home.html:423
+msgid "Καλοκαίρι"
+msgstr "Summer"
+
+#: .\templates\home.html:430
+msgid "Φθινόπωρο"
+msgstr "Autumn"
+
+#: .\templates\home.html:437
+msgid "Χειμώνας"
+msgstr "Winter"
+
+#: .\templates\home.html:450
+msgid "Ύφασμα Jacquard 6-751"
+msgstr "Jacquard fabric 6-751"
+
+#: .\templates\home.html:456
+msgid "Ύφασμα Jacquard 016"
+msgstr "Jacquard fabric 016"
+
+#: .\templates\home.html:462
+msgid "Ύφασμα Jacquard 021"
+msgstr "Jacquard fabric 021"
+
+#: .\templates\home.html:468
+msgid "Ύφασμα Jacquard 025"
+msgstr "Jacquard fabric 025"
+
+#: .\templates\home.html:474
+msgid "Ύφασμα Jacquard D017"
+msgstr "Jacquard fabric D017"
+
+#: .\templates\home.html:480
+msgid "Ύφασμα Jacquard D020"
+msgstr "Jacquard fabric D020"
+
+#: .\templates\home.html:486
+msgid "Ύφασμα Jacquard D026"
+msgstr "Jacquard fabric D026"
+
+#: .\templates\home.html:492
+msgid "Ύφασμα Jacquard K642"
+msgstr "Jacquard fabric K642"
+
+#: .\templates\home.html:498
+msgid "Ύφασμα Jacquard 064"
+msgstr "Jacquard fabric 064"
+
+#: .\templates\home.html:504
+msgid "Ύφασμα Jacquard 073"
+msgstr "Jacquard fabric 073"
+
+#: .\templates\home.html:510
+msgid "Ύφασμα Jacquard 076"
+msgstr "Jacquard fabric 076"
+
+#: .\templates\home.html:516
+msgid "Ύφασμα Jacquard 086"
+msgstr "Jacquard fabric 086"
+
+#: .\templates\home.html:529
+msgid "Ύφασμα Jacquard 003"
+msgstr "Jacquard fabric 003"
+
+#: .\templates\home.html:535
+msgid "Ύφασμα Jacquard 015"
+msgstr "Jacquard fabric 015"
+
+#: .\templates\home.html:541
+msgid "Ύφασμα Jacquard 018"
+msgstr "Jacquard fabric 018"
+
+#: .\templates\home.html:547
+msgid "Ύφασμα Jacquard 022"
+msgstr "Jacquard fabric 022"
+
+#: .\templates\home.html:553
+msgid "Ύφασμα Jacquard 028"
+msgstr "Jacquard fabric 028"
+
+#: .\templates\home.html:559
+msgid "Ύφασμα Jacquard 030"
+msgstr "Jacquard fabric 030"
+
+#: .\templates\home.html:565
+msgid "Ύφασμα Jacquard 044"
+msgstr "Jacquard fabric 044"
+
+#: .\templates\home.html:571
+msgid "Ύφασμα Jacquard 004"
+msgstr "Jacquard fabric 004"
+
+#: .\templates\home.html:577
+msgid "Ύφασμα Jacquard 008"
+msgstr "Jacquard fabric 008"
+
+#: .\templates\home.html:583
+msgid "Ύφασμα Jacquard 034"
+msgstr "Jacquard fabric 034"
+
+#: .\templates\home.html:589
+msgid "Ύφασμα Jacquard 035"
+msgstr "Jacquard fabric 035"
+
+#: .\templates\home.html:595
+msgid "Ύφασμα Jacquard 051"
+msgstr "Jacquard fabric 051"
+
+#: .\templates\home.html:608
+msgid "Ύφασμα Jacquard 002"
+msgstr "Jacquard fabric 002"
+
+#: .\templates\home.html:614
+msgid "Ύφασμα Jacquard 014"
+msgstr "Jacquard fabric 014"
+
+#: .\templates\home.html:620
+msgid "Ύφασμα Jacquard 019"
+msgstr "Jacquard fabric 019"
+
+#: .\templates\home.html:626
+msgid "Ύφασμα Jacquard 023"
+msgstr "Jacquard fabric 023"
+
+#: .\templates\home.html:632
+msgid "Ύφασμα Jacquard 027"
+msgstr "Jacquard fabric 027"
+
+#: .\templates\home.html:638
+msgid "Ύφασμα Jacquard 029"
+msgstr "Jacquard fabric 029"
+
+#: .\templates\home.html:644
+msgid "Ύφασμα Jacquard 041"
+msgstr "Jacquard fabric 041"
+
+#: .\templates\home.html:650
+msgid "Ύφασμα Jacquard 017"
+msgstr "Jacquard fabric 017"
+
+#: .\templates\home.html:656
+msgid "Ύφασμα Jacquard 020"
+msgstr "Jacquard fabric 020"
+
+#: .\templates\home.html:662
+msgid "Ύφασμα Jacquard 040"
+msgstr "Jacquard fabric 040"
+
+#: .\templates\home.html:668
+msgid "Ύφασμα Jacquard 048"
+msgstr "Jacquard fabric 048"
+
+#: .\templates\home.html:674
+msgid "Ύφασμα Jacquard 410-5"
+msgstr "Jacquard fabric 410-5"
+
+#: .\templates\home.html:687
+msgid "Ύφασμα Jacquard 039"
+msgstr "Jacquard fabric 039"
+
+#: .\templates\home.html:693
+msgid "Ύφασμα Jacquard 071"
+msgstr "Jacquard fabric 071"
+
+#: .\templates\home.html:699
+msgid "Ύφασμα Jacquard 078"
+msgstr "Jacquard fabric 078"
+
+#: .\templates\home.html:705
+msgid "Ύφασμα Jacquard 087"
+msgstr "Jacquard fabric 087"
+
+#: .\templates\home.html:711
+msgid "Ύφασμα Jacquard K622"
+msgstr "Jacquard fabric K622"
+
+#: .\templates\home.html:717
+msgid "Ύφασμα Jacquard K627"
+msgstr "Jacquard fabric K627"
+
+#: .\templates\home.html:741
+msgid "ΑΦΡΟΛΕΞΑΡΙΣΜΑ"
+msgstr "FOAM LAMINATION"
+
+#: .\templates\home.html:742
+msgid "Διαδικασία πλαστικοποίησης με φλόγα συγκόλλησης."
+msgstr "The lamination process with a bonding flame."
+
+#: .\templates\home.html:753
+msgid "Κορυφαία Ανθεκτικότητα"
+msgstr "Superior Durability"
+
+#: .\templates\home.html:755
+msgid "Η αντοχή και η ελαστικότητα του υφάσματος βελτιώνονται σημαντικά."
+msgstr "The strength and the elasticity of the fabric improve significantly."
+
+#: .\templates\home.html:767
+msgid "Ενισχυμένη Πυκνότητα"
+msgstr "Enhanced Density"
+
+#: .\templates\home.html:769
+msgid "Το βελτιωμένο βάρος του υφάσματος εγγυάται απόδοση και σταθερότητα."
+msgstr ""
+"The improved weight of the fabric guarantees performance and stability."
+
+#: .\templates\home.html:781
+msgid "Προσαρμοσμένο Πάχος"
+msgstr "Customised Thickness"
+
+#: .\templates\home.html:783
+msgid "Δυνατότητα παραμετροποίησης του πάχους επένδυσης από 2mm έως 20mm."
+msgstr "Possibility to customise the lining thickness from 2mm to 20mm."
+
+#: .\templates\home.html:799
+msgid "Διαδικασία flame lamination υφάσματος"
+msgstr "The flame lamination process of the fabric"
+
+#: .\templates\home.html:805
+msgid "Λαμινάρισμα υφάσματος με αφρολέξ"
+msgstr "Lamination of the fabric with foam"
+
+#: .\templates\home.html:811
+msgid "Έλεγχος υφάσματος μετά το λαμινάρισμα"
+msgstr "Inspection of the fabric after lamination"
+
+#: .\templates\home.html:836
+msgid "Συλλογή"
+msgstr "Collection"
+
+#: .\templates\home.html:840
+msgid "Premium <span class=\"theme-gradient\"> Edition</span>"
+msgstr "Premium <span class=\"theme-gradient\"> Edition</span>"
+
+#: .\templates\home.html:845
+msgid "Δείτε όλα τα υλικά"
+msgstr "See all the materials"
+
+#: .\templates\home.html:861
+msgid "Suede ουρανού"
+msgstr "Suede headliner"
+
+#: .\templates\home.html:865
+msgid "Ελαστικό ύφασμα εσωτερικής επένδυσης ουρανού από την JB Car Textile."
+msgstr "An elastic interior headliner lining fabric from JB Car Textile."
+
+#: .\templates\home.html:866
+msgid ""
+"Το ιδιαίτερο καινοτόμο υλικό που συνδυάζει την άριστη ελαστικότητα του "
+"πλεκτού υφάσματος με την κομψή και απαλή αίσθηση του suede"
+msgstr ""
+"The distinctive innovative material that combines the excellent elasticity "
+"of the knitted fabric with the elegant soft feel of suede"
+
+#: .\templates\home.html:868 .\templates\home.html:886
+#: .\templates\home.html:902 .\templates\home.html:918
+msgid "Λεπτομέρειες"
+msgstr "More details"
+
+#: .\templates\home.html:879
+msgid "Βελουτέ ουρανού"
+msgstr "Velour headliner"
+
+#: .\templates\home.html:883
+msgid "Καινοτόμο πλεκτό ύφασμα εσωτερικής επένδυσης με Βελουτέ υφή"
+msgstr "Innovative knitted interior lining fabric with a velour finish"
+
+#: .\templates\home.html:884
+#, python-format
+msgid ""
+"Από 100%% πολυεστερικό νήμα, με ανεξίτηλη βαφή που εξασφαλίζει σταθερότητα."
+msgstr ""
+"From 100%% polyester yarn, with a colourfast dye that ensures stability."
+
+#: .\templates\home.html:895
+msgid "Πικέ ουρανού"
+msgstr "Pique headliner"
+
+#: .\templates\home.html:899
+msgid "Πικέ ανθεκτικό ύφασμα με σταθερότητα χρώματος και διαχρονική ποιότητα"
+msgstr "Durable pique fabric with colour stability and timeless quality"
+
+#: .\templates\home.html:900
+msgid ""
+"Λαμινάρεται με αφρολέξ, χαρίζοντας την ιδανική ελαστικότητα και εφαρμογή"
+msgstr "It is laminated with foam, giving the ideal elasticity and fitting"
+
+#: .\templates\home.html:911
+msgid "Δερματίνες καθισμάτων"
+msgstr "Seat leatherette"
+
+#: .\templates\home.html:915
+#, python-format
+msgid ""
+"Δερματίνη υψηλής αντοχής από 100%% PVC, σχεδιασμένη για επενδύσεις καθισμάτων"
+msgstr ""
+"High durability leatherette from 100%% PVC, designed for seat upholstery"
+
+#: .\templates\home.html:916
+msgid "Αντίσταση στην τριβή για επιφάνειες που δέχονται καθημερινή χρήση"
+msgstr "Resistance to abrasion for surfaces that are in everyday use"
+
+#: .\templates\home.html:944
+msgid ""
+"Η χαρακτηριστική suede επιφάνεια με απαλή και ιδιαίτερη αισθητική. <br> Μια "
+"ολοκληρωμένη σειρά αποχρώσεων, σχεδιασμένη και αναπτυγμένη από την JB Car "
+"Textile."
+msgstr ""
+"The characteristic suede surface with a soft and distinctive aesthetic. <br> "
+"A complete and coherent range of shades, designed and developed by JB Car "
+"Textile."
+
+#: .\templates\home.html:1009
+msgid "Στείλτε μας μήνυμα"
+msgstr "Send us a message"
+
+#: .\templates\home.html:1010
+msgid ""
+"Η έμπειρη ομάδα μας αναλαμβάνει να δώσει άμεσες λύσεις και αποτελεσματική "
+"υποστήριξη."
+msgstr ""
+"Our experienced team undertakes to give immediate solutions and effective "
+"support."
+
+#: .\templates\home.html:1010 .\templates\partials\_footer.html:92
+msgid "Δευτέρα - Παρασκευή 09.00 - 17.00"
+msgstr "Monday - Friday 09.00 - 17.00"
+
+#: .\templates\home.html:1018
+msgid "Auto textile Thessaloniki"
+msgstr "Auto textile Thessaloniki"
+
+#: .\templates\home.html:1064
+msgid "Αποστολή"
+msgstr "Submit"
+
+#: .\templates\home.html:1081
+msgid "Βρείτε μαζί μας"
+msgstr "Find with us"
+
+#: .\templates\home.html:1085
+msgid "Υφάσματα."
+msgstr "Fabrics."
+
+#: .\templates\home.html:1086
+msgid "Υλικά."
+msgstr "Materials."
+
+#: .\templates\home.html:1087
+msgid "Λύσεις."
+msgstr "Solutions."
+
+#: .\templates\legal.html:4 .\templates\legal.html:26
+msgid "Νομικές πληροφορίες"
+msgstr "Legal information"
+
+#: .\templates\legal.html:5
+msgid ""
+"Όροι χρήσης, πολιτική απορρήτου και δικαιώματα προσωπικών δεδομένων της JB "
+"Car Textile."
+msgstr ""
+"Terms of use, privacy policy and rights over personal data of JB Car Textile."
+
+#: .\templates\legal.html:22
+msgid "Διαφάνεια"
+msgstr "Transparency"
+
+#: .\templates\legal.html:34 .\templates\legal.html:212
+msgid "Πολιτική Απορρήτου"
+msgstr "Privacy Policy"
+
+#: .\templates\legal.html:37
+msgid ""
+"Η JB CAR TEXTILE σέβεται τα προσωπικά σας δεδομένα και τα επεξεργάζεται "
+"αποκλειστικά για τους σκοπούς που περιγράφονται παρακάτω, σύμφωνα με τον "
+"Κανονισμό (ΕΕ) 2016/679 και την ελληνική νομοθεσία."
+msgstr ""
+"JB CAR TEXTILE respects your personal data and processes it exclusively for "
+"the purposes described below, in accordance with Regulation (EU) 2016/679 "
+"and with Greek legislation."
+
+#: .\templates\legal.html:51
+msgid "Εντός Ευρωπαϊκής Ένωσης"
+msgstr "Within the European Union"
+
+#: .\templates\legal.html:52
+msgid "Ο διακομιστής φιλοξενίας βρίσκεται στη Γερμανία."
+msgstr "Our hosting server is located in Germany."
+
+#: .\templates\legal.html:61
+msgid "Δώδεκα μήνες"
+msgstr "Twelve months"
+
+#: .\templates\legal.html:62
+msgid "Χρόνος διατήρησης των μηνυμάτων επικοινωνίας."
+msgstr "Retention period of the contact messages."
+
+#: .\templates\legal.html:71
+msgid "Χωρίς παρακολούθηση"
+msgstr "Without any tracking"
+
+#: .\templates\legal.html:72
+msgid "Μόνο τεχνικώς απαραίτητα cookies, χωρίς προφίλ επισκεπτών."
+msgstr "Only technically necessary cookies, no visitor profiling."
+
+#: .\templates\legal.html:81
+msgid "Καμία διαβίβαση"
+msgstr "No transmission"
+
+#: .\templates\legal.html:82
+msgid "Τα δεδομένα δεν παραχωρούνται σε τρίτους."
+msgstr "The data is not disclosed to third parties."
+
+#: .\templates\legal.html:88
+msgid "Ποια δεδομένα συλλέγουμε"
+msgstr "What data we collect"
+
+#: .\templates\legal.html:91
+msgid "Φόρμα επικοινωνίας: ονοματεπώνυμο, τηλέφωνο, email και το μήνυμά σας."
+msgstr "Contact form: your full name, telephone, email and your message."
+
+#: .\templates\legal.html:92
+msgid ""
+"Newsletter: η διεύθυνση email σας και η IP από την οποία έγινε η εγγραφή."
+msgstr ""
+"Newsletter: your email address and the IP the subscription was made from."
+
+#: .\templates\legal.html:93
+msgid "Η εγγραφή ολοκληρώνεται μόνο αφού την επιβεβαιώσετε μέσω συνδέσμου."
+msgstr "The subscription is completed only after you confirm it via a link."
+
+#: .\templates\legal.html:96
+msgid "Νομική βάση"
+msgstr "Legal basis"
+
+#: .\templates\legal.html:99
+msgid ""
+"Για τη φόρμα επικοινωνίας, το έννομο συμφέρον μας να απαντήσουμε σε αιτήματα "
+"και η λήψη μέτρων πριν από τη σύναψη σύμβασης. Για το newsletter, η ρητή "
+"συγκατάθεσή σας, την οποία μπορείτε να ανακαλέσετε ανά πάσα στιγμή."
+msgstr ""
+"For the contact form, our legitimate interest to respond to requests and the "
+"taking of steps prior to entering into a contract. For the newsletter, your "
+"explicit consent, which you may withdraw at any time."
+
+#: .\templates\legal.html:106
+msgid "Cookies"
+msgstr "Cookies"
+
+#: .\templates\legal.html:109
+msgid ""
+"Η ιστοσελίδα χρησιμοποιεί αποκλειστικά τεχνικώς απαραίτητα cookies: ένα για "
+"τη συνεδρία σας, ένα για την προστασία των φορμών και ένα για τη γλώσσα που "
+"έχετε επιλέξει. Δεν χρησιμοποιούνται cookies διαφήμισης ή παρακολούθησης."
+msgstr ""
+"The website uses exclusively technically necessary cookies: one for your "
+"session, one for the protection of the forms and one for the language you "
+"have selected. No advertising or tracking cookies are used."
+
+#: .\templates\legal.html:117 .\templates\legal.html:217
+msgid "Γενικοί Όροι Χρήσης"
+msgstr "General Terms of Use"
+
+#: .\templates\legal.html:120
+msgid ""
+"Η JB CAR TEXTILE, μέσω του διαδικτυακού της τόπου www.cartextile.gr, παρέχει "
+"στον επισκέπτη τη δυνατότητα να ενημερωθεί για την Εταιρεία και τα προϊόντα "
+"της. Η χρήση της ιστοσελίδας προϋποθέτει την ανεπιφύλακτη αποδοχή των "
+"παρόντων όρων, οι οποίοι ισχύουν για το σύνολο του περιεχομένου της."
+msgstr ""
+"JB CAR TEXTILE, through its website www.cartextile.gr, offers the visitor "
+"the possibility to be informed about the Company and its products. The use "
+"of the website presupposes the unreserved acceptance of the present terms, "
+"which apply to the whole of its content."
+
+#: .\templates\legal.html:129
+msgid ""
+"Ο επισκέπτης οφείλει να χρησιμοποιεί την ιστοσελίδα αποκλειστικά για "
+"νόμιμους σκοπούς και σύμφωνα με το ελληνικό, ενωσιακό και διεθνές δίκαιο, "
+"ενεργώντας καλόπιστα και σύμφωνα με τα χρηστά ήθη, απέχοντας από κάθε "
+"συμπεριφορά που δύναται να προκαλέσει βλάβη σε άλλους επισκέπτες ή "
+"δυσλειτουργία στην ιστοσελίδα."
+msgstr ""
+"The visitor is obliged to use the website exclusively for lawful purposes "
+"and in accordance with Greek, European and international law, acting in good "
+"faith and in line with proper conduct, refraining from any behaviour that "
+"may cause harm to other visitors or a malfunction of the website."
+
+#: .\templates\legal.html:139
+msgid ""
+"Το περιεχόμενο της ιστοσελίδας, συμπεριλαμβανομένων κειμένων, φωτογραφιών, "
+"σημάτων και κωδίκων χρωμάτων, αποτελεί πνευματική ιδιοκτησία της Εταιρείας. "
+"Απαγορεύεται, χωρίς προηγούμενη έγγραφη άδεια, η αντιγραφή, τροποποίηση, "
+"αναπαραγωγή, μετάδοση ή με οποιονδήποτε άλλο τρόπο εκμετάλλευσή του."
+msgstr ""
+"The content of the website, including texts, photographs, trademarks and "
+"colour codes, constitutes intellectual property of the Company. It is "
+"prohibited, without prior written permission, to copy, modify, reproduce, "
+"transmit or in any other manner exploit it."
+
+#: .\templates\legal.html:148
+msgid ""
+"Τα δείγματα χρωμάτων και υφών που παρουσιάζονται είναι ενδεικτικά. Η απόδοσή "
+"τους στην οθόνη ενδέχεται να διαφέρει από το φυσικό υλικό. Για ακριβή "
+"αντιστοίχιση χρώματος απευθυνθείτε στην Εταιρεία."
+msgstr ""
+"The colour and texture samples presented are indicative. Their rendering on "
+"the screen may differ from the physical material. For an exact colour match "
+"please address the Company."
+
+#: .\templates\legal.html:156
+msgid ""
+"Η Εταιρεία διατηρεί το δικαίωμα να τροποποιεί οποτεδήποτε τους παρόντες "
+"όρους και το περιεχόμενο της ιστοσελίδας. Η συνέχιση της χρήσης της "
+"ιστοσελίδας τεκμαίρεται ως αποδοχή τους."
+msgstr ""
+"The Company reserves the right to modify at any time the present terms and "
+"the content of the website. The continued use of the website is presumed to "
+"be an acceptance of them."
+
+#: .\templates\legal.html:164
+msgid "Τα δικαιώματά σας - GDPR"
+msgstr "Your rights - GDPR"
+
+#: .\templates\legal.html:167
+msgid ""
+"Ως υποκείμενο των δεδομένων έχετε τα ακόλουθα δικαιώματα, τα οποία ασκείτε "
+"δωρεάν με αίτημά σας προς την Εταιρεία."
+msgstr ""
+"As a data subject you have the following rights, which you exercise free of "
+"charge by a request to the Company."
+
+#: .\templates\legal.html:174
+msgid "Πρόσβαση στα δεδομένα που σας αφορούν"
+msgstr "Access to the data that concerns you"
+
+#: .\templates\legal.html:175
+msgid "Διόρθωση ανακριβών ή συμπλήρωση ελλιπών δεδομένων"
+msgstr "Rectification of inaccurate or completion of incomplete data"
+
+#: .\templates\legal.html:176
+msgid "Διαγραφή των δεδομένων σας"
+msgstr "Erasure of your data"
+
+#: .\templates\legal.html:177
+msgid "Περιορισμό της επεξεργασίας"
+msgstr "Restriction of the processing"
+
+#: .\templates\legal.html:178
+msgid "Φορητότητα σε δομημένο μορφότυπο"
+msgstr "Portability in a structured format"
+
+#: .\templates\legal.html:179
+msgid "Εναντίωση στην επεξεργασία"
+msgstr "Objection to the processing"
+
+#: .\templates\legal.html:180
+msgid "Ανάκληση της συγκατάθεσής σας ανά πάσα στιγμή"
+msgstr "Withdrawal of your consent at any time"
+
+#: .\templates\legal.html:184
+msgid ""
+"Για την άσκηση των δικαιωμάτων σας επικοινωνήστε στο info@cartextile.gr ή "
+"στο +30 2310 792 630. Απαντούμε εντός ενός μηνός από την παραλαβή του "
+"αιτήματος. Κάθε newsletter περιλαμβάνει σύνδεσμο άμεσης διαγραφής."
+msgstr ""
+"To exercise your rights contact us at info@cartextile.gr or at +30 2310 792 "
+"630. We reply within one month from the receipt of the request. Every "
+"newsletter includes a direct unsubscribe link."
+
+#: .\templates\legal.html:192
+msgid ""
+"Εφόσον θεωρείτε ότι η επεξεργασία των δεδομένων σας παραβιάζει τη νομοθεσία, "
+"έχετε δικαίωμα προσφυγής στην Αρχή Προστασίας Δεδομένων Προσωπικού "
+"Χαρακτήρα, Λεωφόρος Κηφισίας 1-3, 11523 Αθήνα, www.dpa.gr."
+msgstr ""
+"If you consider that the processing of your data infringes the legislation, "
+"you have the right to lodge a complaint with the Hellenic Data Protection "
+"Authority, 1-3 Kifissias Avenue, 11523 Athens, www.dpa.gr."
+
+#: .\templates\legal.html:206
+msgid "Περιεχόμενα"
+msgstr "Contents"
+
+#: .\templates\legal.html:222 .\templates\partials\_footer.html:134
+msgid "Δικαιώματα GDPR"
+msgstr "GDPR rights"
+
+#: .\templates\legal.html:231
+msgid "Στοιχεία Εταιρείας"
+msgstr "Company Details"
+
+#: .\templates\legal.html:236
+msgid "Βιοτεχνία καλυμμάτων αυτοκινήτων"
+msgstr "Manufacturer of automotive fabrics"
+
+#: .\templates\legal.html:237
+msgid "Συγκολλήσεις υφασμάτων &amp; πλαστικών με αφρολέξ - Πλεκτήριο υφασμάτων"
+msgstr "Lamination of fabrics &amp; plastics with foam - Fabric knitting mill"
+
+#: .\templates\legal.html:238
+msgid "Χαλάστρα, Τ.Κ. 57300, Θεσσαλονίκη"
+msgstr "Chalastra, P.C. 57300, Thessaloniki"
+
+#: .\templates\legal.html:240
+msgid "ΑΦΜ 081570148 - ΔΟΥ Ιωνίας"
+msgstr "VAT No EL081570148 - Ionia"
+
+#: .\templates\legal.html:241
+msgid "ΓΕΜΗ 038034505000"
+msgstr "GEMI 038034505000"
+
+#: .\templates\newsletter_result.html:4
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: .\templates\newsletter_result.html:25
+msgid "Ο σύνδεσμος δεν ισχύει"
+msgstr "The link is not valid"
+
+#: .\templates\newsletter_result.html:26
+msgid ""
+"Ο σύνδεσμος έληξε ή δεν είναι έγκυρος. Δοκιμάστε να εγγραφείτε ξανά από το "
+"κάτω μέρος της σελίδας."
+msgstr ""
+"The link has expired or is not valid. Try to subscribe again from the bottom "
+"part of the page."
+
+#: .\templates\newsletter_result.html:39
+msgid "Απεγγραφήκατε"
+msgstr "You unsubscribed"
+
+#: .\templates\newsletter_result.html:40
+#, python-format
+msgid "Το %(email)s αφαιρέθηκε από τη λίστα μας. Δεν θα λάβετε άλλα μηνύματα."
+msgstr ""
+"%(email)s was removed from our list. You will receive no more messages."
+
+#: .\templates\newsletter_result.html:55
+msgid "Αν δεν το βρίσκετε, ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας."
+msgstr "If you cannot find it, please also check your junk mail folder."
+
+#: .\templates\newsletter_result.html:67
+msgid "Η εγγραφή ολοκληρώθηκε"
+msgstr "The subscription is complete"
+
+#: .\templates\newsletter_result.html:68
+msgid "Ευχαριστούμε. Θα ενημερώνεστε πρώτοι για τα νέα μας είδη και υπηρεσίες."
+msgstr ""
+"Thank you. You will be the first to hear about our new products and services."
+
+#: .\templates\newsletter_result.html:72
+msgid "Επιστροφή στην αρχική"
+msgstr "Back to the home page"
+
+#: .\templates\partials\_cookies.html:6
+msgid "Ειδοποίηση cookies"
+msgstr "Cookie notice"
+
+#: .\templates\partials\_cookies.html:12
+msgid "Χρησιμοποιούμε cookies για τη λειτουργία της ιστοσελίδας."
+msgstr "We use cookies for the proper operation of the website."
+
+#: .\templates\partials\_cookies.html:15
+msgid "Περισσότερα"
+msgstr "Learn more"
+
+#: .\templates\partials\_cookies.html:21
+msgid "Απόρριψη"
+msgstr "Decline"
+
+#: .\templates\partials\_cookies.html:24
+msgid "Αποδοχή"
+msgstr "Accept"
+
+#: .\templates\partials\_footer.html:15
+msgid "Υφάσματα Αυτοκινήτου από το 1985."
+msgstr "Automotive Fabrics since 1985."
+
+#: .\templates\partials\_footer.html:19
+msgid "Εγγραφείτε στο Newsletter"
+msgstr "Subscribe to our Newsletter"
+
+#: .\templates\partials\_footer.html:21
+msgid "Μάθετε για τα νέα μας είδη"
+msgstr "Learn about our new products"
+
+#: .\templates\partials\_footer.html:30 .\textapp\forms.py:53
+msgid "Email Here"
+msgstr "Email Here"
+
+#: .\templates\partials\_footer.html:35
+msgid "Μην συμπληρώσετε αυτό το πεδίο"
+msgstr "Do not fill in this field"
+
+#: .\templates\partials\_footer.html:40
+msgid "SUBSCRIBE"
+msgstr "SUBSCRIBE"
+
+#: .\templates\partials\_footer.html:59
+msgid ""
+"Με περισσότερα από 40 χρόνια εμπειρίας, παράγουμε υλικά εξαιρετικής "
+"ποιότητας."
+msgstr ""
+"With more than 40 years of experience, we produce materials of exceptional "
+"quality."
+
+#: .\templates\partials\_footer.html:64 .\templates\partials\_navbar.html:173
+#: .\templates\partials\_navbar.html:287
+msgid "Εταιρεία"
+msgstr "Company"
+
+#: .\templates\partials\_footer.html:67 .\templates\partials\_navbar.html:44
+#: .\templates\partials\_navbar.html:269
+msgid "Αρχική"
+msgstr "Home"
+
+#: .\templates\partials\_footer.html:68
+msgid "Η ομάδα μας"
+msgstr "Our team"
+
+#: .\templates\partials\_footer.html:69 .\templates\partials\_navbar.html:195
+msgid "Παραγωγή"
+msgstr "Production"
+
+#: .\templates\partials\_footer.html:70
+msgid "B2B"
+msgstr "B2B"
+
+#: .\templates\partials\_footer.html:77 .\templates\partials\_navbar.html:135
+#: .\templates\partials\_navbar.html:272 .\textapp\models.py:238
+msgid "Προϊόντα"
+msgstr "Products"
+
+#: .\templates\partials\_footer.html:128
+msgid "Πολιτική απορρήτου"
+msgstr "Privacy policy"
+
+#: .\templates\partials\_footer.html:131
+msgid "Γενικοί όροι"
+msgstr "General terms"
+
+#: .\templates\partials\_footer.html:141
+msgid "All Right Reserved © OktoWeb"
+msgstr "All Right Reserved © OktoWeb"
+
+#: .\templates\partials\_navbar.html:51 .\templates\partials\_navbar.html:99
+#: .\templates\partials\_navbar.html:106 .\templates\partials\_navbar.html:113
+#: .\templates\partials\_navbar.html:120
+msgid "Υφάσματα"
+msgstr "Fabrics"
+
+#: .\templates\partials\_navbar.html:52 .\templates\partials\_navbar.html:278
+msgid "Jacquard"
+msgstr "Jacquard"
+
+#: .\templates\partials\_navbar.html:61
+msgid "Καλύμματα Αυτοκινήτου"
+msgstr "Automotive Seat Covers"
+
+#: .\templates\partials\_navbar.html:68 .\templates\partials\_navbar.html:97
+msgid "Βελουτέ υφάσματα αυτοκινήτου"
+msgstr "Velour automotive fabrics"
+
+#: .\templates\partials\_navbar.html:75
+msgid "Suede υφάσματα αυτοκινήτου"
+msgstr "Suede automotive fabrics"
+
+#: .\templates\partials\_navbar.html:82
+msgid "Πετσετέ επένδυση αυτοκινήτου"
+msgstr "Towelling automotive lining"
+
+#: .\templates\partials\_navbar.html:104
+msgid "Auto Textile Ελλάδα"
+msgstr "Auto Textile Greece"
+
+#: .\templates\partials\_navbar.html:111
+msgid "Υφάσματα ταπετσαρίας αυτοκινήτου"
+msgstr "Automotive upholstery fabrics"
+
+#: .\templates\partials\_navbar.html:118
+msgid "Ζακάρ υφάσματα"
+msgstr "Jacquard fabrics"
+
+#: .\templates\partials\_navbar.html:168 .\templates\partials\_navbar.html:282
+msgid "Ουρανός"
+msgstr "Headliner"
+
+#: .\templates\partials\_navbar.html:170 .\templates\partials\_navbar.html:284
+msgid "Lamination"
+msgstr "Lamination"
+
+#: .\templates\partials\_navbar.html:180
+msgid "Τμήμα Υποστήριξης"
+msgstr "Support Department"
+
+#: .\templates\partials\_navbar.html:181
+msgid "Δίπλα σας σε κάθε Βήμα, κάθε Στιγμή"
+msgstr "Beside You at Every Step, Every Moment"
+
+#: .\templates\partials\_navbar.html:188
+msgid "Ποιοι είμαστε"
+msgstr "Who we are"
+
+#: .\templates\partials\_navbar.html:191 .\templates\partials\_navbar.html:290
+msgid "Οι εγκαταστάσεις"
+msgstr "The facilities"
+
+#: .\templates\partials\_navbar.html:197 .\templates\partials\_navbar.html:291
+msgid "Eξοπλισμός"
+msgstr "Equipment"
+
+#: .\templates\partials\_navbar.html:198 .\templates\partials\_navbar.html:292
+msgid "Ποιοτικός έλεγχος"
+msgstr "Quality control"
+
+#: .\templates\partials\_navbar.html:234
+msgid "Start Free Call"
+msgstr "Start Free Call"
+
+#: .\textapp\admin.py:29
+msgid "Εξαγωγή σε CSV (Excel)"
+msgstr "Export to CSV (Excel)"
+
+#: .\textapp\admin.py:56
+msgid "Όσες φωτό έχεις βάλει"
+msgstr "All the photos you added"
+
+#: .\textapp\admin.py:63 .\textapp\admin.py:120
+msgid "Ταυτότητα"
+msgstr "Identity"
+
+#: .\textapp\admin.py:67 .\textapp\admin.py:124
+msgid "Κείμενα"
+msgstr "Texts"
+
+#: .\textapp\admin.py:78 .\textapp\admin.py:131
+msgid "SEO"
+msgstr "SEO"
+
+#: .\textapp\admin.py:80 .\textapp\admin.py:133
+msgid "Έως 160 χαρακτήρες. Αν μείνει κενό μπαίνει το σύντομο κείμενο."
+msgstr "Up to 160 characters. If left empty the short text is used."
+
+#: .\textapp\admin.py:82 .\textapp\admin.py:142
+msgid "Φωτογραφίες"
+msgstr "Photographs"
+
+#: .\textapp\admin.py:90 .\textapp\admin.py:149
+msgid "Εμφάνιση"
+msgstr "Display"
+
+#: .\textapp\admin.py:95
+msgid "Κωδικοί"
+msgstr "Codes"
+
+#: .\textapp\admin.py:99 .\textapp\admin.py:154
+msgid "Φωτό"
+msgstr "Photo"
+
+#: .\textapp\admin.py:158 .\textapp\admin.py:162 .\textapp\admin.py:166
+#: .\textapp\admin.py:170 .\textapp\admin.py:174
+msgid "Προεπισκόπηση"
+msgstr "Preview"
+
+#: .\textapp\admin.py:195
+msgid "Ποιος έγραψε"
+msgstr "Who wrote"
+
+#: .\textapp\admin.py:198
+msgid "Τι έγραψε"
+msgstr "What was written"
+
+#: .\textapp\admin.py:201
+msgid "Από πού"
+msgstr "From where"
+
+#: .\textapp\emails.py:45
+msgid "Επιβεβαιώστε την εγγραφή σας - JB Car Textile"
+msgstr "Confirm your subscription - JB Car Textile"
+
+#: .\textapp\forms.py:9 .\textapp\forms.py:10 .\textapp\models.py:305
+msgid "Επωνυμία"
+msgstr "Company name"
+
+#: .\textapp\forms.py:11
+msgid "Συμπληρώστε την επωνυμία σας."
+msgstr "Please enter your company name."
+
+#: .\textapp\forms.py:14 .\textapp\forms.py:15 .\textapp\models.py:306
+msgid "Τηλέφωνο"
+msgstr "Telephone"
+
+#: .\textapp\forms.py:18 .\textapp\forms.py:51 .\textapp\models.py:307
+#: .\textapp\models.py:345
+msgid "Email"
+msgstr "Email"
+
+#: .\textapp\forms.py:19
+msgid "Το email σας"
+msgstr "Your email"
+
+#: .\textapp\forms.py:21 .\textapp\forms.py:57
+msgid "Συμπληρώστε το email σας."
+msgstr "Please enter your email."
+
+#: .\textapp\forms.py:22 .\textapp\forms.py:58 .\textapp\views.py:72
+msgid "Το email δεν φαίνεται σωστό."
+msgstr "The email does not look correct."
+
+#: .\textapp\forms.py:26 .\textapp\forms.py:27 .\textapp\models.py:308
+msgid "Θέμα"
+msgstr "Subject"
+
+#: .\textapp\forms.py:30 .\textapp\models.py:309
+msgid "Μήνυμα"
+msgstr "Message"
+
+#: .\textapp\forms.py:31
+msgid "Το μήνυμά σας"
+msgstr "Your message"
+
+#: .\textapp\forms.py:32
+msgid "Γράψτε μας το μήνυμά σας."
+msgstr "Please write us your message."
+
+#: .\textapp\forms.py:43 .\textapp\forms.py:70
+msgid "Η υποβολή απορρίφθηκε."
+msgstr "The submission was rejected."
+
+#: .\textapp\models.py:23 .\textapp\models.py:168
+msgid "Slug"
+msgstr "Slug"
+
+#: .\textapp\models.py:24
+msgid "Μπαίνει στο URL, π.χ. pike-ouranou"
+msgstr "Goes into the URL, e.g. pike-ouranou"
+
+#: .\textapp\models.py:26 .\textapp\models.py:175
+msgid "Όνομα (ΕΛ)"
+msgstr "Name (EL)"
+
+#: .\textapp\models.py:27 .\textapp\models.py:176
+msgid "Όνομα (ΕΝ)"
+msgstr "Name (EN)"
+
+#: .\textapp\models.py:29 .\textapp\models.py:178
+msgid "Υπότιτλος (ΕΛ)"
+msgstr "Subtitle (EL)"
+
+#: .\textapp\models.py:30 .\textapp\models.py:180
+msgid "Υπότιτλος (ΕΝ)"
+msgstr "Subtitle (EN)"
+
+#: .\textapp\models.py:32 .\textapp\models.py:182
+msgid "Σύντομο κείμενο (ΕΛ)"
+msgstr "Short text (EL)"
+
+#: .\textapp\models.py:33
+msgid "Εμφανίζεται στην κάρτα του είδους"
+msgstr "Shown on the product card"
+
+#: .\textapp\models.py:34 .\textapp\models.py:184
+msgid "Σύντομο κείμενο (ΕΝ)"
+msgstr "Short text (EN)"
+
+#: .\textapp\models.py:36
+msgid "Γενικό κείμενο (ΕΛ)"
+msgstr "General text (EL)"
+
+#: .\textapp\models.py:37
+msgid "Η παρουσίαση στην κορυφή της σελίδας"
+msgstr "The presentation at the top of the page"
+
+#: .\textapp\models.py:38
+msgid "Γενικό κείμενο (ΕΝ)"
+msgstr "General text (EN)"
+
+#: .\textapp\models.py:40
+msgid "Γενικό κείμενο B (ΕΛ)"
+msgstr "General text B (EL)"
+
+#: .\textapp\models.py:41
+msgid "Γενικό κείμενο B (ΕΝ)"
+msgstr "General text B (EN)"
+
+#: .\textapp\models.py:43
+msgid "Γενικό κείμενο C (ΕΛ)"
+msgstr "General text C (EL)"
+
+#: .\textapp\models.py:44
+msgid "Γενικό κείμενο C (ΕΝ)"
+msgstr "General text C (EN)"
+
+#: .\textapp\models.py:46
+msgid "Γενικό κείμενο D (ΕΛ)"
+msgstr "General text D (EL)"
+
+#: .\textapp\models.py:47
+msgid "Γενικό κείμενο D (ΕΝ)"
+msgstr "General text D (EN)"
+
+#: .\textapp\models.py:49
+msgid "Γενικό κείμενο E (ΕΛ)"
+msgstr "General text E (EL)"
+
+#: .\textapp\models.py:50
+msgid "Γενικό κείμενο E (ΕΝ)"
+msgstr "General text E (EN)"
+
+#: .\textapp\models.py:52
+msgid "Γενικό κείμενο F (ΕΛ)"
+msgstr "General text F (EL)"
+
+#: .\textapp\models.py:53
+msgid "Γενικό κείμενο F (ΕΝ)"
+msgstr "General text F (EN)"
+
+#: .\textapp\models.py:55
+msgid "Γενικό κείμενο G (ΕΛ)"
+msgstr "General text G (EL)"
+
+#: .\textapp\models.py:56
+msgid "Γενικό κείμενο G (ΕΝ)"
+msgstr "General text G (EN)"
+
+#: .\textapp\models.py:58
+msgid "Γενικό κείμενο H (ΕΛ)"
+msgstr "General text H (EL)"
+
+#: .\textapp\models.py:59
+msgid "Γενικό κείμενο H (ΕΝ)"
+msgstr "General text H (EN)"
+
+#: .\textapp\models.py:62 .\textapp\models.py:186
+msgid "Meta description (ΕΛ)"
+msgstr "Meta description (EL)"
+
+#: .\textapp\models.py:64 .\textapp\models.py:188
+msgid "Meta description (ΕΝ)"
+msgstr "Meta description (EN)"
+
+#: .\textapp\models.py:68 .\textapp\models.py:225
+msgid "Κύρια φωτό"
+msgstr "Main photo"
+
+#: .\textapp\models.py:70 .\textapp\models.py:226
+msgid "Φωτό 2"
+msgstr "Photo 2"
+
+#: .\textapp\models.py:72 .\textapp\models.py:227
+msgid "Φωτό 3"
+msgstr "Photo 3"
+
+#: .\textapp\models.py:74 .\textapp\models.py:228
+msgid "Φωτό 4"
+msgstr "Photo 4"
+
+#: .\textapp\models.py:76 .\textapp\models.py:229
+msgid "Φωτό 5"
+msgstr "Photo 5"
+
+#: .\textapp\models.py:78
+msgid "Φωτό 6"
+msgstr "Photo 6"
+
+#: .\textapp\models.py:80
+msgid "Φωτό 7"
+msgstr "Photo 7"
+
+#: .\textapp\models.py:82
+msgid "Φωτό 8"
+msgstr "Photo 8"
+
+#: .\textapp\models.py:84
+msgid "Φωτό 9"
+msgstr "Photo 9"
+
+#: .\textapp\models.py:86
+msgid "Φωτό 10"
+msgstr "Photo 10"
+
+#: .\textapp\models.py:89 .\textapp\models.py:231
+msgid "Ενεργό"
+msgstr "Active"
+
+#: .\textapp\models.py:90 .\textapp\models.py:232
+msgid "Σειρά"
+msgstr "Order"
+
+#: .\textapp\models.py:95
+msgid "Κατηγορία"
+msgstr "Category"
+
+#: .\textapp\models.py:96
+msgid "Κατηγορίες"
+msgstr "Categories"
+
+#: .\textapp\models.py:167 .\textapp\models.py:384
+msgid "Κωδικός"
+msgstr "Code"
+
+#: .\textapp\models.py:169
+msgid "Μπαίνει στο URL, π.χ. ouranos-pike"
+msgstr "Goes into the URL, e.g. ouranos-pike"
+
+#: .\textapp\models.py:171 .\textapp\models.py:378 .\textapp\models.py:382
+msgid "Είδος"
+msgstr "Type"
+
+#: .\textapp\models.py:179
+msgid "π.χ. Ουρανού, Cotton"
+msgstr "e.g. Headliner, Cotton"
+
+#: .\textapp\models.py:183
+msgid "Εμφανίζεται στις κάρτες της αρχικής"
+msgstr "Shown on the cards of the home page"
+
+#: .\textapp\models.py:191
+msgid "Αναλυτικό κείμενο (ΕΛ)"
+msgstr "Detailed text (EL)"
+
+#: .\textapp\models.py:192
+msgid "Αναλυτικό κείμενο (ΕΝ)"
+msgstr "Detailed text (EN)"
+
+#: .\textapp\models.py:194
+msgid "Αναλυτικό κείμενο B (ΕΛ)"
+msgstr "Detailed text B (EL)"
+
+#: .\textapp\models.py:195
+msgid "Αναλυτικό κείμενο B (ΕΝ)"
+msgstr "Detailed text B (EN)"
+
+#: .\textapp\models.py:197
+msgid "Αναλυτικό κείμενο C (ΕΛ)"
+msgstr "Detailed text C (EL)"
+
+#: .\textapp\models.py:198
+msgid "Αναλυτικό κείμενο C (ΕΝ)"
+msgstr "Detailed text C (EN)"
+
+#: .\textapp\models.py:200
+msgid "Αναλυτικό κείμενο D (ΕΛ)"
+msgstr "Detailed text D (EL)"
+
+#: .\textapp\models.py:201
+msgid "Αναλυτικό κείμενο D (ΕΝ)"
+msgstr "Detailed text D (EN)"
+
+#: .\textapp\models.py:204
+msgid "Σύνθεση (ΕΛ)"
+msgstr "Composition (EL)"
+
+#: .\textapp\models.py:205
+msgid "π.χ. 100% πολυεστερικό νήμα"
+msgstr "e.g. 100% polyester yarn"
+
+#: .\textapp\models.py:206
+msgid "Σύνθεση (ΕΝ)"
+msgstr "Composition (EN)"
+
+#: .\textapp\models.py:208
+msgid "Βάρος"
+msgstr "Weight"
+
+#: .\textapp\models.py:209
+msgid "π.χ. 280 g/m²"
+msgstr "e.g. 280 g/m²"
+
+#: .\textapp\models.py:210
+msgid "Πυκνότητα"
+msgstr "Density"
+
+#: .\textapp\models.py:212
+msgid "π.χ. 0,9 mm"
+msgstr "e.g. 0,9 mm"
+
+#: .\textapp\models.py:213
+msgid "Αφρολέξ"
+msgstr "Foam"
+
+#: .\textapp\models.py:214
+msgid "π.χ. 35kg - standard 0,6 mm (0,2-0,8 mm)"
+msgstr "e.g. 35kg - standard 0,6 mm (0,2-0,8 mm)"
+
+#: .\textapp\models.py:216
+msgid "Χρώματα (ΕΛ)"
+msgstr "Colours (EL)"
+
+#: .\textapp\models.py:217
+msgid "Χρώματα (ΕΝ)"
+msgstr "Colours (EN)"
+
+#: .\textapp\models.py:218
+msgid "Σχέδιο (ΕΛ)"
+msgstr "Pattern (EL)"
+
+#: .\textapp\models.py:219
+msgid "Σχέδιο (ΕΝ)"
+msgstr "Pattern (EN)"
+
+#: .\textapp\models.py:222
+msgid "Εμφανίζει το icon bielasticity"
+msgstr "Shows the bielasticity icon"
+
+#: .\textapp\models.py:237 .\textapp\models.py:379
+msgid "Προϊόν"
+msgstr "Product"
+
+#: .\textapp\models.py:312
+msgid "Χώρα"
+msgstr "Country"
+
+#: .\textapp\models.py:313
+msgid "Πόλη"
+msgstr "City"
+
+#: .\textapp\models.py:316 .\textapp\models.py:346 .\textapp\models.py:389
+msgid "Γλώσσα"
+msgstr "Language"
+
+#: .\textapp\models.py:317 .\textapp\models.py:353 .\textapp\models.py:387
+msgid "IP"
+msgstr "IP"
+
+#: .\textapp\models.py:318
+msgid "Συσκευή"
+msgstr "Device"
+
+#: .\textapp\models.py:319 .\textapp\models.py:347
+msgid "Προέλευση"
+msgstr "Source"
+
+#: .\textapp\models.py:320
+msgid "UTM source"
+msgstr "UTM source"
+
+#: .\textapp\models.py:321
+msgid "UTM medium"
+msgstr "UTM medium"
+
+#: .\textapp\models.py:322
+msgid "UTM campaign"
+msgstr "UTM campaign"
+
+#: .\textapp\models.py:324
+msgid "Συγκατάθεση"
+msgstr "Consent"
+
+#: .\textapp\models.py:325 .\textapp\models.py:354 .\textapp\models.py:390
+msgid "Ημερομηνία"
+msgstr "Date"
+
+#: .\textapp\models.py:328
+msgid "Μήνυμα επικοινωνίας"
+msgstr "Contact message"
+
+#: .\textapp\models.py:329
+msgid "Μηνύματα επικοινωνίας"
+msgstr "Contact messages"
+
+#: .\textapp\models.py:341
+msgid "Footer"
+msgstr "Footer"
+
+#: .\textapp\models.py:342
+msgid "Φόρμα επικοινωνίας"
+msgstr "Contact form"
+
+#: .\textapp\models.py:343
+msgid "Άλλο"
+msgstr "Other"
+
+#: .\textapp\models.py:350
+msgid "Επιβεβαιώθηκε"
+msgstr "Confirmed"
+
+#: .\textapp\models.py:351
+msgid "Απεγγράφηκε"
+msgstr "Unsubscribed"
+
+#: .\textapp\models.py:357
+msgid "Συνδρομητής"
+msgstr "Subscriber"
+
+#: .\textapp\models.py:358
+msgid "Συνδρομητές"
+msgstr "Subscribers"
+
+#: .\textapp\models.py:380
+msgid "Δείγμα"
+msgstr "Sample"
+
+#: .\textapp\models.py:385
+msgid "π.χ. 'ouranos-pike' ή 'K622'"
+msgstr "e.g. 'ouranos-pike' or 'K622'"
+
+#: .\textapp\models.py:388
+msgid "Session"
+msgstr "Session"
+
+#: .\textapp\models.py:393
+msgid "Προβολή"
+msgstr "View"
+
+#: .\textapp\models.py:394
+msgid "Προβολές"
+msgstr "Views"
+
+#: .\textapp\views.py:48
+msgid "Το μήνυμά σας στάλθηκε. Θα επικοινωνήσουμε σύντομα."
+msgstr "Your message has been sent. We will contact you soon."
+
+#: .\textapp\views.py:52
+msgid "Ελέγξτε τα πεδία με κόκκινο."
+msgstr "Please check the fields marked in red."
+
+#: .\textapp\views.py:80
+msgid "Δοκιμάστε ξανά σε λίγο."
+msgstr "Please try again in a moment."
+
+#: .\textapp\views.py:94
+msgid "Το email σας είναι ήδη εγγεγραμμένο."
+msgstr "Your email is already subscribed."
+
+#: .\textapp\views.py:104
+msgid "Σας στείλαμε email επιβεβαίωσης. Ελέγξτε τα εισερχόμενά σας."
+msgstr "We sent you a confirmation email. Please check your inbox."

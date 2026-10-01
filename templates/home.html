@@ -1,0 +1,1103 @@
+<!-- home.html -->
+{% extends 'base.html' %}
+{% load i18n static widget_tweaks %}
+
+{% block content %}
+
+        <div class="banner-slider-area-one slider-gird">
+            <!-- Start Slider Area  -->
+            <div class="slider-animation-2 slider-activation-2 slider-dot tmp-slick-dot tmp-slick-arrow tmp-slick-arrow-white">
+
+                <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_gym-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-10">
+                                <div class="inner text-left">
+                                    <h6 class="tag-title">PREMIUM AUTO FABRIC</h6>
+                                    <h1 class="title display-one">{% blocktrans %}Νέα γραμμή <br /> <span>Υφασμάτων </span> Ουρανού.{% endblocktrans %}</h1>
+                                    <p class="mb--30 b1">{% blocktrans %}Πλεκτό micro-suede με αφρολέξ, σχεδιασμένο για ουρανούς πολυτελών αυτοκινήτων, με απόλυτη ηχομόνωση και αντοχή.{% endblocktrans %}</p>
+                                    <div class="read-more-btn">
+                                        <a class="tmp-btn btn-large round hover-icon-reverse" href="{% url 'textapp:category' 'suede-headliner' %}">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% trans "Δείτε το χρωματολόγιο" %}</span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-mask"></div>
+                </div>
+
+                <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_gym-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-10">
+                                <div class="inner text-left">
+                                    <h6 class="tag-title">STRONG HEADLINER SOLUTIONS</h6>
+                                    <h1 class="title display-one">{% blocktrans %}Σωστή Επιλογή <br /> <span>Απόλυτη</span> Εφαρμογή.{% endblocktrans %}</h1>
+                                    <p class="mb--30 b1">{% blocktrans %}Η αίσθηση και η αντοχή του αυθεντικού δέρματος, ανθεκτική στη θερμική καταπόνηση και στην τριβή, εύκολη στον καθαρισμό.{% endblocktrans %}</p>
+                                    <div class="read-more-btn">
+                                        <a class="tmp-btn btn-large round hover-icon-reverse" href="{% url 'textapp:home' %}#contact">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% trans "Ζητήστε ένα δείγμα" %}</span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-mask"></div>
+                </div>
+
+                <div class="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_gym-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-10">
+                                <div class="inner text-left">
+                                    <h6 class="tag-title">FLAME LAMINATION PROCESS</h6>
+                                    <h1 class="title display-one">{% blocktrans %}Εξαιρετική Δύναμη <br /> <span>Θερμής</span> Κόλλησης.{% endblocktrans %}</h1>
+                                    <p class="mb--30 b1">{% blocktrans %}Υψηλή διελαστικότητα σε πλάτος και μήκος, με την απαλότητα και τις ιδιότητες των υλικών να παραμένουν ακέραιες στο χρόνο.{% endblocktrans %}</p>
+                                    <div class="read-more-btn">
+                                        <a class="tmp-btn btn-large round hover-icon-reverse" href="{% url 'textapp:home' %}#contact">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% trans "Επικοινωνήστε μαζί μας" %}</span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-mask"></div>
+                </div>
+            </div>
+            <!-- End Slider Area  -->
+            <div class="bg-line-animatoin-area-global"></div>
+        </div>
+
+        <!-- latest service area start -->
+        <div class="latest-service-area tmp-section-gap">
+            <div class="container">
+                <div class="row g-5 service-wrapper">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="0">
+                        <div class="service-feature-main-wrapper-splash">
+                            <div class="inner">
+                                <div class="front-service-feature">
+                                    <div class="service-small-default service service__style--1 bg-color-card radius text-center tmponhover">
+                                        <div class="icon">
+                                            <i class="flaticon-knitting"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title w-600">
+                                                <a href="{% url 'textapp:home' %}#lamination">{% trans "Υφάσματα Αντοχής" %}</a>
+                                            </h4> 
+                                            <p class="description mb--0">{% trans "Οι πρώτες ύλες επιλέγονται με αυστηρά κριτήρια, διακρίνονται για την ανώτερη υφή τους, την αντοχή στην τριβή και τη φθορά." %}</p>
+                                        </div>
+                                        <div class="shape-service-1">
+                                            <img src="{% static 'images/services/shape/01.png' %}" alt="{% trans 'Υφάσματα αυτοκινήτου JB Car Textile' %}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-service-feature">
+                                    <div class="service-small-default service service__style--1 bg-color-card radius text-center tmponhover">
+                                        <div class="content">
+                                            <h4 class="title w-600">
+                                                <a href="{% url 'textapp:home' %}#lamination">{% trans "Υφάσματα Αντοχής" %}</a>
+                                            </h4>
+                                            <p class="description mb--0">{% trans "Τα χρώματα παραμένουν σταθερά και αναλλοίωτα στον χρόνο, εξασφαλίζοντας άριστη εμφάνιση και μεγάλη διάρκεια ζωής." %}</p>
+                                            <a class="btn-read-more mt--10" style="display: block;" href="{% url 'textapp:home' %}#contact"><span>{% trans "Αναλυτικά..." %}</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="150">
+                        <div class="service-feature-main-wrapper-splash">
+                            <div class="inner">
+                                <div class="front-service-feature">
+                                    <div class="service-small-default service service__style--1 bg-color-card radius text-center tmponhover">
+                                        <div class="icon">
+                                            <i class="flaticon-sewing-machine"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title w-600">
+                                                <a href="{% url 'textapp:home' %}#lamination">{% trans "Τεχνογνωσία & Εξειδίκευση" %}</a>
+                                            </h4>
+                                            <p class="description mb--0">{% trans "Η εμπειρία μας στην κατασκευή υφασμάτων αυτοκινήτου διαμορφώνει λύσεις υψηλής απόδοσης για κάθε ανάγκη του επαγγελματία." %}</p>
+                                        </div>
+                                        <div class="shape-service-1">
+                                            <img src="{% static 'images/services/shape/01.png' %}" alt="{% trans 'Auto Textile' %}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-service-feature">
+                                    <div class="service-small-default service service__style--1 bg-color-card radius text-center tmponhover">
+                                        <div class="content">
+                                            <h4 class="title w-600">
+                                                <a href="{% url 'textapp:home' %}#lamination">{% trans "Τεχνογνωσία & Εξειδίκευση" %}</a>
+                                            </h4>
+                                            <p class="description mb--0">{% trans "Η τεχνογνωσία μας μεταφράζεται σε σταθερή ποιότητα, ταχύτατη ανταπόκριση και άρτια προσαρμοσμένες λύσεις σε κάθε συνεργασία." %}</p>
+                                            <a class="btn-read-more mt--10" style="display: block;" href="{% url 'textapp:home' %}#contact"><span>{% trans "Αναλυτικά..." %}</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="service-feature-main-wrapper-splash">
+                            <div class="inner">
+                                <div class="front-service-feature">
+                                    <div class="service-small-default service service__style--1 bg-color-card radius text-center tmponhover">
+                                        <div class="icon">
+                                            <i class="flaticon-textile"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title w-600">
+                                                <a href="{% url 'textapp:home' %}#lamination">{% trans "Εξοπλισμός & Δυνατότητες" %}</a>
+                                            </h4>
+                                            <p class="description mb--0">{% trans "Ο σύγχρονος εξοπλισμός μας εξασφαλίζει ταχύτατη παραγωγή, ακρίβεια στις λεπτομέρειες και σταθερή ποιότητα." %}</p>
+                                        </div>
+                                        <div class="shape-service-1">
+                                            <img src="{% static 'images/services/shape/01.png' %}" alt="Auto Textile Fabrics">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-service-feature">
+                                    <div class="service-small-default service service__style--1 bg-color-card radius text-center tmponhover">
+                                        <div class="content">
+                                            <h4 class="title w-600">
+                                                <a href="{% url 'textapp:home' %}#lamination">{% trans "Εξοπλισμός & Δυνατότητες" %}</a>
+                                            </h4>
+                                            <p class="description mb--0">{% trans "Ο αυστηρός έλεγχος σε κάθε στάδιο εγγυάται προϊόντα υψηλής ακρίβειας, χωρίς αποκλίσεις και με μηδενικά περιθώρια λάθους." %}</p>
+                                            <a class="btn-read-more mt--10" style="display: block;" href="{% url 'textapp:home' %}#lamination"><span>{% trans "Αναλυτικά..." %}</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- latest service area end -->
+
+        <!-- Start About Area  -->
+        <div class="tmp-about-area tmp-section-gapBottom mt--20">
+            <div class="container">
+                <div class="row g-5 row--40 align-items-center">
+                    <div class="col-lg-6 order-2 order-xl-1">
+                        <div class="content">
+                            <div class="tmp-section-title-border text-start">
+                                <div class="pres-line-separator-wrapper mb--10 tmp-title-split">
+                                    <span class="subtitle">
+                                        <span class="number">01</span>
+                                        <span class="subtitle-text">{% trans "Η Εταιρεία" %}</span>
+                                    </span>
+                                    <div class="line-separator"></div>
+                                </div>
+                                <h2 class="title w-700 mb--30 tmp-title-split">{% blocktrans %}Παραγωγή Υφασμάτων <br>
+                                Εσωτερικής Επένδυσης.{% endblocktrans %}</h2>
+
+                                <p class="tmp-title-split-p">{% blocktrans %}Η JB Car Textile είναι ένας κορυφαίος προμηθευτής και εξαγωγέας <br> που ειδικεύεται σε υφάσματα ουρανού και καθισμάτων αυτοκινήτων.{% endblocktrans %}</p>
+                                <div class="why-choose-feature">
+                                    <div class="single tmponhover">
+                                        <p>{% trans "Ιδιόκτητες εγκαταστάσεις" %}</p>
+                                    </div>
+                                    <div class="single tmponhover">
+                                        <p>{% trans "+2000 τ.μ" %}</p>
+                                    </div>
+                                </div>
+                                <div class="tmp-profile-box">
+                                    <div class="profile-share justify-content-start">
+                                        <a href="{% url 'textapp:category' 'pique-headliner' %}" class="avatar" data-tooltip="{% trans 'Πικέ Ουρανού' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-001.png' %}" alt="{% trans 'Πικέ Ουρανού' %}"></a>
+                                        <a href="{% url 'textapp:category' 'velvet-headliner' %}" class="avatar" data-tooltip="{% trans 'Βελουτέ Ουρανού' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-002.png' %}" alt="{% trans 'Βελουτέ Ουρανού' %}"></a>
+                                        <a href="{% url 'textapp:category' 'suede-headliner' %}" class="avatar" data-tooltip="{% trans 'Suede Ουρανού' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-003.png' %}" alt="{% trans 'Suede Ουρανού' %}"></a>
+                                        <a href="{% url 'textapp:category' 'cotton-towel' %}" class="avatar" data-tooltip="{% trans 'Πετσέτα Cotton' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-004.png' %}" alt="{% trans 'Πετσέτα Cotton' %}"></a>
+                                        <div class="more-author-text">
+                                            <p class="subtitle">
+                                                <a class="btn-read-more" href="{% url 'textapp:home' %}#contact"><span>{% trans "Πλήρες χρωματολόγιο" %}</span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="read-more-btn btn-group gap-4 mt--40">
+                                    <a class="tmp-btn btn-primary round btn-large" href="{% url 'textapp:facilities' %}#history">{% trans "Η ιστορία μας" %}</a>
+                                    <a class="tmp-btn btn-border round btn-large" href="{% url 'textapp:home' %}#contact">{% trans "Αίτημα προσφοράς" %}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-xl-2 pl--60">
+                        <div class="tmp-gallery about-relative-thumb">
+                            <div class="thumbnail invers-anime">
+                                <img class="radius-small" src="{% static 'images/about/115.webp' %}" alt="{% trans 'Γραμμή παραγωγής JB Car Textile' %}">
+                            </div>
+                            <div class="absolute-rating-area images-left-right-float image">
+                                <div class="profile-share justify-content-start">
+                                    <a href="{% url 'textapp:category' 'pique-headliner' %}" class="avatar" data-tooltip="{% trans 'Πικέ Ουρανού' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-001.png' %}" alt="{% trans 'Πικέ Ουρανού' %}"></a>
+                                    <a href="{% url 'textapp:category' 'velvet-headliner' %}" class="avatar" data-tooltip="{% trans 'Βελουτέ Ουρανού' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-002.png' %}" alt="{% trans 'Βελουτέ Ουρανού' %}"></a>
+                                    <a href="{% url 'textapp:category' 'suede-headliner' %}" class="avatar" data-tooltip="{% trans 'Suede Ουρανού' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-003.png' %}" alt="{% trans 'Suede Ουρανού' %}"></a>
+                                    <a href="{% url 'textapp:category' 'cotton-towel' %}" class="avatar" data-tooltip="{% trans 'Πετσέτα Cotton' %}" tabindex="0"><img src="{% static 'images/testimonial/tooltip-004.png' %}" alt="{% trans 'Πετσέτα Cotton' %}"></a>
+                                </div>
+                                <p><span class="odometer" data-count="10">00</span>+ {% trans "Αποχρώσεις" %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Area  -->
+
+        <!-- Start Team-Style-Default Style-Three Area  -->
+        <div class="tmp-team-area tmp-section-gapBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tmp-section-title-border text-center">
+                            <div class="pres-line-separator-wrapper text-center mb--10">
+                                <div class="line-separator line-left"></div>
+                                <span class="subtitle">
+                                    <span class="number">02</span>
+                                    <span class="subtitle-text">{% trans "εφαρμογές" %}</span>
+                                </span>
+                                <div class="line-separator line-right"></div>
+                            </div>
+                            <h2 class="title w-700">{% trans "Υφάσματα Αυτοκινήτου" %}</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 mt--5 justify-content-center">
+
+                    <!-- 1. Πικέ Ουρανού -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-wrapper5 tmponhover">
+                            <div class="image-area" style="background:#1b1b1c">
+                                <a class="invers-anime" href="{% url 'textapp:category' 'pique-headliner' %}">
+                                    <img src="{% static 'images/team/011.webp' %}" alt="{% trans 'Πικέ Ουρανού' %}">
+                                </a>
+                            </div>
+                            <div class="content-area">
+                                <div class="left">
+                                    <h6 class="title"><a href="{% url 'textapp:category' 'pique-headliner' %}">{% trans "Πικέ" %}</a></h6>
+                                    <p class="designation">{% trans "Ουρανού" %}</p>
+                                </div>
+                                <a href="{% url 'textapp:category' 'pique-headliner' %}" class="share"><i class="feather-share-2"></i></a>
+                            </div>
+                            <div class="social-wrapper">
+                                <ul>
+                                    <li><a href="{% url 'textapp:category' 'pique-headliner' %}" title="{% trans 'Χρωματολόγιο' %}"><i class="feather-droplet"></i></a></li>
+                                    <li><a href="{% url 'textapp:category' 'pique-headliner' %}" title="{% trans 'Τεχνικά χαρακτηριστικά' %}"><i class="feather-file-text"></i></a></li>
+                                    <li><a href="{% url 'textapp:home' %}#contact" title="{% trans 'Αίτημα δείγματος' %}"><i class="feather-mail"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Βελουτέ Ουρανού -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-wrapper5 tmponhover">
+                            <div class="image-area" style="background:#1b1b1c">
+                                <a class="invers-anime" href="{% url 'textapp:category' 'velvet-headliner' %}">
+                                    <img src="{% static 'images/team/veloute_ouranou.webp' %}" alt="{% trans 'Βελουτέ Ουρανού' %}">
+                                </a>
+                            </div>
+                            <div class="content-area">
+                                <div class="left">
+                                    <h6 class="title"><a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Βελουτέ" %}</a></h6>
+                                    <p class="designation">{% trans "Ουρανού" %}</p>
+                                </div>
+                                <a href="{% url 'textapp:category' 'velvet-headliner' %}" class="share"><i class="feather-share-2"></i></a>
+                            </div>
+                            <div class="social-wrapper">
+                                <ul>
+                                    <li><a href="{% url 'textapp:category' 'velvet-headliner' %}" title="{% trans 'Χρωματολόγιο' %}"><i class="feather-droplet"></i></a></li>
+                                    <li><a href="{% url 'textapp:category' 'velvet-headliner' %}" title="{% trans 'Τεχνικά χαρακτηριστικά' %}"><i class="feather-file-text"></i></a></li>
+                                    <li><a href="{% url 'textapp:home' %}#contact" title="{% trans 'Αίτημα δείγματος' %}"><i class="feather-mail"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Suede Ουρανού -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-wrapper5 tmponhover">
+                            <div class="image-area" style="background:#1b1b1c">
+                                <a class="invers-anime" href="{% url 'textapp:category' 'suede-headliner' %}">
+                                    <img src="{% static 'images/team/004.webp' %}" alt="{% trans 'Suede Ουρανού' %}">
+                                </a>
+                            </div>
+                            <div class="content-area">
+                                <div class="left">
+                                    <h6 class="title"><a href="{% url 'textapp:category' 'suede-headliner' %}">{% trans "Suede" %}</a></h6>
+                                    <p class="designation">{% trans "Ουρανού" %}</p>
+                                </div>
+                                <a href="{% url 'textapp:category' 'suede-headliner' %}" class="share"><i class="feather-share-2"></i></a>
+                            </div>
+                            <div class="social-wrapper">
+                                <ul>
+                                    <li><a href="{% url 'textapp:category' 'suede-headliner' %}" title="{% trans 'Χρωματολόγιο' %}"><i class="feather-droplet"></i></a></li>
+                                    <li><a href="{% url 'textapp:category' 'suede-headliner' %}" title="{% trans 'Τεχνικά χαρακτηριστικά' %}"><i class="feather-file-text"></i></a></li>
+                                    <li><a href="{% url 'textapp:home' %}#contact" title="{% trans 'Αίτημα δείγματος' %}"><i class="feather-mail"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Πετσέτα Cotton -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-wrapper5 tmponhover">
+                            <div class="image-area" style="background:#1b1b1c">
+                                <a class="invers-anime" href="{% url 'textapp:category' 'cotton-towel' %}">
+                                    <img src="{% static 'images/team/005.webp' %}" alt="{% trans 'Πετσέτα Cotton' %}">
+                                </a>
+                            </div>
+                            <div class="content-area">
+                                <div class="left">
+                                    <h6 class="title"><a href="{% url 'textapp:category' 'cotton-towel' %}">{% trans "Πετσέτα" %}</a></h6>
+                                    <p class="designation">{% trans "Cotton" %}</p>
+                                </div>
+                                <a href="{% url 'textapp:category' 'cotton-towel' %}" class="share"><i class="feather-share-2"></i></a>
+                            </div>
+                            <div class="social-wrapper">
+                                <ul>
+                                    <li><a href="{% url 'textapp:category' 'cotton-towel' %}" title="{% trans 'Χρωματολόγιο' %}"><i class="feather-droplet"></i></a></li>
+                                    <li><a href="{% url 'textapp:category' 'cotton-towel' %}" title="{% trans 'Τεχνικά χαρακτηριστικά' %}"><i class="feather-file-text"></i></a></li>
+                                    <li><a href="{% url 'textapp:home' %}#contact" title="{% trans 'Αίτημα δείγματος' %}"><i class="feather-mail"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Team-Style-Default Style-Three Area -->
+
+        <!-- tmp- fabric swatches area start -->
+        <div class="tmp-apply-area tmp-section-gapBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tmp-section-title-border text-center">
+                            <div class="pres-line-separator-wrapper text-center mb--10">
+                                <div class="line-separator line-left"></div>
+                                <span class="subtitle">
+                                    <span class="number">03</span>
+                                    <span class="subtitle-text">{% trans "Δειγματολόγιο" %}</span>
+                                </span>
+                                <div class="line-separator line-right"></div>
+                            </div>
+                            <h2 class="title w-700">{% trans "Υφαντά Jacquard" %}</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt--20">
+                    <div class="col-lg-12">
+                        <!-- TABS -->
+                        <ul class="nav nav-tabs flex-nowrap overflow-auto" id="fabricTabs" role="tablist">
+                            <li class="nav-item flex-shrink-0" role="presentation">
+                                <button class="nav-link text-nowrap active" id="tab-anoixi" type="button"
+                                        data-bs-toggle="tab" data-bs-target="#pane-anoixi"
+                                        role="tab" aria-controls="pane-anoixi" aria-selected="true">
+                                    {% trans "Άνοιξη" %}
+                                </button>
+                            </li>
+                            <li class="nav-item flex-shrink-0" role="presentation">
+                                <button class="nav-link text-nowrap" id="tab-kalokairi" type="button"
+                                        data-bs-toggle="tab" data-bs-target="#pane-kalokairi"
+                                        role="tab" aria-controls="pane-kalokairi" aria-selected="false">
+                                    {% trans "Καλοκαίρι" %}
+                                </button>
+                            </li>
+                            <li class="nav-item flex-shrink-0" role="presentation">
+                                <button class="nav-link text-nowrap" id="tab-fthinoporo" type="button"
+                                        data-bs-toggle="tab" data-bs-target="#pane-fthinoporo"
+                                        role="tab" aria-controls="pane-fthinoporo" aria-selected="false">
+                                    {% trans "Φθινόπωρο" %}
+                                </button>
+                            </li>
+                            <li class="nav-item flex-shrink-0" role="presentation">
+                                <button class="nav-link text-nowrap" id="tab-ximonas" type="button"
+                                        data-bs-toggle="tab" data-bs-target="#pane-ximonas"
+                                        role="tab" aria-controls="pane-ximonas" aria-selected="false">
+                                    {% trans "Χειμώνας" %}
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <!-- TAB 1 - Άνοιξη -->
+                            <div class="tab-pane fade show active" id="pane-anoixi" role="tabpanel" aria-labelledby="tab-anoixi">
+                                <div class="tmp-swatch-gallery row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-2 g-md-3">
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/6-751.png' %}" data-sub-html="Jacquard 6-751">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/6-751.png' %}" alt="{% trans 'Ύφασμα Jacquard 6-751' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">6-751</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/016.png' %}" data-sub-html="Jacquard 016">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/016.png' %}" alt="{% trans 'Ύφασμα Jacquard 016' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">016</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/021.png' %}" data-sub-html="Jacquard 021">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/021.png' %}" alt="{% trans 'Ύφασμα Jacquard 021' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">021</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/025.png' %}" data-sub-html="Jacquard 025">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/025.png' %}" alt="{% trans 'Ύφασμα Jacquard 025' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">025</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/D017.png' %}" data-sub-html="Jacquard D017">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/D017.png' %}" alt="{% trans 'Ύφασμα Jacquard D017' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">D017</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/D020.png' %}" data-sub-html="Jacquard D020">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/D020.png' %}" alt="{% trans 'Ύφασμα Jacquard D020' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">D020</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/D026.png' %}" data-sub-html="Jacquard D026">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/D026.png' %}" alt="{% trans 'Ύφασμα Jacquard D026' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">D026</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/K642.png' %}" data-sub-html="Jacquard K642">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/K642.png' %}" alt="{% trans 'Ύφασμα Jacquard K642' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">K642</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/064.png' %}" data-sub-html="Jacquard 064">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/064.png' %}" alt="{% trans 'Ύφασμα Jacquard 064' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">064</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/073.png' %}" data-sub-html="Jacquard 073">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/073.png' %}" alt="{% trans 'Ύφασμα Jacquard 073' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">073</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/076.png' %}" data-sub-html="Jacquard 076">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/076.png' %}" alt="{% trans 'Ύφασμα Jacquard 076' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">076</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/086.png' %}" data-sub-html="Jacquard 086">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/086.png' %}" alt="{% trans 'Ύφασμα Jacquard 086' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">086</div>
+                                    </div></div>
+
+                                </div>
+                            </div>
+
+                            <!-- TAB 2 - Καλοκαίρι -->
+                            <div class="tab-pane fade" id="pane-kalokairi" role="tabpanel" aria-labelledby="tab-kalokairi">
+                                <div class="tmp-swatch-gallery row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-2 g-md-3">
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/003.png' %}" data-sub-html="Jacquard 003">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/003.png' %}" alt="{% trans 'Ύφασμα Jacquard 003' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">003</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/015.png' %}" data-sub-html="Jacquard 015">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/015.png' %}" alt="{% trans 'Ύφασμα Jacquard 015' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">015</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/018.png' %}" data-sub-html="Jacquard 018">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/018.png' %}" alt="{% trans 'Ύφασμα Jacquard 018' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">018</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/022.png' %}" data-sub-html="Jacquard 022">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/022.png' %}" alt="{% trans 'Ύφασμα Jacquard 022' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">022</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/028.png' %}" data-sub-html="Jacquard 028">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/028.png' %}" alt="{% trans 'Ύφασμα Jacquard 028' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">028</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/030.png' %}" data-sub-html="Jacquard 030">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/030.png' %}" alt="{% trans 'Ύφασμα Jacquard 030' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">030</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/044.png' %}" data-sub-html="Jacquard 044">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/044.png' %}" alt="{% trans 'Ύφασμα Jacquard 044' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">044</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/004.png' %}" data-sub-html="Jacquard 004">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/004.png' %}" alt="{% trans 'Ύφασμα Jacquard 004' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">004</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/008.png' %}" data-sub-html="Jacquard 008">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/008.png' %}" alt="{% trans 'Ύφασμα Jacquard 008' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">008</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/034.png' %}" data-sub-html="Jacquard 034">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/034.png' %}" alt="{% trans 'Ύφασμα Jacquard 034' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">034</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/035.png' %}" data-sub-html="Jacquard 035">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/035.png' %}" alt="{% trans 'Ύφασμα Jacquard 035' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">035</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/051.png' %}" data-sub-html="Jacquard 051">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/051.png' %}" alt="{% trans 'Ύφασμα Jacquard 051' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">051</div>
+                                    </div></div>
+
+                                </div>
+                            </div>
+
+                            <!-- TAB 3 - Φθινόπωρο -->
+                            <div class="tab-pane fade" id="pane-fthinoporo" role="tabpanel" aria-labelledby="tab-fthinoporo">
+                                <div class="tmp-swatch-gallery row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-2 g-md-3">
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/002.png' %}" data-sub-html="Jacquard 002">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/002.png' %}" alt="{% trans 'Ύφασμα Jacquard 002' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">002</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/014.png' %}" data-sub-html="Jacquard 014">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/014.png' %}" alt="{% trans 'Ύφασμα Jacquard 014' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">014</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/019.png' %}" data-sub-html="Jacquard 019">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/019.png' %}" alt="{% trans 'Ύφασμα Jacquard 019' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">019</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/023.png' %}" data-sub-html="Jacquard 023">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/023.png' %}" alt="{% trans 'Ύφασμα Jacquard 023' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">023</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/027.png' %}" data-sub-html="Jacquard 027">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/027.png' %}" alt="{% trans 'Ύφασμα Jacquard 027' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">027</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/029.png' %}" data-sub-html="Jacquard 029">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/029.png' %}" alt="{% trans 'Ύφασμα Jacquard 029' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">029</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/041.png' %}" data-sub-html="Jacquard 041">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/041.png' %}" alt="{% trans 'Ύφασμα Jacquard 041' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">041</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/017.png' %}" data-sub-html="Jacquard 017">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/017.png' %}" alt="{% trans 'Ύφασμα Jacquard 017' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">017</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/020.png' %}" data-sub-html="Jacquard 020">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/020.png' %}" alt="{% trans 'Ύφασμα Jacquard 020' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">020</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/040.png' %}" data-sub-html="Jacquard 040">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/040.png' %}" alt="{% trans 'Ύφασμα Jacquard 040' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">040</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/048.png' %}" data-sub-html="Jacquard 048">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/048.png' %}" alt="{% trans 'Ύφασμα Jacquard 048' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">048</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/410-5.png' %}" data-sub-html="Jacquard 410-5">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/410-5.png' %}" alt="{% trans 'Ύφασμα Jacquard 410-5' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">410-5</div>
+                                    </div></div>
+
+                                </div>
+                            </div>
+
+                            <!-- TAB 4 - Χειμώνας -->
+                            <div class="tab-pane fade" id="pane-ximonas" role="tabpanel" aria-labelledby="tab-ximonas">
+                                <div class="tmp-swatch-gallery row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-2 g-md-3">
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/039.png' %}" data-sub-html="Jacquard 039">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/039.png' %}" alt="{% trans 'Ύφασμα Jacquard 039' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">039</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/071.png' %}" data-sub-html="Jacquard 071">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/071.png' %}" alt="{% trans 'Ύφασμα Jacquard 071' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">071</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/078.png' %}" data-sub-html="Jacquard 078">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/078.png' %}" alt="{% trans 'Ύφασμα Jacquard 078' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">078</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/087.png' %}" data-sub-html="Jacquard 087">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/087.png' %}" alt="{% trans 'Ύφασμα Jacquard 087' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">087</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/K622.png' %}" data-sub-html="Jacquard K622">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/K622.png' %}" alt="{% trans 'Ύφασμα Jacquard K622' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">K622</div>
+                                    </div></div>
+
+                                    <div class="col"><div class="tmponhover p-1 rounded">
+                                        <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/fabric/fabric/K627.png' %}" data-sub-html="Jacquard K627">
+                                            <img class="w-100 h-100" src="{% static 'images/fabric/fabric/K627.png' %}" alt="{% trans 'Ύφασμα Jacquard K627' %}" loading="lazy" decoding="async"></a>
+                                        <div class="small text-center mt-1 text-body-secondary">K627</div>
+                                    </div></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tmp- fabric swatches area end -->
+
+        <!-- auto slider service -->
+        <div class="auto-slider-service" id="lamination">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="service-layout-presentation-box tmponhover">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-5 col-md-12 col-sm-12 col-12 mt_md--30 mt_sm--30 order-2 order-lg-1">
+
+                                    <div class="section-title text-start mb--60">
+                                        <span class="subtitle bg-color-primary color-white">{% trans "ΑΦΡΟΛΕΞΑΡΙΣΜΑ" %} </span>
+                                        <h3 class="title">{% trans "Διαδικασία πλαστικοποίησης με φλόγα συγκόλλησης." %}</h3>
+                                    </div>
+
+                                    <div class="advance-tab-button advance-tab-button-1">
+                                        <ul class="nav nav-tabs splash-nav-tabs tab-button-list" id="splashLayoutTab" role="tablist">
+
+                                            <li class="nav-item active-nav" role="presentation">
+                                                <a href="#" class="nav-link tab-button active" id="layouttab1-tab" data-bs-toggle="tab" data-bs-target="#layouttab1" role="tab" aria-controls="layouttab1" aria-selected="false">
+                                                    <div class="tab">
+                                                        <span>01</span>
+                                                        <div class="inner">
+                                                            <h4 class="title">{% trans "Κορυφαία Ανθεκτικότητα" %}</h4>
+                                                            <p>
+                                                                {% trans "Η αντοχή και η ελαστικότητα του υφάσματος βελτιώνονται σημαντικά." %}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item" role="presentation">
+                                                <a href="#" class="nav-link tab-button" id="layouttab2-tab" data-bs-toggle="tab" data-bs-target="#layouttab2" role="tab" aria-controls="layouttab2" aria-selected="true">
+                                                    <div class="tab">
+                                                        <span>02</span>
+                                                        <div class="inner">
+                                                            <h4 class="title">{% trans "Ενισχυμένη Πυκνότητα" %}</h4>
+                                                            <p>
+                                                                {% trans "Το βελτιωμένο βάρος του υφάσματος εγγυάται απόδοση και σταθερότητα." %}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item" role="presentation">
+                                                <a href="#" class="nav-link tab-button" id="layouttab3-tab" data-bs-toggle="tab" data-bs-target="#layouttab3" role="tab" aria-controls="layouttab3" aria-selected="false">
+                                                    <div class="tab">
+                                                        <span>03</span>
+                                                        <div class="inner">
+                                                            <h4 class="title">{% trans "Προσαρμοσμένο Πάχος" %}</h4>
+                                                            <p>
+                                                                {% trans "Δυνατότητα παραμετροποίησης του πάχους επένδυσης από 2mm έως 20mm." %}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 col-md-12 col-sm-12 col-12 order-1 order-lg-2">
+                                    <div class="tab-content">
+
+                                        <div class="tab-pane fade advance-tab-content-1 active show" id="layouttab1" role="tabpanel" aria-labelledby="layouttab1-tab">
+                                            <div class="thumbnail invers-anime">
+                                                <img src="{% static 'images/about/flame_lamin.webp' %}" alt="{% trans 'Διαδικασία flame lamination υφάσματος' %}">
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade advance-tab-content-1" id="layouttab2" role="tabpanel" aria-labelledby="layouttab2-tab">
+                                            <div class="thumbnail invers-anime">
+                                                <img src="{% static 'images/about/flame_lamina.webp' %}" alt="{% trans 'Λαμινάρισμα υφάσματος με αφρολέξ' %}">
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade advance-tab-content-1" id="layouttab3" role="tabpanel" aria-labelledby="layouttab3-tab">
+                                            <div class="thumbnail invers-anime">
+                                                <img src="{% static 'images/about/flame_laminat.webp' %}" alt="{% trans 'Έλεγχος υφάσματος μετά το λαμινάρισμα' %}">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- auto slider service end -->
+
+        <!-- Start Materials Area  -->
+        <div class="blog-area tmp-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-flex-between">
+                            <div class="tmp-section-title-border text-start">
+                                <div class="pres-line-separator-wrapper text-start mb--10">
+                                    <span class="subtitle">
+                                        <span class="number">04</span>
+                                    <span class="subtitle-text">{% trans "Συλλογή" %}</span>
+                                    </span>
+                                    <div class="line-separator line-right"></div>
+                                </div>
+                                <h2 class="title w-700 tmp-title-split">{% blocktrans %}Premium <span class="theme-gradient"> Edition</span>{% endblocktrans %}</h2>
+                            </div>
+                            <div class="tmp-load-more d-flex justify-content-center">
+                                <a class="tmp-btn btn-large hover-icon-reverse" href="{% url 'textapp:category' 'pique-headliner' %}">
+                                    <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">{% trans "Δείτε όλα τα υλικά" %}</span>
+                                    <span class="btn-icon"><i class="feather-loader"></i></span>
+                                    <span class="btn-icon"><i class="feather-loader"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-5 mt--10">
+                    <div class="col-lg-5">
+                        <div class="tmp-card box-card-style-default bentostyle-left-blog tmponhover">
+                            <div class="inner">
+                                <div class="thumbnail invers-anime">
+                                    <a class="image" href="{% url 'textapp:category' 'suede-headliner' %}">
+                                        <img loading="lazy" class="w-100" src="{% static 'images/blog/002.webp' %}" alt="{% trans 'Suede ουρανού' %}">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="{% url 'textapp:category' 'suede-headliner' %}">{% trans "Ελαστικό ύφασμα εσωτερικής επένδυσης ουρανού από την JB Car Textile." %}</a></h4>
+                                    <p class="descriptiion">{% trans "Το ιδιαίτερο καινοτόμο υλικό που συνδυάζει την άριστη ελαστικότητα του πλεκτού υφάσματος με την κομψή και απαλή αίσθηση του suede" %}</p>
+                                    <div class="read-more-btn">
+                                        <a class="btn-read-more" href="{% url 'textapp:category' 'suede-headliner' %}"><span>{% trans "Λεπτομέρειες" %}</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="tmp-card box-card-style-default card-list-view bentostyle tmponhover">
+                            <div class="inner">
+                                <div class="thumbnail invers-anime">
+                                    <a class="image" href="{% url 'textapp:category' 'velvet-headliner' %}">
+                                        <img loading="lazy" src="{% static 'images/blog/003.webp' %}" alt="{% trans 'Βελουτέ ουρανού' %}">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Καινοτόμο πλεκτό ύφασμα εσωτερικής επένδυσης με Βελουτέ υφή" %}</a></h4>
+                                    <p class="descriptiion">{% trans "Από 100% πολυεστερικό νήμα, με ανεξίτηλη βαφή που εξασφαλίζει σταθερότητα." %}</p>
+                                    <div class="read-more-btn">
+                                        <a class="btn-read-more" href="{% url 'textapp:category' 'velvet-headliner' %}"><span>{% trans "Λεπτομέρειες" %}</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tmp-card box-card-style-default card-list-view bentostyle tmponhover">
+                            <div class="inner">
+                                <div class="thumbnail invers-anime">
+                                    <a class="image" href="{% url 'textapp:category' 'pique-headliner' %}">
+                                        <img loading="lazy" src="{% static 'images/blog/004.webp' %}" alt="{% trans 'Πικέ ουρανού' %}">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="{% url 'textapp:category' 'pique-headliner' %}">{% trans "Πικέ ανθεκτικό ύφασμα με σταθερότητα χρώματος και διαχρονική ποιότητα" %}</a></h4>
+                                    <p class="descriptiion">{% trans "Λαμινάρεται με αφρολέξ, χαρίζοντας την ιδανική ελαστικότητα και εφαρμογή" %}</p>
+                                    <div class="read-more-btn">
+                                        <a class="btn-read-more" href="{% url 'textapp:category' 'pique-headliner' %}"><span>{% trans "Λεπτομέρειες" %}</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tmp-card box-card-style-default card-list-view bentostyle tmponhover">
+                            <div class="inner">
+                                <div class="thumbnail invers-anime">
+                                    <a class="image" href="{% url 'textapp:category' 'pvc-leatherette' %}">
+                                        <img loading="lazy" src="{% static 'images/blog/005.webp' %}" alt="{% trans 'Δερματίνες καθισμάτων' %}">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="{% url 'textapp:category' 'pvc-leatherette' %}">{% trans "Δερματίνη υψηλής αντοχής από 100% PVC, σχεδιασμένη για επενδύσεις καθισμάτων" %}</a></h4>
+                                    <p class="descriptiion">{% trans "Αντίσταση στην τριβή για επιφάνειες που δέχονται καθημερινή χρήση" %}</p>
+                                    <div class="read-more-btn">
+                                        <a class="btn-read-more" href="{% url 'textapp:category' 'pvc-leatherette' %}"><span>{% trans "Λεπτομέρειες" %}</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Materials Area  -->
+
+        <!-- Start Suede Collection  -->
+        <div class="tmp-brand-area tmp-section-gap">
+            <div class="container">
+                <div class="row mb--20">
+                    <div class="col-lg-12">
+                        <div class="tmp-section-title-border text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="pres-line-separator-wrapper text-center mb--10">
+                                <div class="line-separator line-left"></div>
+                                <span class="subtitle">
+                                <span class="number">05</span>
+                                <span class="subtitle-text">Automotive Fabrics</span>
+                                </span>
+                                <div class="line-separator line-right"></div>
+                            </div>
+                            <h2 class="title w-700 tmp-title-split">Our Suede Collection</h2>
+                            <p class="description b1 tmp-title-split-p">{% blocktrans %}Η χαρακτηριστική suede επιφάνεια με απαλή και ιδιαίτερη αισθητική. <br> Μια ολοκληρωμένη σειρά αποχρώσεων, σχεδιασμένη και αναπτυγμένη από την JB Car Textile.{% endblocktrans %}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 mt--10">
+                        <div class="tmp-swatch-gallery row row-cols-2 row-cols-md-4 g-2 g-md-3 justify-content-center" style="--color-primary:#d9d9d9;">
+
+                            <div class="col"><div class="tmponhover p-1 rounded">
+                                <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/brand/SK_170.webp' %}" data-sub-html="SK 170">
+                                    <img class="w-100 h-100" src="{% static 'images/brand/SK_170.webp' %}" alt="SK 170" loading="lazy" decoding="async"></a>
+                            </div></div>
+
+                            <div class="col"><div class="tmponhover p-1 rounded">
+                                <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/brand/SK_167.webp' %}" data-sub-html="SK 167">
+                                    <img class="w-100 h-100" src="{% static 'images/brand/SK_167.webp' %}" alt="SK 167" loading="lazy" decoding="async"></a>
+                            </div></div>
+
+                            <div class="col"><div class="tmponhover p-1 rounded">
+                                <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/brand/SK_169.webp' %}" data-sub-html="SK 169">
+                                    <img class="w-100 h-100" src="{% static 'images/brand/SK_169.webp' %}" alt="SK 169" loading="lazy" decoding="async"></a>
+                            </div></div>
+
+                            <div class="col"><div class="tmponhover p-1 rounded">
+                                <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/brand/SK_172.webp' %}" data-sub-html="SK 172">
+                                    <img class="w-100 h-100" src="{% static 'images/brand/SK_172.webp' %}" alt="SK 172" loading="lazy" decoding="async"></a>
+                            </div></div>
+
+                            <div class="col"><div class="tmponhover p-1 rounded">
+                                <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/brand/SK_173.webp' %}" data-sub-html="SK 173">
+                                    <img class="w-100 h-100" src="{% static 'images/brand/SK_173.webp' %}" alt="SK 173" loading="lazy" decoding="async"></a>
+                            </div></div>
+
+                            <div class="col"><div class="tmponhover p-1 rounded">
+                                <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/brand/SK_168.webp' %}" data-sub-html="SK 168">
+                                    <img class="w-100 h-100" src="{% static 'images/brand/SK_168.webp' %}" alt="SK 168" loading="lazy" decoding="async"></a>
+                            </div></div>
+
+                            <div class="col"><div class="tmponhover p-1 rounded">
+                                <a class="tmp-swatch-link invers-anime d-block ratio ratio-16x9 rounded overflow-hidden" href="{% static 'images/brand/SK_171.webp' %}" data-sub-html="SK 171">
+                                    <img class="w-100 h-100" src="{% static 'images/brand/SK_171.webp' %}" alt="SK 171" loading="lazy" decoding="async"></a>
+                            </div></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Suede Collection  -->
+
+        <!-- appoinment area start -->
+        <div class="inv-appoinment-area-start tmp-section-gap" id="contact">
+            <div class="container">
+                <div class="row mb--20">
+                    <div class="col-lg-12">
+                        <div class="tmp-section-title-border text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="pres-line-separator-wrapper text-center mb--10">
+                                <div class="line-separator line-left"></div>
+                                <span class="subtitle">
+                                <span class="number">06</span>
+                                <span class="subtitle-text">{% trans "Επικοινωνία" %}</span>
+                                </span>
+                                <div class="line-separator line-right"></div>
+                            </div>
+                            <h2 class="title w-700 tmp-title-split theme-gradient">{% trans "Στείλτε μας μήνυμα" %}</h2>
+                            <p class="description b1 tmp-title-split-p">{% trans "Η έμπειρη ομάδα μας αναλαμβάνει να δώσει άμεσες λύσεις και αποτελεσματική υποστήριξη." %} <br> {% trans "Δευτέρα - Παρασκευή 09.00 - 17.00" %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+
+                    <div class="col-lg-5 mt_md--30 mt_sm--30">
+                        <div class="appoiment-left-area-thumbnail invers-anime">
+                            <img src="{% static 'images/appoinment/005.webp' %}" alt="{% trans 'Auto textile Thessaloniki' %}">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <form class="contact-form-1 appoinment-form-wrapper tmponhover"
+                            id="contact-form" method="post" action="{% url 'textapp:home' %}#contact" novalidate>
+                            {% csrf_token %}
+
+                            {% if messages %}
+                                {% for m in messages %}
+                                    {% if 'newsletter' not in m.extra_tags %}
+                                        <div class="form-group">
+                                            <div class="alert {% if m.tags == 'success' %}alert-success{% else %}alert-danger{% endif %} mb-0">{{ m }}</div>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+
+                            <div class="hp-field" aria-hidden="true">{% render_field form.website %}</div>
+
+                            <div class="form-group-wrapper">
+                                <div class="form-group">
+                                    {% render_field form.name id="contact-name" %}
+                                    {% for e in form.name.errors %}<span class="text-danger d-block mt-1">{{ e }}</span>{% endfor %}
+                                </div>
+                                <div class="form-group">
+                                    {% render_field form.phone id="contact-phone" %}
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                {% render_field form.email id="contact-email" %}
+                                {% for e in form.email.errors %}<span class="text-danger d-block mt-1">{{ e }}</span>{% endfor %}
+                            </div>
+
+                            <div class="form-group">
+                                {% render_field form.subject id="subject" %}
+                            </div>
+
+                            <div class="form-group">
+                                {% render_field form.message id="contact-message" %}
+                                {% for e in form.message.errors %}<span class="text-danger d-block mt-1">{{ e }}</span>{% endfor %}
+                            </div>
+
+                            <div class="form-group">
+                                <button name="submit" type="submit" id="submit" class="btn-default btn-large tmp-btn" style="width: 100%;">
+                                    <span>{% trans "Αποστολή" %}</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- appoinment area end -->
+
+        <!-- cta modern style -->
+        <div class="cta-main-wrapper bg-cta-modern bg_image jarallax large-height" data-speed=".8" data-black-overlay="8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="call-to-action-modern-wrapper">
+                            <h2 class="title">
+                                {% trans "Βρείτε μαζί μας" %} <br>
+                                <span class="header-caption">
+                            <span class="cd-headline zoom">
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible theme-gradient">{% trans "Υφάσματα." %}</b>
+                                    <b class="is-hidden theme-gradient">{% trans "Υλικά." %}</b>
+                                    <b class="is-hidden theme-gradient">{% trans "Λύσεις." %}</b>
+                                </span>
+                                </span>
+                                </span>
+                            </h2>
+                            <div class="right-wrapper mb--80 mb_sm--0">
+                                <p>
+                                    {% blocktrans %}Επικοινωνία για συνεργάτες <br> <a href="mailto:info@cartextile.gr">info@cartextile.gr</a>{% endblocktrans %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cta modern style end -->
+
+{% endblock %}

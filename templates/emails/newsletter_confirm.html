@@ -1,0 +1,99 @@
+{% load i18n %}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>JB Car Textile</title>
+</head>
+<body style="margin:0;padding:0;width:100%;background-color:#f4f4f5;-webkit-font-smoothing:antialiased;">
+
+    <!-- Προεπισκόπηση στα εισερχόμενα, δεν φαίνεται στο σώμα -->
+    <div style="display:none;font-size:1px;color:#f4f4f5;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">
+        {% trans "Ένα κλικ ακόμη για να ολοκληρωθεί η εγγραφή σας." %}
+    </div>
+
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#f4f4f5;">
+        <tr>
+            <td align="center" style="padding:32px 16px;">
+
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600"
+                        style="width:600px;max-width:600px;background-color:#ffffff;border-radius:8px;overflow:hidden;">
+
+                    <!-- ΚΕΦΑΛΙΔΑ -->
+                    <tr>
+                        <td align="center" bgcolor="#1b1b1c" style="background-color:#1b1b1c;padding:34px 24px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                                <tr>
+                                    <td bgcolor="#e4002b" align="center" valign="middle" style="background-color:#e4002b;border-radius:5px; padding:11px 16px 11px 16px;">
+                                        <span style="font-family:'Arial Black','Arial Bold',Arial,Helvetica,sans-serif;font-size:30px;line-height:26px;font-weight:900;font-style:italic;color:#ffffff;letter-spacing:-1px;">JB</span>
+                                    </td>
+                                    <td valign="middle" style="padding-left:16px;">
+                                        <span style="font-family:'Arial Black','Arial Bold',Arial,Helvetica,sans-serif;font-size:21px;line-height:26px;font-weight:900;color:#ffffff;letter-spacing:6px;">CAR TEXTILE</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- ΚΟΚΚΙΝΗ ΓΡΑΜΜΗ -->
+                    <tr>
+                        <td bgcolor="#e4002b" style="background-color:#e4002b;font-size:0;line-height:0;height:4px;">&nbsp;</td>
+                    </tr>
+
+                    <!-- ΠΕΡΙΕΧΟΜΕΝΟ -->
+                    <tr>
+                        <td style="padding:40px 40px 32px 40px;font-family:Arial,Helvetica,sans-serif;">
+
+                            <h1 style="margin:0 0 20px 0;font-size:24px;line-height:32px;font-weight:700;color:#1b1b1c;">
+                                {% trans "Επιβεβαιώστε την εγγραφή σας" %}
+                            </h1>
+
+                            <p style="margin:0 0 28px 0;font-size:16px;line-height:26px;color:#3b3b3b;">
+                                {% blocktrans %}Ευχαριστούμε για το αίτημα εγγραφής <strong style="color:#1b1b1c;">{{ email }}</strong> στο newsletter της JB Car Textile.{% endblocktrans %}
+                            </p>
+
+                            <!-- ΚΟΥΜΠΙ -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 28px 0;">
+                                <tr>
+                                    <td align="center" bgcolor="#e4002b" style="background-color:#e4002b;border-radius:4px;">
+                                        <a href="{{ confirm_url }}"
+                                            style="display:inline-block;padding:16px 36px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:20px;font-weight:700;color:#ffffff;text-decoration:none;letter-spacing:0.5px;">
+                                            {% trans "Επιβεβαίωση εγγραφής" %}
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p style="margin:0 0 8px 0;font-size:14px;line-height:22px;color:#6c6c6c;">
+                                {% trans "Αν η επιβεβαίωση δεν λειτουργεί, αντιγράψτε αυτή τη διεύθυνση:" %}
+                            </p>
+                            <p style="margin:0;font-size:13px;line-height:20px;color:#6c6c6c;word-break:break-all;">
+                                <a href="{{ confirm_url }}" style="color:#6c6c6c;text-decoration:underline;">{{ confirm_url }}</a>
+                            </p>
+
+                        </td>
+                    </tr>
+
+                    <!-- ΥΠΟΣΗΜΕΙΩΣΗ -->
+                    <tr>
+                        <td style="padding:24px 40px 32px 40px;border-top:1px solid #e9e9ea;font-family:Arial,Helvetica,sans-serif;">
+                            <p style="margin:0 0 16px 0;font-size:13px;line-height:20px;color:#8a8a8a;">
+                                {% trans "Αν δεν ζητήσατε εσείς την εγγραφή, αγνοήστε αυτό το μήνυμα." %}
+                            </p>
+                            <p style="margin:0;font-size:13px;line-height:22px;color:#8a8a8a;">
+                                <strong style="color:#1b1b1c;">JB Car Textile</strong><br>
+                                {% trans "Ανεμομύλου 3, Δέλτα 57300" %}<br>
+                                <a href="tel:+302310792630" style="color:#8a8a8a;text-decoration:none;">+30 2310 792 630</a>
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

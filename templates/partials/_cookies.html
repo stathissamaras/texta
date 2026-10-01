@@ -1,0 +1,30 @@
+<!-- partials/_cookies.html -->
+{% load i18n %}
+
+{# data-ga-id: μπαίνει το G-XXXXXXXXXX όταν ανοίξει ο λογαριασμός Analytics #}
+<div id="cookie-banner" class="position-fixed bottom-0 start-0 end-0 bg-dark p-3 d-none"
+        style="z-index: 1080;" data-ga-id="" role="region" aria-label="{% trans 'Ειδοποίηση cookies' %}">
+    <div class="container">
+        <div class="row align-items-center g-3">
+
+            <div class="col-lg-8">
+                <p class="mb-0 text-white">
+                    {% blocktrans trimmed %}
+                    Χρησιμοποιούμε cookies για τη λειτουργία της ιστοσελίδας.
+                    {% endblocktrans %}
+                    <a class="text-white text-decoration-underline" href="{% url 'textapp:legal' %}#privacy">{% trans "Περισσότερα" %}</a>
+                </p>
+            </div>
+
+            <div class="col-lg-4 d-flex gap-2 justify-content-lg-end">
+                <button type="button" id="cookie-decline" class="btn btn-outline-light btn-sm px-3">
+                    {% trans "Απόρριψη" %}
+                </button>
+                <button type="button" id="cookie-accept" class="tmp-btn btn-small">
+                    {% trans "Αποδοχή" %}
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>

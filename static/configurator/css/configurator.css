@@ -1,0 +1,20 @@
+/* Ο φακός */
+#zoom-wrap { cursor: crosshair; }
+
+#zoom-lens {
+    position: absolute;
+    display: none;
+    width: 220px;
+    height: 220px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .35);
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+/* Ύψος λίστας δειγμάτων - το Bootstrap δεν έχει max-height utility */
+.swatch-list { max-height: 40vh; }
+
+/* Τετράγωνα δείγματα */
+.swatch { aspect-ratio: 1; object-fit: cover; }

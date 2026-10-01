@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Django
+*.log
+staticfiles/
+
+# Μυστικά - ΠΟΤΕ στο git
+.env
+
+# Περιεχόμενο - ανεβαίνει με scp, όχι με git
+media/
+
+# VS Code
+.vscode/

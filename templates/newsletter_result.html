@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Newsletter" %} | JB Car Textile{% endblock %}
+
+{% block content %}
+<div class="tmp-section-gap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-10">
+                <div class="bg-color-card radius text-center tmponhover"
+                    style="padding:64px 40px;border:1px solid var(--color-border)">
+
+                    {% if not ok and not sent %}
+                        {# --- σφάλμα: ληγμένος ή πλαστός σύνδεσμος --- #}
+                        <span class="d-inline-block mb--20" style="color:var(--color-body)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="12"/>
+                                <line x1="12" y1="16" x2="12.01" y2="16"/>
+                            </svg>
+                        </span>
+                        <h2 class="title w-700 mb--20">{% trans "Ο σύνδεσμος δεν ισχύει" %}</h2>
+                        <p class="mb--0">{% trans "Ο σύνδεσμος έληξε ή δεν είναι έγκυρος. Δοκιμάστε να εγγραφείτε ξανά από το κάτω μέρος της σελίδας." %}</p>
+
+                    {% elif unsubscribed %}
+                        {# --- απεγγραφή --- #}
+                        <span class="d-inline-block mb--20" style="color:var(--color-body)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16v16H4z"/>
+                                <path d="m4 6 8 6 8-6"/>
+                                <line x1="3" y1="21" x2="21" y2="3"/>
+                            </svg>
+                        </span>
+                        <h2 class="title w-700 mb--20">{% trans "Απεγγραφήκατε" %}</h2>
+                        <p class="mb--0">{% blocktrans %}Το {{ email }} αφαιρέθηκε από τη λίστα μας. Δεν θα λάβετε άλλα μηνύματα.{% endblocktrans %}</p>
+
+                    {% elif sent %}
+                        {# --- μόλις υποβλήθηκε η φόρμα του footer --- #}
+                        <span class="d-inline-block mb--20" style="color:var(--color-primary)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16v16H4z"/>
+                                <path d="m4 6 8 6 8-6"/>
+                            </svg>
+                        </span>
+                        {% for m in messages %}
+                            <h2 class="title w-700 mb--20">{{ m }}</h2>
+                        {% endfor %}
+                        <p class="mb--0">{% trans "Αν δεν το βρίσκετε, ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας." %}</p>
+
+                    {% else %}
+                        {# --- επιβεβαιώθηκε η εγγραφή --- #}
+                        <span class="d-inline-block mb--20" style="color:var(--color-primary)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="m8 12 3 3 5-6"/>
+                            </svg>
+                        </span>
+                        <h2 class="title w-700 mb--20">{% trans "Η εγγραφή ολοκληρώθηκε" %}</h2>
+                        <p class="mb--0">{% trans "Ευχαριστούμε. Θα ενημερώνεστε πρώτοι για τα νέα μας είδη και υπηρεσίες." %}</p>
+                    {% endif %}
+
+                    <a class="tmp-btn btn-primary round btn-large mt--30" href="{% url 'textapp:home' %}">
+                        {% trans "Επιστροφή στην αρχική" %}
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

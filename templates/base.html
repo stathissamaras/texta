@@ -1,0 +1,105 @@
+<!-- base.html -->
+{% load i18n static %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-style-mode" content="1">
+    <meta name="description" content="{% block description %}{% trans 'Υφάσματα εσωτερικής επένδυσης αυτοκινήτου από το 1985. Ουρανός, καλύμματα καθισμάτων και τεχνικά υφάσματα για επαγγελματίες του κλάδου.' %}{% endblock %}">
+
+    <title>{% block title %}JB Car Textile{% endblock %}</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.png' %}">
+    <!-- CSS ============================================ -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- google fonts end-->
+
+    <link href="{% static 'css/vendor/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/plugins/feature.css' %}" rel="stylesheet">
+    <link href="{% static 'css/plugins/slick.css' %}" rel="stylesheet">
+    <link href="{% static 'css/plugins/slick-theme.css' %}" rel="stylesheet">
+    <link href="{% static 'css/plugins/lightbox.css' %}" rel="stylesheet">
+    <link href="{% static 'css/plugins/odometer.css' %}" rel="stylesheet">
+
+    <link href="{% static 'fonts/flaticon/flaticon.css' %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="gym-demo active-light-mode{% block body_class %}{% endblock %}">
+    {% include 'partials/_logo_defs.html' %}
+
+    <main class="page-wrapper">
+
+        {% include 'partials/_navbar.html' %}
+
+        {% block content %}{% endblock %}
+
+        {% include 'partials/_footer.html' %}
+
+    </main>
+
+    <!-- pre loader start -->
+
+    {% block preloader %}
+    <div id="inverweb-load">
+        <span class="loader"></span>
+    </div>
+    {% endblock %}
+
+    <!-- pre loader end -->
+
+    <div id="anywhere-home" class="">
+    </div>
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <div class="scrollbar-v show-on-scroll"></div>
+    <div class="float-text show-on-scroll">
+        <span><a href="#">{% trans "Scroll to top" %}</a></span>
+    </div>
+
+    <!-- JS ============================================ -->
+    <script src="{% static 'js/vendor/jquery.min.js' %}" defer></script>
+    <script src="{% static 'js/vendor/bootstrap.min.js' %}" defer></script>
+    <script src="{% static 'js/vendor/waypoint.min.js' %}" defer></script>
+    <script src="{% static 'js/vendor/wow.min.js' %}" defer></script>
+
+    <script src="{% static 'js/vendor/feather.min.js' %}" defer></script>
+    <script src="{% static 'js/vendor/sal.min.js' %}" defer></script>
+
+    <!-- gsap animation start -->
+    <script src="{% static 'js/plugins/gsap.js' %}" defer></script>
+    <script src="{% static 'js/plugins/scrolltigger.js' %}" defer></script>
+    <script src="{% static 'js/plugins/splittext.js' %}" defer></script>
+    <!-- gsap animation end -->
+
+    <script src="{% static 'js/vendor/masonry.js' %}" defer></script>
+    <script src="{% static 'js/vendor/imageloaded.js' %}" defer></script>
+    <script src="{% static 'js/vendor/magnify.min.js' %}" defer></script>
+    <script src="{% static 'js/vendor/lightbox.js' %}" defer></script>
+    <script src="{% static 'js/vendor/slick.min.js' %}" defer></script>
+    <script src="{% static 'js/vendor/easypie.js' %}" defer></script>
+    <script src="{% static 'js/vendor/text-type.js' %}" defer></script>
+    <script src="{% static 'js/vendor/jquery-one-page-nav.js' %}" defer></script>
+
+    <script src="{% static 'js/plugins/smoothscroll.js' %}" defer></script>
+    <script src="{% static 'js/plugins/odometer.js' %}" defer></script>
+    <script src="{% static 'js/plugins/jaralax.js' %}" defer></script>
+    <script src="{% static 'js/plugins/scroll-elements.js' %}" defer></script>
+
+    <!-- Main JS -->
+    <script src="{% static 'js/main.js' %}" defer></script>
+
+    {% include 'partials/_cookies.html' %}
+</body>
+
+</html>

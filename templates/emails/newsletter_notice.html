@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;color:#1b1b1c">
+    <h3>Νέα εγγραφή στο newsletter</h3>
+    <table cellpadding="6" style="border-collapse:collapse;font-size:14px">
+        <tr><td><strong>Email</strong></td><td>{{ subscriber.email }}</td></tr>
+        <tr><td><strong>Γλώσσα</strong></td><td>{{ subscriber.language }}</td></tr>
+        <tr><td><strong>Προέλευση</strong></td><td>{{ subscriber.get_source_display }}</td></tr>
+        <tr><td><strong>Ημερομηνία</strong></td><td>{{ subscriber.created_at|date:"d/m/Y H:i" }}</td></tr>
+    </table>
+</body>
+</html>

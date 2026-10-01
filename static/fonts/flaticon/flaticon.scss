@@ -1,0 +1,125 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?b89d4a9da2e4a023dbf58a1c18cbe941") format("truetype"),
+url("./flaticon_mycollection.woff?b89d4a9da2e4a023dbf58a1c18cbe941") format("woff"),
+url("./flaticon_mycollection.woff2?b89d4a9da2e4a023dbf58a1c18cbe941") format("woff2"),
+url("./flaticon_mycollection.eot?b89d4a9da2e4a023dbf58a1c18cbe941#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?b89d4a9da2e4a023dbf58a1c18cbe941#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "decorative-textile": "\f101",
+    "textile": "\f102",
+    "knitting": "\f103",
+    "layers": "\f104",
+    "clothes": "\f105",
+    "textile-1": "\f106",
+    "sewing-machine": "\f107",
+    "silk": "\f108",
+    "yarn": "\f109",
+    "textile-printing": "\f10a",
+    "suit": "\f10b",
+    "measuring": "\f10c",
+    "sewing-1": "\f10d",
+    "sewing": "\f10e",
+    "tailor": "\f10f",
+    "shop": "\f110",
+    "threads": "\f111",
+    "fabric-pattern": "\f112",
+    "scissors": "\f113",
+    "fashion-designer": "\f114",
+    "scissors-1": "\f115",
+    "clothes-1": "\f116",
+    "pin": "\f117",
+    "sewing-machine-1": "\f118",
+    "threads-1": "\f119",
+);
+
+.flaticon-decorative-textile:before {
+    content: map-get($flaticon_mycollection-map, "decorative-textile");
+}
+.flaticon-textile:before {
+    content: map-get($flaticon_mycollection-map, "textile");
+}
+.flaticon-knitting:before {
+    content: map-get($flaticon_mycollection-map, "knitting");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon_mycollection-map, "layers");
+}
+.flaticon-clothes:before {
+    content: map-get($flaticon_mycollection-map, "clothes");
+}
+.flaticon-textile-1:before {
+    content: map-get($flaticon_mycollection-map, "textile-1");
+}
+.flaticon-sewing-machine:before {
+    content: map-get($flaticon_mycollection-map, "sewing-machine");
+}
+.flaticon-silk:before {
+    content: map-get($flaticon_mycollection-map, "silk");
+}
+.flaticon-yarn:before {
+    content: map-get($flaticon_mycollection-map, "yarn");
+}
+.flaticon-textile-printing:before {
+    content: map-get($flaticon_mycollection-map, "textile-printing");
+}
+.flaticon-suit:before {
+    content: map-get($flaticon_mycollection-map, "suit");
+}
+.flaticon-measuring:before {
+    content: map-get($flaticon_mycollection-map, "measuring");
+}
+.flaticon-sewing-1:before {
+    content: map-get($flaticon_mycollection-map, "sewing-1");
+}
+.flaticon-sewing:before {
+    content: map-get($flaticon_mycollection-map, "sewing");
+}
+.flaticon-tailor:before {
+    content: map-get($flaticon_mycollection-map, "tailor");
+}
+.flaticon-shop:before {
+    content: map-get($flaticon_mycollection-map, "shop");
+}
+.flaticon-threads:before {
+    content: map-get($flaticon_mycollection-map, "threads");
+}
+.flaticon-fabric-pattern:before {
+    content: map-get($flaticon_mycollection-map, "fabric-pattern");
+}
+.flaticon-scissors:before {
+    content: map-get($flaticon_mycollection-map, "scissors");
+}
+.flaticon-fashion-designer:before {
+    content: map-get($flaticon_mycollection-map, "fashion-designer");
+}
+.flaticon-scissors-1:before {
+    content: map-get($flaticon_mycollection-map, "scissors-1");
+}
+.flaticon-clothes-1:before {
+    content: map-get($flaticon_mycollection-map, "clothes-1");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon_mycollection-map, "pin");
+}
+.flaticon-sewing-machine-1:before {
+    content: map-get($flaticon_mycollection-map, "sewing-machine-1");
+}
+.flaticon-threads-1:before {
+    content: map-get($flaticon_mycollection-map, "threads-1");
+}

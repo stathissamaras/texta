@@ -1,0 +1,56 @@
+{% load static i18n %}
+<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% trans "Διαμόρφωση Καλύμματος" %}</title>
+
+    <link href="{% static 'css/vendor/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'configurator/css/configurator.css' %}" rel="stylesheet">
+</head>
+<body>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 align-items-start">
+
+            <div class="col-lg-4">
+                <div id="zoom-wrap" class="position-relative">
+                <img id="preview" src="{{ white_image }}" alt="{{ seat.name }}" class="img-fluid">
+                <div id="zoom-lens"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <h5>1. {% trans "Κεντρικό ύφασμα" %}</h5>
+                <div class="row row-cols-4 row-cols-md-6 g-2 mb-4 overflow-auto swatch-list">
+                {% for m in kentrika %}
+                <div class="col">
+                    <img src="{{ m.swatch }}" alt="{{ m.name }}" title="{{ m.name }}" loading="lazy"
+                        class="swatch img-fluid rounded border"
+                        data-zone="kentrika" data-code="{{ m.code }}" role="button">
+                </div>
+                {% endfor %}
+                </div>
+
+                <h5>2. {% trans "Πλαϊνή δερματίνη" %}</h5>
+                <div class="row row-cols-4 row-cols-md-6 g-2 overflow-auto swatch-list">
+                {% for m in plaina %}
+                <div class="col">
+                    <img src="{{ m.swatch }}" alt="{{ m.name }}" title="{{ m.name }}" loading="lazy"
+                        class="swatch img-fluid rounded border"
+                        data-zone="plaina" data-code="{{ m.code }}" role="button">
+                </div>
+                {% endfor %}
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="{% static 'configurator/js/configurator.js' %}" defer></script>
+</body>
+</html>

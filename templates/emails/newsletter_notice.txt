@@ -1,0 +1,6 @@
+Νέα εγγραφή στο newsletter.
+
+Email: {{ subscriber.email }}
+Γλώσσα: {{ subscriber.language }}
+Προέλευση: {{ subscriber.get_source_display }}
+Ημερομηνία: {{ subscriber.created_at|date:"d/m/Y H:i" }}

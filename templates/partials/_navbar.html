@@ -1,0 +1,321 @@
+<!-- partials/_navbar.html -->
+{% load i18n static %}
+
+        <!-- Top Bar -->
+        <div class="header-top-bar with-border-bottom d-lg-none">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="header-right">
+                            <div class="address-content">
+                                <p>
+                                    <a href="mailto:info@cartextile.gr">
+                                        <i class="feather-mail"></i>
+                                        info@cartextile.gr
+                                    </a>
+                                </p>
+                                <p>
+                                    <i class="feather-phone"></i>
+                                    <span><a href="#">+30 2310 792 630</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Header Area  -->
+        <header class="tmp-header header-default header-not-transparent header-sticky-smooth header-sticky">
+            <div class="container position-relative">
+                <div class="row align-items-center row--0">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-8">
+                        <div class="logo">
+                            <a href="{% url 'textapp:home' %}">
+                                {% include 'partials/_logo.html' %}
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-6 col-4 position-static">
+                        <div class="header-right with-search">
+
+                            <nav class="mainmenu-nav d-none d-lg-block">
+                                <ul class="mainmenu">
+                                    <li class="with-megamenu has-menu-child-item active"><a href="{% url 'textapp:home' %}">{% trans "Αρχική" %}</a>
+                                        <div class="tmp-megamenu with-mega-item-2 full-width-mega">
+                                            <div class="wrapper demos-area-drop-down">
+                                                <div class="row row--0">
+                                                    <div class="col-lg-12">
+                                                        <div class="tab_wrapper onapge-multipage-tab-wrapper">
+                                                            <div class="nav nav-pills me-3 tabs-nav" role="tablist">
+                                                                <button class="nav-links tmp-btn active" data-target=".multipage_content" type="button">{% trans "Υφάσματα" %}</button>
+                                                                <button class="nav-links tmp-btn" data-target=".onepage_content" type="button">{% trans "Jacquard" %}</button>
+                                                            </div>
+
+                                                            <div class="tab-content">
+                                                                <div class="tab-pane multipage_content active">
+                                                                    <!-- multipage area start -->
+                                                                    <ul class="mega-menu-item">
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'pique-headliner' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/011.webp' %}" alt="{% trans 'Καλύμματα Αυτοκινήτου' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'pique-headliner' %}">{% trans "Πικέ Ουρανού" %} <span class="tmp-badge-card success">New</span></a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'velvet-headliner' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/veloute_ouranou.webp' %}" alt="{% trans 'Βελουτέ υφάσματα αυτοκινήτου' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Βελουτέ Ουρανού" %} <span class="tmp-badge-card success">Popular</span></a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'suede-headliner' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/004.webp' %}" {% trans 'Suede υφάσματα αυτοκινήτου' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'suede-headliner' %}">{% trans "Suede Ουρανού" %} <span class="tmp-badge-card success">Coming Soon</span></a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'cotton-towel' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/005.webp' %}" alt="{% trans 'Πετσετέ επένδυση αυτοκινήτου' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'cotton-towel' %}">{% trans "Πετσέτα Cotton" %} <span class="tmp-badge-card success">New</span></a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                    <!-- multipage area end -->
+                                                                </div>
+
+                                                                <div class="tab-pane onepage_content">
+                                                                    <!-- multipage area start -->
+                                                                    <ul class="mega-menu-item">
+
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/009.webp' %}" alt="{% trans 'Βελουτέ υφάσματα αυτοκινήτου' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}">{% trans "Υφάσματα" %} <span class="tmp-badge-card success">Best offer</span></a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/010.webp' %}" alt="{% trans 'Auto Textile Ελλάδα' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}">{% trans "Υφάσματα" %} <span class="tmp-badge-card success">New</span></a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/008.webp' %}" alt="{% trans 'Υφάσματα ταπετσαρίας αυτοκινήτου' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}">{% trans "Υφάσματα" %} <span class="tmp-badge-card success">New</span></a>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}" class="thumbnail-demos">
+                                                                                <img loading="lazy" src="{% static 'images/team/007.webp' %}" alt="{% trans 'Ζακάρ υφάσματα' %}">
+                                                                            </a>
+                                                                            <a href="{% url 'textapp:category' 'jacquard' %}">{% trans "Υφάσματα" %} <span class="tmp-badge-card success">Popular</span></a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                    <!-- multipage area end -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="with-megamenu has-menu-child-item">
+                                        <a href="#">
+                                            {% trans "Προϊόντα" %}
+                                        </a>
+                                        <div class="tmp-megamenu with-mega-item-2 full-width-mega">
+                                            <div class="wrapper">
+                                                <div class="row row--0">
+                                                    <div class="col-xl-3 col-lg-3 single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="{% url 'textapp:category' 'pique-headliner' %}">{% trans "Πικέ Ουρανού" %}<span class="tmp-badge-card">New</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-3 single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Βελουτέ Ουρανού" %}<span class="tmp-badge-card">New</span></a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col-xl-3 col-lg-3 single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="{% url 'textapp:category' 'cotton-towel' %}">{% trans "Πετσέτα Cotton" %} <span class="tmp-badge-card">New</span></a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="col-xl-3 col-lg-3 single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="{% url 'textapp:category' 'suede-headliner' %}">{% trans "Suede Ουρανού" %} <span class="tmp-badge-card">New</span></a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li><a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Ουρανός" %}</a></li>
+
+                                    <li><a href="{% url 'textapp:home' %}#lamination">{% trans "Lamination" %}</a></li>
+
+                                    <li class="with-megamenu has-menu-child-item position-relative">
+                                        <a href="#">{% trans "Εταιρεία" %}</a>
+                                        <div class="tmp-megamenu width-small-mega">
+                                            <div class="wrapper">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="mega-top-banner">
+                                                            <div class="content">
+                                                                <h4 class="title">{% trans "Τμήμα Υποστήριξης" %}</h4>
+                                                                <p class="description">{% trans "Δίπλα σας σε κάθε Βήμα, κάθε Στιγμή" %}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row row--15">
+                                                    <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                                        <h3 class="tmp-short-title">{% trans "Ποιοι είμαστε" %}</h3>
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="{% url 'textapp:facilities' %}">{% trans "Η ιστορία μας" %}</a></li>
+                                                            <li><a href="{% url 'textapp:facilities' %}#history">{% trans "Οι εγκαταστάσεις" %}</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                                        <h3 class="tmp-short-title">{% trans "Παραγωγή" %}</h3>
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="{% url 'textapp:facilities' %}#equipment">{% trans "Eξοπλισμός" %}</a></li>
+                                                            <li><a href="{% url 'textapp:facilities' %}#quality">{% trans "Ποιοτικός έλεγχος" %}</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li><a href="{% url 'textapp:home' %}#contact">{% trans "Επικοινωνία" %}</a></li>
+
+                                </ul>
+
+                            </nav>
+
+                            <!-- Language Switcher -->
+                            <form action="{% url 'set_language' %}" method="post"
+                                    class="d-none d-lg-flex align-items-center ms-3 mb-0">
+                                {% csrf_token %}
+                                <input type="hidden" name="next" value="{{ request.get_full_path }}">
+
+                                {% if LANGUAGE_CODE == 'el' %}
+                                    <button type="submit" name="language" value="en"
+                                            class="btn btn-sm p-0 border-0" title="English">
+                                        <img src="{% static 'images/flags/gb.svg' %}" alt="English" width="24" height="18">
+                                    </button>
+                                {% else %}
+                                    <button type="submit" name="language" value="el"
+                                            class="btn btn-sm p-0 border-0" title="Ελληνικά">
+                                        <img src="{% static 'images/flags/gr.svg' %}" alt="Ελληνικά" width="24" height="18">
+                                    </button>
+                                {% endif %}
+                            </form>
+
+                            <!-- Start Header Btn  -->
+                            <div class="header-btn">
+                                <a class="tmp-btn btn-small round" target="_blank" rel="noopener"
+                                href="https://wa.me/306972033169">{% trans "Start Free Call" %} </a>
+                            </div>
+                            <!-- End Header Btn  -->
+
+                            <!-- Start Mobile-Menu-Bar -->
+                            <div class="mobile-menu-bar ml--5 d-block d-lg-none">
+                                <div class="hamberger">
+                                    <button class="hamberger-button">
+                                        <i class="feather-menu"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Start Mobile-Menu-Bar -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area  -->
+        <div class="popup-mobile-menu">
+            <div class="inner">
+                <div class="header-top">
+                    <div class="logo">
+                        <a href="{% url 'textapp:home' %}">
+                            {% include 'partials/_logo.html' %}
+                        </a>
+                    </div>
+                    <div class="close-menu">
+                        <button class="close-button">
+                            <i class="feather-x"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <ul class="mainmenu">
+                    <li><a href="{% url 'textapp:home' %}">{% trans "Αρχική" %}</a></li>
+
+                    <li class="has-droupdown has-menu-child-item">
+                        <a href="#">{% trans "Προϊόντα" %}</a>
+                        <ul class="submenu">
+                            <li><a href="{% url 'textapp:category' 'pique-headliner' %}">{% trans "Πικέ Ουρανού" %}</a></li>
+                            <li><a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Βελουτέ Ουρανού" %}</a></li>
+                            <li><a href="{% url 'textapp:category' 'cotton-towel' %}">{% trans "Πετσέτα Cotton" %}</a></li>
+                            <li><a href="{% url 'textapp:category' 'suede-headliner' %}">{% trans "Suede Ουρανού" %}</a></li>
+                            <li><a href="{% url 'textapp:category' 'jacquard' %}">{% trans "Jacquard" %}</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Ουρανός" %}</a></li>
+
+                    <li><a href="{% url 'textapp:home' %}#lamination">{% trans "Lamination" %}</a></li>
+
+                    <li class="has-droupdown has-menu-child-item">
+                        <a href="#">{% trans "Εταιρεία" %}</a>
+                        <ul class="submenu">
+                            <li><a href="{% url 'textapp:facilities' %}#history">{% trans "Η ιστορία μας" %}</a></li>
+                            <li><a href="{% url 'textapp:facilities' %}#facilities">{% trans "Οι εγκαταστάσεις" %}</a></li>
+                            <li><a href="{% url 'textapp:facilities' %}#equipment">{% trans "Eξοπλισμός" %}</a></li>
+                            <li><a href="{% url 'textapp:facilities' %}#quality">{% trans "Ποιοτικός έλεγχος" %}</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="{% url 'textapp:home' %}#contact">{% trans "Επικοινωνία" %}</a></li>
+
+                    <li class="lang-switcher">
+                        <form action="{% url 'set_language' %}" method="post"
+                                class="d-flex align-items-center gap-2 mb-0 py-2">
+                            {% csrf_token %}
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+
+                            {% if LANGUAGE_CODE == 'el' %}
+                                <button type="submit" name="language" value="en"
+                                        class="btn btn-sm p-0 border-0 d-flex align-items-center gap-2">
+                                    <img src="{% static 'images/flags/gb.svg' %}" alt="English" width="28" height="21">
+                                    <span>English</span>
+                                </button>
+                            {% else %}
+                                <button type="submit" name="language" value="el"
+                                        class="btn btn-sm p-0 border-0 d-flex align-items-center gap-2">
+                                    <img src="{% static 'images/flags/gr.svg' %}" alt="Ελληνικά" width="28" height="21">
+                                    <span>Ελληνικά</span>
+                                </button>
+                            {% endif %}
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>

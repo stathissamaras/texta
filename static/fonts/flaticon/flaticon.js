@@ -1,0 +1,29 @@
+{
+"icons": [ 
+"flaticon-decorative-textile",
+"flaticon-textile",
+"flaticon-knitting",
+"flaticon-layers",
+"flaticon-clothes",
+"flaticon-textile-1",
+"flaticon-sewing-machine",
+"flaticon-silk",
+"flaticon-yarn",
+"flaticon-textile-printing",
+"flaticon-suit",
+"flaticon-measuring",
+"flaticon-sewing-1",
+"flaticon-sewing",
+"flaticon-tailor",
+"flaticon-shop",
+"flaticon-threads",
+"flaticon-fabric-pattern",
+"flaticon-scissors",
+"flaticon-fashion-designer",
+"flaticon-scissors-1",
+"flaticon-clothes-1",
+"flaticon-pin",
+"flaticon-sewing-machine-1",
+"flaticon-threads-1"
+    ]
+  }

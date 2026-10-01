@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+{% load i18n static %}
+
+{% block title %}{% trans "Εγκαταστάσεις" %} | JB Car Textile{% endblock %}
+{% block description %}{% trans "Η JB Car Textile από το 1985 στα υφάσματα αυτοκινήτου. Εγκαταστάσεις 2.000 τ.μ. με σύγχρονο εξοπλισμό παραγωγής." %}{% endblock %}
+{% block preloader %}{% endblock %}
+
+{% block content %}
+
+    <div class="tmp-dark-island onepage">
+
+        <div class="my-business-service-area tmp-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-flex-between">
+                            <div class="tmp-section-title-border text-start">
+                                <div class="pres-line-separator-wrapper text-start mb--10">
+                                    <span class="subtitle">
+                                        <span class="subtitle-text">{% trans "Η Εταιρεία" %}</span>
+                                    </span>
+                                    <div class="line-separator line-right"></div>
+                                </div>
+                                <h1 class="title w-700 tmp-title-split">{% blocktrans %}Σταθερή παρουσία για πάνω από 40 χρόνια <br>
+                                    στα υφάσματα αυτοκινήτου{% endblocktrans %}</h1>
+                            </div>
+                            <div class="tmp-load-more d-flex justify-content-center">
+                                <a class="tmp-btn btn-large hover-icon-reverse icon-spin" href="{% url 'textapp:home' %}#contact">
+                                    <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">{% trans "Επικοινωνία" %}</span>
+                                        <span class="btn-icon"><i class="feather-loader"></i></span>
+                                        <span class="btn-icon"><i class="feather-loader"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 mt--20">
+                    <div class="col-lg-12">
+                        <div class="single-service-list-area" id="history" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-6">
+                                    <a href="#" class="thumbnail-service-list invers-anime">
+                                        <img src="{% static 'images/equipment/car-textile.webp' %}" alt="{% trans 'Οι εγκαταστάσεις της JB Car Textile' %}">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inner-content">
+                                        <div class="head">
+                                            <div class="icon">
+                                                <i class="flaticon-shop"></i>
+                                            </div>
+                                            <h6 class="title">{% trans "Η ιστορία μας" %}</h6>
+                                        </div>
+                                        <p class="disc">
+                                            {% trans "Το 1985 Ιδρύεται από τον Μιχάλη & Αντώνη Ιωαννίδη η εταιρία JB Car Textile. Αρχικά η εταιρεία δραστηριοποιείτα σε υλικά (πρώτες ύλες) επένδυσης εσωτερικού χώρου αυτοκινήτου." %}
+                                        </p>
+                                        <a class="tmp-btn hover-icon-reverse" href="#facilities">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% trans "Περισσότερα..." %}</span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-service-list-area" id="facilities" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-6 order-2 order-lg-1 order-md-2 order-sm-2">
+                                    <div class="inner-content">
+                                        <div class="head">
+                                            <div class="icon">
+                                                <img src="{% static 'images/services/list/icon/01.svg' %}" alt="{% trans 'JB Car Textile' %}">
+                                            </div>
+                                            <h6 class="title">{% trans "Ανάπτυξη" %}</h6>
+                                        </div>
+                                        <p class="disc">
+                                            {% trans "Το 2005 Πραγματοποιείται μια σημαντική επένδυση για την επέκταση των παραγωγικών εγκαταστάσεων, ώστε να ανταποκρίνονται στους υψηλούς στόχους της εταιρίας." %}
+                                        </p>
+                                        <a class="tmp-btn hover-icon-reverse" href="#equipment">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% trans "Περισσότερα..." %}</span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
+                                    <a href="#" class="thumbnail-service-list invers-anime">
+                                        <img src="{% static 'images/equipment/textile-jb-car.webp' %}" alt="{% trans 'Ιδιόκτητες εγκαταστάσεις 2.000 τ.μ.' %}">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-service-list-area" id="equipment" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-6">
+                                    <a href="#" class="thumbnail-service-list invers-anime">
+                                        <img src="{% static 'images/equipment/jb-car-textile.webp' %}" alt="{% trans 'Σύγχρονος εξοπλισμός παραγωγής υφασμάτων' %}">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="inner-content">
+                                        <div class="head">
+                                            <div class="icon">
+                                                <i class="flaticon-sewing-machine"></i>
+                                            </div>
+                                            <h6 class="title">{% trans "Εξοπλισμός" %}</h6>
+                                        </div>
+                                        <p class="disc">
+                                            {% trans "Σήμερα, η Car Textile JB είναι μια πρωτοπόρος εταιρία με εγκαταστάσεις που εκτείνονται σε 2.000 τ.μ. και με σύγχρονο εξοπλισμό, δύναται να καλύψει με επιτυχία κάθε ανάγκη του επαγγελματία." %}
+                                        </p>
+                                        <a class="tmp-btn hover-icon-reverse" href="#quality">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% trans "Περισσότερα..." %}</span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-service-list-area" id="quality" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-6 order-2 order-lg-1 order-md-2 order-sm-2">
+                                    <div class="inner-content">
+                                        <div class="head">
+                                            <div class="icon">
+                                                <i class="flaticon-measuring"></i>
+                                            </div>
+                                            <h6 class="title">{% trans "Αποστολή & όραμα" %}</h6>
+                                        </div>
+                                        <p class="disc">
+                                            {% trans "Με περισσότερα από 40 χρόνια εμπειρίας και τεχνογνωσίας, προσφέρουμε προϊόντα υψηλής ποιότητας για επαγγελματίες του κλάδου. Η σταθερή ποιότητα, η σωστή επιλογή των υλικών και η συνέπεια απέναντι στους συνεργάτες μας αποτελούν σταθερή προτεραιότητά μας." %}
+                                        </p>
+                                        <a class="tmp-btn hover-icon-reverse" href="{% url 'textapp:home' %}#contact">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% trans "Περισσότερα..." %}</span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
+                                    <a href="#" class="thumbnail-service-list invers-anime">
+                                        <img src="{% static 'images/equipment/equipment-jb.webp' %}" alt="{% trans 'Υφάσματα εσωτερικής επένδυσης αυτοκινήτου' %}">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

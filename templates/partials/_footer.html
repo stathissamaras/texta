@@ -1,0 +1,154 @@
+<!-- partials/_footer.html -->
+{% load i18n static %}
+
+        <!-- Start Footer Area  -->
+        <footer class="tmp-footer footer-style-default variation-two position-relative">
+
+            <div class="footer-top pt--0">
+
+                <!-- κάρτα newsletter -->
+                <div class="container pb--80">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="footer-message-and-form">
+                                <p class="colophon">
+                                    {% trans "Υφάσματα Αυτοκινήτου από το 1985." %}
+                                </p>
+                                <div class="footer-form-wrap">
+
+                                    <h4>{% trans "Εγγραφείτε στο Newsletter" %}</h4>
+
+                                    <p>{% trans "Μάθετε για τα νέα μας είδη" %}</p>
+
+                                    <form method="post" action="{% url 'textapp:newsletter' %}">
+                                        {% csrf_token %}
+                                        <input type="hidden" name="next" value="{{ request.path }}">
+
+                                        <div class="input-group tmponhover">
+                                            <input type="email" name="email" required
+                                                    autocomplete="email"
+                                                    placeholder="{% trans 'Email Here' %}">
+                                        </div>
+
+                                        {# Παγίδα για τα ρομπότ - κρύβεται με την .hp-field του style.css #}
+                                        <div class="hp-field">
+                                            <label for="nl-website">{% trans "Μην συμπληρώσετε αυτό το πεδίο" %}</label>
+                                            <input type="text" name="website" id="nl-website"
+                                                    tabindex="-1" autocomplete="off">
+                                        </div>
+
+                                        <button type="submit" class="tmp-btn btn-primary">{% trans "SUBSCRIBE" %}</button>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- οι 4 στήλες -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="tmp-footer-widget">
+                                <div class="logo">
+                                    <a href="{% url 'textapp:home' %}">
+                                        {% include 'partials/_logo.html' %}
+                                    </a>
+                                </div>
+                                <p class="subtitle mt--30">{% trans "Με περισσότερα από 40 χρόνια εμπειρίας, παράγουμε υλικά εξαιρετικής ποιότητας." %}</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="tmp-footer-widget">
+                                <h4 class="title">{% trans "Εταιρεία" %}</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="{% url 'textapp:home' %}">{% trans "Αρχική" %}</a></li>
+                                        <li><a href="{% url 'textapp:home' %}#contact">{% trans "Η ομάδα μας" %}</a></li>
+                                        <li><a href="{% url 'textapp:home' %}#lamination">{% trans "Παραγωγή" %}</a></li>
+                                        <li><a href="{% url 'textapp:home' %}#contact">{% trans "B2B" %}</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="tmp-footer-widget">
+                                <h4 class="title">{% trans "Προϊόντα" %}</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="{% url 'textapp:category' 'pique-headliner' %}">{% trans "Πικέ" %}</a></li>
+                                        <li><a href="{% url 'textapp:category' 'velvet-headliner' %}">{% trans "Βελουτέ" %}</a></li>
+                                        <li><a href="{% url 'textapp:category' 'suede-headliner' %}">{% trans "Suede" %}</a></li>
+                                        <li><a href="{% url 'textapp:category' 'cotton-towel' %}">{% trans "Πετσέτα" %}</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="tmp-footer-widget">
+                                <h4 class="title"><a href="tel:+302310792630">+30 2310 792 630</a></h4>
+                                <div class="inner">
+                                    <h6 class="subtitle">{% trans "Δευτέρα - Παρασκευή 09.00 - 17.00" %}</h6>
+                                    <ul class="social-icon social-default justify-content-start">
+                                        <li><a href="{% url 'textapp:home' %}">
+                                                <i class="flaticon-sewing-machine"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="{% url 'textapp:home' %}">
+                                                <i class="flaticon-knitting"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="{% url 'textapp:home' %}">
+                                                <i class="flaticon-textile-printing"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="{% url 'textapp:home' %}">
+                                                <i class="flaticon-layers"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-line-animatoin-area-global"></div>
+            </div>
+
+            <!-- Start Copy Right Area  -->
+            <div class="copyright-area copyright-style-one">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+                            <div class="copyright-left">
+                                <ul class="ft-menu link-hover">
+                                    <li>
+                                        <a href="{% url 'textapp:legal' %}#privacy">{% trans "Πολιτική απορρήτου" %}</a>
+                                    </li>
+                                    <li>
+                                        <a href="{% url 'textapp:legal' %}#terms">{% trans "Γενικοί όροι" %}</a>
+                                    </li>
+                                    <li>
+                                        <a href="{% url 'textapp:legal' %}#gdpr">{% trans "Δικαιώματα GDPR" %}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-sm-12 col-12">
+                            <div class="copyright-right text-center text-lg-end">
+                                <p class="copyright-text">{% trans "All Right Reserved © OktoWeb" %}
+                                    <span>{% now "Y" %}</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Copy Right Area  -->
+            <div class="shape-area wow move-right" data-wow-offset="250">
+
+            </div>
+        </footer>
+        <!-- End Footer Area  -->
