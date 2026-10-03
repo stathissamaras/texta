@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /newsletter/confirm/
+Disallow: /newsletter/unsubscribe/
+Disallow: /newsletter/sent/
+
+Sitemap: https://cartextile.gr/sitemap.xml

@@ -16,3 +16,7 @@ media/
 
 # VS Code
 .vscode/
+
+# Τοπικά - δεν ανεβαίνουν
+data.json
+git

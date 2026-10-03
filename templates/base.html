@@ -7,30 +7,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-style-mode" content="1">
-    <meta name="description" content="{% block description %}{% trans 'Υφάσματα εσωτερικής επένδυσης αυτοκινήτου από το 1985. Ουρανός, καλύμματα καθισμάτων και τεχνικά υφάσματα για επαγγελματίες του κλάδου.' %}{% endblock %}">
 
     <title>{% block title %}JB Car Textile{% endblock %}</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.png' %}">
-    <!-- CSS ============================================ -->
+    <meta name="description" content="{% block description %}{% trans 'Υφάσματα εσωτερικής επένδυσης αυτοκινήτου από το 1985. Ουρανός, καλύμματα καθισμάτων και τεχνικά υφάσματα για επαγγελματίες του κλάδου.' %}{% endblock %}">
 
-    <!-- google fonts -->
+    <!-- Κανονικό URL και γλώσσες -->
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% for code, url in alternate_urls %}
+    <link rel="alternate" hreflang="{{ code }}" href="{{ url }}">
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="https://cartextile.gr/el/">
+
+    <!-- Open Graph - Facebook, Viber, WhatsApp, LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="JB Car Textile">
+    <meta property="og:url" content="{{ canonical_url }}">
+    <meta property="og:title" content="{% block og_title %}JB Car Textile{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{% trans 'Υφάσματα εσωτερικής επένδυσης αυτοκινήτου από το 1985.' %}{% endblock %}">
+    <meta property="og:image" content="{% block og_image %}{{ request.scheme }}://{{ request.get_host }}{% static 'images/og/jb-car-textile.jpg' %}{% endblock %}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="{% if LANGUAGE_CODE == 'en' %}en_US{% else %}el_GR{% endif %}">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon/favicon.ico' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon/favicon-16x16.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicon/apple-touch-icon.png' %}">
+    <link rel="manifest" href="{% static 'images/favicon/site.webmanifest' %}">
+    <meta name="theme-color" content="#e4002b">
+
+    <!-- Γραμματοσειρές -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <!-- google fonts end-->
 
+    <!-- CSS -->
     <link href="{% static 'css/vendor/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/plugins/feature.css' %}" rel="stylesheet">
     <link href="{% static 'css/plugins/slick.css' %}" rel="stylesheet">
     <link href="{% static 'css/plugins/slick-theme.css' %}" rel="stylesheet">
     <link href="{% static 'css/plugins/lightbox.css' %}" rel="stylesheet">
     <link href="{% static 'css/plugins/odometer.css' %}" rel="stylesheet">
-
     <link href="{% static 'fonts/flaticon/flaticon.css' %}" rel="stylesheet">
-
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "JB Car Textile",
+    "legalName": "JB CAR TEXTILE Ο.Ε.",
+    "url": "https://cartextile.gr",
+    "logo": "https://cartextile.gr/static/images/favicon/android-chrome-512x512.png",
+    "image": "https://cartextile.gr/static/images/favicon/android-chrome-512x512.png",
+    "telephone": "+302310792630",
+    "email": "info@cartextile.gr",
+    "vatID": "EL081570148",
+    "foundingDate": "1985",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Χαλάστρα",
+        "postalCode": "57300",
+        "addressRegion": "Θεσσαλονίκη",
+        "addressCountry": "GR"
+    },
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+    }]
+    }
+    </script>
 </head>
 
 <body class="gym-demo active-light-mode{% block body_class %}{% endblock %}">

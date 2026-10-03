@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cartextile 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 15:03+0300\n"
+"POT-Creation-Date: 2026-10-03 18:33+0300\n"
 "PO-Revision-Date: 2026-10-01 14:00+0300\n"
 "Last-Translator: OktoWeb\n"
 "Language-Team: English\n"
@@ -15,7 +15,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\templates\base.html:10
+#: .\templates\400.html:4 .\templates\400.html:22
+msgid "Μη έγκυρο αίτημα"
+msgstr "Invalid request"
+
+#: .\templates\400.html:5
+msgid "Το αίτημα δεν ήταν έγκυρο."
+msgstr "The request was not valid."
+
+#: .\templates\400.html:25
+msgid "Το αίτημα που στάλθηκε δεν ήταν έγκυρο και δεν μπόρεσε να εξυπηρετηθεί."
+msgstr "The request that was sent was not valid and could not be served."
+
+#: .\templates\400.html:33 .\templates\403.html:34 .\templates\404.html:34
+msgid "Αρχική σελίδα"
+msgstr "Home page"
+
+#: .\templates\403.html:4 .\templates\403.html:22
+msgid "Δεν επιτρέπεται η πρόσβαση"
+msgstr "Access is not permitted"
+
+#: .\templates\403.html:5
+msgid "Δεν έχετε δικαίωμα πρόσβασης σε αυτή τη σελίδα."
+msgstr "You do not have permission to view this page."
+
+#: .\templates\403.html:25
+msgid ""
+"Δεν έχετε δικαίωμα πρόσβασης σε αυτή τη σελίδα. Αν συμπληρώνατε φόρμα, η "
+"συνεδρία σας πιθανότατα έληξε - επιστρέψτε και δοκιμάστε ξανά."
+msgstr ""
+"You do not have permission to view this page. If you were filling in a form, "
+"your session has probably expired - go back and try again."
+
+#: .\templates\404.html:4 .\templates\404.html:22
+msgid "Η σελίδα δεν βρέθηκε"
+msgstr "The page was not found"
+
+#: .\templates\404.html:5
+msgid "Η διεύθυνση που ζητήσατε δεν αντιστοιχεί σε σελίδα του ιστότοπου."
+msgstr "The address you requested does not match a page on this website."
+
+#: .\templates\404.html:25
+msgid ""
+"Η διεύθυνση που ζητήσατε δεν αντιστοιχεί σε σελίδα του ιστότοπου. Ενδέχεται "
+"να έχει αλλάξει ή να πληκτρολογήθηκε λανθασμένα."
+msgstr ""
+"The address you requested does not match a page on this website. It may have "
+"been changed, or it was typed incorrectly."
+
+#: .\templates\base.html:12
 msgid ""
 "Υφάσματα εσωτερικής επένδυσης αυτοκινήτου από το 1985. Ουρανός, καλύμματα "
 "καθισμάτων και τεχνικά υφάσματα για επαγγελματίες του κλάδου."
@@ -23,7 +71,11 @@ msgstr ""
 "Automotive interior lining fabrics since 1985. Headliners, seat covers and "
 "technical textiles for the professionals of the industry."
 
-#: .\templates\base.html:67
+#: .\templates\base.html:26
+msgid "Υφάσματα εσωτερικής επένδυσης αυτοκινήτου από το 1985."
+msgstr "Automotive interior fabrics and headliners since 1985"
+
+#: .\templates\base.html:117
 msgid "Scroll to top"
 msgstr "Scroll to top"
 
@@ -96,7 +148,7 @@ msgstr "Our production"
 #: .\templates\categories\pique-headliner.html:138
 #: .\templates\categories\pvc-leatherette.html:138
 #: .\templates\categories\suede-headliner.html:139
-#: .\templates\categories\velvet-headliner.html:138 .\templates\legal.html:251
+#: .\templates\categories\velvet-headliner.html:138 .\templates\legal.html:253
 msgid "Καλέστε μας τώρα!"
 msgstr "Call us right now!"
 
@@ -605,7 +657,7 @@ msgstr ""
 "right selection of the materials and reliability towards our partners remain "
 "our constant priority."
 
-#: .\templates\facilities.html:152
+#: .\templates\facilities.html:152 .\templates\home.html:4
 msgid "Υφάσματα εσωτερικής επένδυσης αυτοκινήτου"
 msgstr "Fabrics for automotive interior lining"
 
@@ -1211,7 +1263,7 @@ msgstr ""
 msgid "Διαφάνεια"
 msgstr "Transparency"
 
-#: .\templates\legal.html:34 .\templates\legal.html:212
+#: .\templates\legal.html:34 .\templates\legal.html:214
 msgid "Πολιτική Απορρήτου"
 msgstr "Privacy Policy"
 
@@ -1242,12 +1294,12 @@ msgid "Χρόνος διατήρησης των μηνυμάτων επικοι�
 msgstr "Retention period of the contact messages."
 
 #: .\templates\legal.html:71
-msgid "Χωρίς παρακολούθηση"
-msgstr "Without any tracking"
+msgid "Με τη συγκατάθεσή σας"
+msgstr "With your consent"
 
 #: .\templates\legal.html:72
-msgid "Μόνο τεχνικώς απαραίτητα cookies, χωρίς προφίλ επισκεπτών."
-msgstr "Only technically necessary cookies, no visitor profiling."
+msgid "Στατιστικά cookies μόνο μετά από αποδοχή, χωρίς διαφήμιση."
+msgstr "Statistics cookies only after you accept, with no adverts."
 
 #: .\templates\legal.html:81
 msgid "Καμία διαβίβαση"
@@ -1295,19 +1347,23 @@ msgstr "Cookies"
 
 #: .\templates\legal.html:109
 msgid ""
-"Η ιστοσελίδα χρησιμοποιεί αποκλειστικά τεχνικώς απαραίτητα cookies: ένα για "
-"τη συνεδρία σας, ένα για την προστασία των φορμών και ένα για τη γλώσσα που "
-"έχετε επιλέξει. Δεν χρησιμοποιούνται cookies διαφήμισης ή παρακολούθησης."
+"Η ιστοσελίδα χρησιμοποιεί τεχνικώς απαραίτητα cookies: ένα για τη συνεδρία "
+"σας, ένα για την προστασία των φορμών και ένα για τη γλώσσα που έχετε "
+"επιλέξει. Εφόσον δώσετε τη συγκατάθεσή σας, χρησιμοποιεί επιπλέον cookies "
+"στατιστικής ανάλυσης του Google Analytics, με ανωνυμοποιημένη διεύθυνση IP. "
+"Δεν χρησιμοποιούνται cookies διαφήμισης."
 msgstr ""
-"The website uses exclusively technically necessary cookies: one for your "
-"session, one for the protection of the forms and one for the language you "
-"have selected. No advertising or tracking cookies are used."
+"The website uses technically necessary cookies: one for your session, one "
+"for the protection of the forms and one for the language that you have "
+"selected. If you give your consent, it additionally uses Google Analytics "
+"statistics cookies, with an anonymised IP address. No advertising cookies "
+"are used."
 
-#: .\templates\legal.html:117 .\templates\legal.html:217
+#: .\templates\legal.html:119 .\templates\legal.html:219
 msgid "Γενικοί Όροι Χρήσης"
 msgstr "General Terms of Use"
 
-#: .\templates\legal.html:120
+#: .\templates\legal.html:122
 msgid ""
 "Η JB CAR TEXTILE, μέσω του διαδικτυακού της τόπου www.cartextile.gr, παρέχει "
 "στον επισκέπτη τη δυνατότητα να ενημερωθεί για την Εταιρεία και τα προϊόντα "
@@ -1319,7 +1375,7 @@ msgstr ""
 "of the website presupposes the unreserved acceptance of the present terms, "
 "which apply to the whole of its content."
 
-#: .\templates\legal.html:129
+#: .\templates\legal.html:131
 msgid ""
 "Ο επισκέπτης οφείλει να χρησιμοποιεί την ιστοσελίδα αποκλειστικά για "
 "νόμιμους σκοπούς και σύμφωνα με το ελληνικό, ενωσιακό και διεθνές δίκαιο, "
@@ -1332,7 +1388,7 @@ msgstr ""
 "faith and in line with proper conduct, refraining from any behaviour that "
 "may cause harm to other visitors or a malfunction of the website."
 
-#: .\templates\legal.html:139
+#: .\templates\legal.html:141
 msgid ""
 "Το περιεχόμενο της ιστοσελίδας, συμπεριλαμβανομένων κειμένων, φωτογραφιών, "
 "σημάτων και κωδίκων χρωμάτων, αποτελεί πνευματική ιδιοκτησία της Εταιρείας. "
@@ -1344,7 +1400,7 @@ msgstr ""
 "prohibited, without prior written permission, to copy, modify, reproduce, "
 "transmit or in any other manner exploit it."
 
-#: .\templates\legal.html:148
+#: .\templates\legal.html:150
 msgid ""
 "Τα δείγματα χρωμάτων και υφών που παρουσιάζονται είναι ενδεικτικά. Η απόδοσή "
 "τους στην οθόνη ενδέχεται να διαφέρει από το φυσικό υλικό. Για ακριβή "
@@ -1354,7 +1410,7 @@ msgstr ""
 "the screen may differ from the physical material. For an exact colour match "
 "please address the Company."
 
-#: .\templates\legal.html:156
+#: .\templates\legal.html:158
 msgid ""
 "Η Εταιρεία διατηρεί το δικαίωμα να τροποποιεί οποτεδήποτε τους παρόντες "
 "όρους και το περιεχόμενο της ιστοσελίδας. Η συνέχιση της χρήσης της "
@@ -1364,11 +1420,11 @@ msgstr ""
 "the content of the website. The continued use of the website is presumed to "
 "be an acceptance of them."
 
-#: .\templates\legal.html:164
+#: .\templates\legal.html:166
 msgid "Τα δικαιώματά σας - GDPR"
 msgstr "Your rights - GDPR"
 
-#: .\templates\legal.html:167
+#: .\templates\legal.html:169
 msgid ""
 "Ως υποκείμενο των δεδομένων έχετε τα ακόλουθα δικαιώματα, τα οποία ασκείτε "
 "δωρεάν με αίτημά σας προς την Εταιρεία."
@@ -1376,35 +1432,35 @@ msgstr ""
 "As a data subject you have the following rights, which you exercise free of "
 "charge by a request to the Company."
 
-#: .\templates\legal.html:174
+#: .\templates\legal.html:176
 msgid "Πρόσβαση στα δεδομένα που σας αφορούν"
 msgstr "Access to the data that concerns you"
 
-#: .\templates\legal.html:175
+#: .\templates\legal.html:177
 msgid "Διόρθωση ανακριβών ή συμπλήρωση ελλιπών δεδομένων"
 msgstr "Rectification of inaccurate or completion of incomplete data"
 
-#: .\templates\legal.html:176
+#: .\templates\legal.html:178
 msgid "Διαγραφή των δεδομένων σας"
 msgstr "Erasure of your data"
 
-#: .\templates\legal.html:177
+#: .\templates\legal.html:179
 msgid "Περιορισμό της επεξεργασίας"
 msgstr "Restriction of the processing"
 
-#: .\templates\legal.html:178
+#: .\templates\legal.html:180
 msgid "Φορητότητα σε δομημένο μορφότυπο"
 msgstr "Portability in a structured format"
 
-#: .\templates\legal.html:179
+#: .\templates\legal.html:181
 msgid "Εναντίωση στην επεξεργασία"
 msgstr "Objection to the processing"
 
-#: .\templates\legal.html:180
+#: .\templates\legal.html:182
 msgid "Ανάκληση της συγκατάθεσής σας ανά πάσα στιγμή"
 msgstr "Withdrawal of your consent at any time"
 
-#: .\templates\legal.html:184
+#: .\templates\legal.html:186
 msgid ""
 "Για την άσκηση των δικαιωμάτων σας επικοινωνήστε στο info@cartextile.gr ή "
 "στο +30 2310 792 630. Απαντούμε εντός ενός μηνός από την παραλαβή του "
@@ -1414,7 +1470,7 @@ msgstr ""
 "630. We reply within one month from the receipt of the request. Every "
 "newsletter includes a direct unsubscribe link."
 
-#: .\templates\legal.html:192
+#: .\templates\legal.html:194
 msgid ""
 "Εφόσον θεωρείτε ότι η επεξεργασία των δεδομένων σας παραβιάζει τη νομοθεσία, "
 "έχετε δικαίωμα προσφυγής στην Αρχή Προστασίας Δεδομένων Προσωπικού "
@@ -1424,35 +1480,35 @@ msgstr ""
 "you have the right to lodge a complaint with the Hellenic Data Protection "
 "Authority, 1-3 Kifissias Avenue, 11523 Athens, www.dpa.gr."
 
-#: .\templates\legal.html:206
+#: .\templates\legal.html:208
 msgid "Περιεχόμενα"
 msgstr "Contents"
 
-#: .\templates\legal.html:222 .\templates\partials\_footer.html:134
+#: .\templates\legal.html:224 .\templates\partials\_footer.html:134
 msgid "Δικαιώματα GDPR"
 msgstr "GDPR rights"
 
-#: .\templates\legal.html:231
+#: .\templates\legal.html:233
 msgid "Στοιχεία Εταιρείας"
 msgstr "Company Details"
 
-#: .\templates\legal.html:236
+#: .\templates\legal.html:238
 msgid "Βιοτεχνία καλυμμάτων αυτοκινήτων"
 msgstr "Manufacturer of automotive fabrics"
 
-#: .\templates\legal.html:237
+#: .\templates\legal.html:239
 msgid "Συγκολλήσεις υφασμάτων &amp; πλαστικών με αφρολέξ - Πλεκτήριο υφασμάτων"
 msgstr "Lamination of fabrics &amp; plastics with foam - Fabric knitting mill"
 
-#: .\templates\legal.html:238
+#: .\templates\legal.html:240
 msgid "Χαλάστρα, Τ.Κ. 57300, Θεσσαλονίκη"
 msgstr "Chalastra, P.C. 57300, Thessaloniki"
 
-#: .\templates\legal.html:240
+#: .\templates\legal.html:242
 msgid "ΑΦΜ 081570148 - ΔΟΥ Ιωνίας"
 msgstr "VAT No EL081570148 - Ionia"
 
-#: .\templates\legal.html:241
+#: .\templates\legal.html:243
 msgid "ΓΕΜΗ 038034505000"
 msgstr "GEMI 038034505000"
 
@@ -1725,7 +1781,7 @@ msgstr "From where"
 msgid "Επιβεβαιώστε την εγγραφή σας - JB Car Textile"
 msgstr "Confirm your subscription - JB Car Textile"
 
-#: .\textapp\forms.py:9 .\textapp\forms.py:10 .\textapp\models.py:305
+#: .\textapp\forms.py:9 .\textapp\forms.py:10 .\textapp\models.py:303
 msgid "Επωνυμία"
 msgstr "Company name"
 
@@ -1733,12 +1789,12 @@ msgstr "Company name"
 msgid "Συμπληρώστε την επωνυμία σας."
 msgstr "Please enter your company name."
 
-#: .\textapp\forms.py:14 .\textapp\forms.py:15 .\textapp\models.py:306
+#: .\textapp\forms.py:14 .\textapp\forms.py:15 .\textapp\models.py:304
 msgid "Τηλέφωνο"
 msgstr "Telephone"
 
-#: .\textapp\forms.py:18 .\textapp\forms.py:51 .\textapp\models.py:307
-#: .\textapp\models.py:345
+#: .\textapp\forms.py:18 .\textapp\forms.py:51 .\textapp\models.py:305
+#: .\textapp\models.py:343
 msgid "Email"
 msgstr "Email"
 
@@ -1754,11 +1810,11 @@ msgstr "Please enter your email."
 msgid "Το email δεν φαίνεται σωστό."
 msgstr "The email does not look correct."
 
-#: .\textapp\forms.py:26 .\textapp\forms.py:27 .\textapp\models.py:308
+#: .\textapp\forms.py:26 .\textapp\forms.py:27 .\textapp\models.py:306
 msgid "Θέμα"
 msgstr "Subject"
 
-#: .\textapp\forms.py:30 .\textapp\models.py:309
+#: .\textapp\forms.py:30 .\textapp\models.py:307
 msgid "Μήνυμα"
 msgstr "Message"
 
@@ -1942,7 +1998,7 @@ msgstr "Category"
 msgid "Κατηγορίες"
 msgstr "Categories"
 
-#: .\textapp\models.py:167 .\textapp\models.py:384
+#: .\textapp\models.py:167 .\textapp\models.py:382
 msgid "Κωδικός"
 msgstr "Code"
 
@@ -1950,7 +2006,7 @@ msgstr "Code"
 msgid "Μπαίνει στο URL, π.χ. ouranos-pike"
 msgstr "Goes into the URL, e.g. ouranos-pike"
 
-#: .\textapp\models.py:171 .\textapp\models.py:378 .\textapp\models.py:382
+#: .\textapp\models.py:171 .\textapp\models.py:376 .\textapp\models.py:380
 msgid "Είδος"
 msgstr "Type"
 
@@ -2050,107 +2106,107 @@ msgstr "Pattern (EN)"
 msgid "Εμφανίζει το icon bielasticity"
 msgstr "Shows the bielasticity icon"
 
-#: .\textapp\models.py:237 .\textapp\models.py:379
+#: .\textapp\models.py:237 .\textapp\models.py:377
 msgid "Προϊόν"
 msgstr "Product"
 
-#: .\textapp\models.py:312
+#: .\textapp\models.py:310
 msgid "Χώρα"
 msgstr "Country"
 
-#: .\textapp\models.py:313
+#: .\textapp\models.py:311
 msgid "Πόλη"
 msgstr "City"
 
-#: .\textapp\models.py:316 .\textapp\models.py:346 .\textapp\models.py:389
+#: .\textapp\models.py:314 .\textapp\models.py:344 .\textapp\models.py:387
 msgid "Γλώσσα"
 msgstr "Language"
 
-#: .\textapp\models.py:317 .\textapp\models.py:353 .\textapp\models.py:387
+#: .\textapp\models.py:315 .\textapp\models.py:351 .\textapp\models.py:385
 msgid "IP"
 msgstr "IP"
 
-#: .\textapp\models.py:318
+#: .\textapp\models.py:316
 msgid "Συσκευή"
 msgstr "Device"
 
-#: .\textapp\models.py:319 .\textapp\models.py:347
+#: .\textapp\models.py:317 .\textapp\models.py:345
 msgid "Προέλευση"
 msgstr "Source"
 
-#: .\textapp\models.py:320
+#: .\textapp\models.py:318
 msgid "UTM source"
 msgstr "UTM source"
 
-#: .\textapp\models.py:321
+#: .\textapp\models.py:319
 msgid "UTM medium"
 msgstr "UTM medium"
 
-#: .\textapp\models.py:322
+#: .\textapp\models.py:320
 msgid "UTM campaign"
 msgstr "UTM campaign"
 
-#: .\textapp\models.py:324
+#: .\textapp\models.py:322
 msgid "Συγκατάθεση"
 msgstr "Consent"
 
-#: .\textapp\models.py:325 .\textapp\models.py:354 .\textapp\models.py:390
+#: .\textapp\models.py:323 .\textapp\models.py:352 .\textapp\models.py:388
 msgid "Ημερομηνία"
 msgstr "Date"
 
-#: .\textapp\models.py:328
+#: .\textapp\models.py:326
 msgid "Μήνυμα επικοινωνίας"
 msgstr "Contact message"
 
-#: .\textapp\models.py:329
+#: .\textapp\models.py:327
 msgid "Μηνύματα επικοινωνίας"
 msgstr "Contact messages"
 
-#: .\textapp\models.py:341
+#: .\textapp\models.py:339
 msgid "Footer"
 msgstr "Footer"
 
-#: .\textapp\models.py:342
+#: .\textapp\models.py:340
 msgid "Φόρμα επικοινωνίας"
 msgstr "Contact form"
 
-#: .\textapp\models.py:343
+#: .\textapp\models.py:341
 msgid "Άλλο"
 msgstr "Other"
 
-#: .\textapp\models.py:350
+#: .\textapp\models.py:348
 msgid "Επιβεβαιώθηκε"
 msgstr "Confirmed"
 
-#: .\textapp\models.py:351
+#: .\textapp\models.py:349
 msgid "Απεγγράφηκε"
 msgstr "Unsubscribed"
 
-#: .\textapp\models.py:357
+#: .\textapp\models.py:355
 msgid "Συνδρομητής"
 msgstr "Subscriber"
 
-#: .\textapp\models.py:358
+#: .\textapp\models.py:356
 msgid "Συνδρομητές"
 msgstr "Subscribers"
 
-#: .\textapp\models.py:380
+#: .\textapp\models.py:378
 msgid "Δείγμα"
 msgstr "Sample"
 
-#: .\textapp\models.py:385
+#: .\textapp\models.py:383
 msgid "π.χ. 'ouranos-pike' ή 'K622'"
 msgstr "e.g. 'ouranos-pike' or 'K622'"
 
-#: .\textapp\models.py:388
+#: .\textapp\models.py:386
 msgid "Session"
 msgstr "Session"
 
-#: .\textapp\models.py:393
+#: .\textapp\models.py:391
 msgid "Προβολή"
 msgstr "View"
 
-#: .\textapp\models.py:394
+#: .\textapp\models.py:392
 msgid "Προβολές"
 msgstr "Views"
 
@@ -2173,3 +2229,9 @@ msgstr "Your email is already subscribed."
 #: .\textapp\views.py:104
 msgid "Σας στείλαμε email επιβεβαίωσης. Ελέγξτε τα εισερχόμενά σας."
 msgstr "We sent you a confirmation email. Please check your inbox."
+
+#~ msgid "Χωρίς παρακολούθηση"
+#~ msgstr "Without any tracking"
+
+#~ msgid "Μόνο τεχνικώς απαραίτητα cookies, χωρίς προφίλ επισκεπτών."
+#~ msgstr "Only technically necessary cookies, no visitor profiling."

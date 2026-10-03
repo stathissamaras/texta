@@ -241,8 +241,6 @@ class Product(TranslatedFieldsMixin, models.Model):
     def __str__(self):
         return f"{self.code} - {self.name_el}"
 
-    def get_absolute_url(self):
-        return reverse("textapp:product", args=[self.category.slug, self.slug])
 
     # --- Τα properties χρησιμοποιούνται στα templates ---
     @property

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Μη έγκυρο αίτημα" %} | JB Car Textile{% endblock %}
+{% block description %}{% trans "Το αίτημα δεν ήταν έγκυρο." %}{% endblock %}
+
+{% block body_class %} overflow-visible{% endblock %}
+
+{% block content %}
+
+    <div class="tmp-service-details-area tmp-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+
+                    <div class="pres-line-separator-wrapper text-center mb--10">
+                        <div class="line-separator line-left"></div>
+                        <span class="subtitle"><span class="number">400</span></span>
+                        <div class="line-separator line-right"></div>
+                    </div>
+
+                    <h1 class="title w-700 mb--30 tmp-title-split">{% trans "Μη έγκυρο αίτημα" %}</h1>
+
+                    <p class="disc mb--40">
+                        {% blocktrans trimmed %}
+                        Το αίτημα που στάλθηκε δεν ήταν έγκυρο και δεν μπόρεσε να εξυπηρετηθεί.
+                        {% endblocktrans %}
+                    </p>
+
+                    <div class="tmp-load-more d-flex justify-content-center">
+                        <a class="tmp-btn btn-large hover-icon-reverse" href="{% url 'textapp:home' %}">
+                            <span class="icon-reverse-wrapper">
+                                <span class="btn-text">{% trans "Αρχική σελίδα" %}</span>
+                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

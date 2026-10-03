@@ -1,7 +1,7 @@
 <!-- home.html -->
 {% extends 'base.html' %}
 {% load i18n static widget_tweaks %}
-
+{% block title %}{% trans "Υφάσματα εσωτερικής επένδυσης αυτοκινήτου" %} | JB Car Textile{% endblock %}
 {% block content %}
 
         <div class="banner-slider-area-one slider-gird">
@@ -408,29 +408,29 @@
                 <div class="row mt--20">
                     <div class="col-lg-12">
                         <!-- TABS -->
-                        <ul class="nav nav-tabs flex-nowrap overflow-auto justify-content-start justify-content-lg-center" id="fabricTabs" role="tablist">
-                            <li class="nav-item flex-shrink-0" role="presentation">
+                        <ul class="nav nav-tabs flex-wrap justify-content-center" id="fabricTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link text-nowrap active" id="tab-anoixi" type="button"
                                         data-bs-toggle="tab" data-bs-target="#pane-anoixi"
                                         role="tab" aria-controls="pane-anoixi" aria-selected="true">
                                     {% trans "Άνοιξη" %}
                                 </button>
                             </li>
-                            <li class="nav-item flex-shrink-0" role="presentation">
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link text-nowrap" id="tab-kalokairi" type="button"
                                         data-bs-toggle="tab" data-bs-target="#pane-kalokairi"
                                         role="tab" aria-controls="pane-kalokairi" aria-selected="false">
                                     {% trans "Καλοκαίρι" %}
                                 </button>
                             </li>
-                            <li class="nav-item flex-shrink-0" role="presentation">
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link text-nowrap" id="tab-fthinoporo" type="button"
                                         data-bs-toggle="tab" data-bs-target="#pane-fthinoporo"
                                         role="tab" aria-controls="pane-fthinoporo" aria-selected="false">
                                     {% trans "Φθινόπωρο" %}
                                 </button>
                             </li>
-                            <li class="nav-item flex-shrink-0" role="presentation">
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link text-nowrap" id="tab-ximonas" type="button"
                                         data-bs-toggle="tab" data-bs-target="#pane-ximonas"
                                         role="tab" aria-controls="pane-ximonas" aria-selected="false">
