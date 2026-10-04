@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cartextile 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 18:33+0300\n"
+"POT-Creation-Date: 2026-10-04 19:15+0300\n"
 "PO-Revision-Date: 2026-10-01 14:00+0300\n"
 "Last-Translator: OktoWeb\n"
 "Language-Team: English\n"
@@ -166,9 +166,9 @@ msgstr "The expertise, the flexibility and the consistency you need!"
 #: .\templates\categories\pique-headliner.html:184
 #: .\templates\categories\pvc-leatherette.html:184
 #: .\templates\categories\suede-headliner.html:185
-#: .\templates\categories\velvet-headliner.html:184 .\templates\home.html:301
-#: .\templates\home.html:326 .\templates\home.html:351
-#: .\templates\home.html:376
+#: .\templates\categories\velvet-headliner.html:184 .\templates\home.html:298
+#: .\templates\home.html:323 .\templates\home.html:348
+#: .\templates\home.html:373
 msgid "Χρωματολόγιο"
 msgstr "Colour chart"
 
@@ -206,7 +206,7 @@ msgstr ""
 #: .\templates\categories\pique-headliner.html:238
 #: .\templates\categories\pvc-leatherette.html:238
 #: .\templates\categories\suede-headliner.html:239
-#: .\templates\categories\velvet-headliner.html:238 .\templates\home.html:238
+#: .\templates\categories\velvet-headliner.html:238 .\templates\home.html:235
 msgid "Αίτημα προσφοράς"
 msgstr "Request a quote"
 
@@ -251,7 +251,7 @@ msgstr "material."
 #: .\templates\categories\pique-headliner.html:280
 #: .\templates\categories\pvc-leatherette.html:280
 #: .\templates\categories\suede-headliner.html:281
-#: .\templates\categories\velvet-headliner.html:280 .\templates\home.html:1094
+#: .\templates\categories\velvet-headliner.html:280 .\templates\home.html:1091
 msgid ""
 "Επικοινωνία για συνεργάτες <br> <a "
 "href=\"mailto:info@cartextile.gr\">info@cartextile.gr</a>"
@@ -561,7 +561,7 @@ msgstr ""
 "JB Car Textile since 1985 in automotive textiles. Production facilities of "
 "2,000 sq.m. with modern equipment."
 
-#: .\templates\facilities.html:20 .\templates\home.html:207
+#: .\templates\facilities.html:20 .\templates\home.html:204
 msgid "Η Εταιρεία"
 msgstr "The Company"
 
@@ -573,7 +573,7 @@ msgstr ""
 "A steady presence for more than 40 years <br>\n"
 "                                    in automotive textiles"
 
-#: .\templates\facilities.html:30 .\templates\home.html:1005
+#: .\templates\facilities.html:30 .\templates\home.html:1002
 #: .\templates\partials\_navbar.html:206 .\templates\partials\_navbar.html:296
 msgid "Επικοινωνία"
 msgstr "Contact us"
@@ -582,20 +582,20 @@ msgstr "Contact us"
 msgid "Οι εγκαταστάσεις της JB Car Textile"
 msgstr "The facilities of JB Car Textile"
 
-#: .\templates\facilities.html:54 .\templates\home.html:237
+#: .\templates\facilities.html:54 .\templates\home.html:234
 #: .\templates\partials\_navbar.html:190 .\templates\partials\_navbar.html:289
 msgid "Η ιστορία μας"
 msgstr "Our history"
 
 #: .\templates\facilities.html:57
 msgid ""
-"Το 1985 Ιδρύεται από τον Μιχάλη & Αντώνη Ιωαννίδη η εταιρία JB Car Textile. "
-"Αρχικά η εταιρεία δραστηριοποιείτα σε υλικά (πρώτες ύλες) επένδυσης "
-"εσωτερικού χώρου αυτοκινήτου."
+"Το 1985 ιδρύεται από τον Αντώνη και Μιχάλη Ιωαννίδη η εταιρεία Auto Club JB. "
+"Από την ίδρυσή της η εταιρεία δραστηριοποιείται στον τομέα της αναβάθμισης "
+"του εσωτερικού χώρου αυτοκινήτων."
 msgstr ""
-"In 1985 the company JB Car Textile is founded by Michalis & Antonis "
-"Ioannidis. Initially the company was active in materials (raw materials) for "
-"the lining of the car interior."
+"In 1985 the company Auto Club JB is founded by Antonis and Michalis "
+"Ioannidis. Since its establishment the company has been active in the field "
+"of upgrading the interior of the car."
 
 #: .\templates\facilities.html:61 .\templates\facilities.html:85
 #: .\templates\facilities.html:119 .\templates\facilities.html:143
@@ -612,12 +612,15 @@ msgstr "Growth"
 
 #: .\templates\facilities.html:81
 msgid ""
-"Το 2005 Πραγματοποιείται μια σημαντική επένδυση για την επέκταση των "
+"Το 2005 πραγματοποιείται μια σημαντική επένδυση για την επέκταση των "
 "παραγωγικών εγκαταστάσεων, ώστε να ανταποκρίνονται στους υψηλούς στόχους της "
-"εταιρίας."
+"εταιρείας. Σήμερα η JB Car Textile είναι μία από τις αξιόλογες "
+"μεταποιητικές, παραγωγικές και εμπορικές εταιρείες του κλάδου."
 msgstr ""
 "In 2005 a significant investment is carried out for the expansion of the "
-"production facilities, so that they meet the high targets of the company."
+"production facilities, so that they can meet the high targets the company "
+"has set. Today JB Car Textile is one of the most notable processing, "
+"manufacturing and trading companies in the sector."
 
 #: .\templates\facilities.html:94
 msgid "Ιδιόκτητες εγκαταστάσεις 2.000 τ.μ."
@@ -633,13 +636,11 @@ msgstr "Equipment"
 
 #: .\templates\facilities.html:115
 msgid ""
-"Σήμερα, η Car Textile JB είναι μια πρωτοπόρος εταιρία με εγκαταστάσεις που "
-"εκτείνονται σε 2.000 τ.μ. και με σύγχρονο εξοπλισμό, δύναται να καλύψει με "
-"επιτυχία κάθε ανάγκη του επαγγελματία."
+"Η JB Car Textile, με ιδιόκτητες εγκαταστάσεις και σύγχρονο μηχανολογικό "
+"εξοπλισμό, καινοτομεί και δημιουργεί υλικά υψηλής ποιότητας."
 msgstr ""
-"Today, Car Textile JB is a pioneering company with facilities that extend "
-"over 2,000 sq.m. and with modern production equipment, able to cover "
-"successfully every need of the professional."
+"JB Car Textile, with privately owned facilities and modern mechanical "
+"equipment, innovates and creates materials of high quality."
 
 #: .\templates\facilities.html:136
 msgid "Αποστολή & όραμα"
@@ -650,20 +651,20 @@ msgid ""
 "Με περισσότερα από 40 χρόνια εμπειρίας και τεχνογνωσίας, προσφέρουμε "
 "προϊόντα υψηλής ποιότητας για επαγγελματίες του κλάδου. Η σταθερή ποιότητα, "
 "η σωστή επιλογή των υλικών και η συνέπεια απέναντι στους συνεργάτες μας "
-"αποτελούν σταθερή προτεραιότητά μας."
+"αποτελούν σταθερή προτεραιότητά μας. Όραμά μας η ανάπτυξη και η καινοτομία."
 msgstr ""
 "With more than 40 years of experience and know-how, we offer products of "
 "high quality for the professionals of the sector. Consistent quality, the "
-"right selection of the materials and reliability towards our partners remain "
-"our constant priority."
+"right choice of materials and reliability towards our partners are a "
+"standing priority for us. Our vision is growth and innovation."
 
 #: .\templates\facilities.html:152 .\templates\home.html:4
 msgid "Υφάσματα εσωτερικής επένδυσης αυτοκινήτου"
 msgstr "Fabrics for automotive interior lining"
 
-#: .\templates\home.html:17
-msgid "Νέα γραμμή <br /> <span>Υφασμάτων </span> Ουρανού."
-msgstr "New range of <br /> <span>Headliner </span> Fabrics."
+#: .\templates\home.html:17 .\templates\home.html:40 .\templates\home.html:63
+msgid "Υλικά καλυμμάτων <span>και</span> <br /> <span>ταπετσαρίες</span> αυτοκινήτων."
+msgstr "Covering materials <span>and</span> <br /> <span>upholstery for</span> vehicles."
 
 #: .\templates\home.html:18
 msgid ""
@@ -678,10 +679,6 @@ msgid "Δείτε το χρωματολόγιο"
 msgstr "See the colour chart"
 
 #: .\templates\home.html:41
-msgid "Σωστή Επιλογή <br /> <span>Απόλυτη</span> Εφαρμογή."
-msgstr "Right Choice <br /> <span>Perfect</span> Fitting."
-
-#: .\templates\home.html:42
 msgid ""
 "Η αίσθηση και η αντοχή του αυθεντικού δέρματος, ανθεκτική στη θερμική "
 "καταπόνηση και στην τριβή, εύκολη στον καθαρισμό."
@@ -689,15 +686,11 @@ msgstr ""
 "The feel and the durability of genuine leather, resistant to thermal stress "
 "and to abrasion, and easy to clean."
 
-#: .\templates\home.html:46
+#: .\templates\home.html:45
 msgid "Ζητήστε ένα δείγμα"
 msgstr "Request a sample"
 
-#: .\templates\home.html:65
-msgid "Εξαιρετική Δύναμη <br /> <span>Θερμής</span> Κόλλησης."
-msgstr "Exceptional Strength <br /> <span>Flame</span> Bonding."
-
-#: .\templates\home.html:66
+#: .\templates\home.html:64
 msgid ""
 "Υψηλή διελαστικότητα σε πλάτος και μήκος, με την απαλότητα και τις ιδιότητες "
 "των υλικών να παραμένουν ακέραιες στο χρόνο."
@@ -705,15 +698,15 @@ msgstr ""
 "High bi-elasticity in width and in length, with the softness and the "
 "properties of the materials remaining intact in time."
 
-#: .\templates\home.html:70
+#: .\templates\home.html:68
 msgid "Επικοινωνήστε μαζί μας"
 msgstr "Get in touch with us"
 
-#: .\templates\home.html:101 .\templates\home.html:114
+#: .\templates\home.html:98 .\templates\home.html:111
 msgid "Υφάσματα Αντοχής"
 msgstr "Durable Fabrics"
 
-#: .\templates\home.html:103
+#: .\templates\home.html:100
 msgid ""
 "Οι πρώτες ύλες επιλέγονται με αυστηρά κριτήρια, διακρίνονται για την ανώτερη "
 "υφή τους, την αντοχή στην τριβή και τη φθορά."
@@ -721,11 +714,11 @@ msgstr ""
 "The raw materials are selected by strict criteria and stand out for their "
 "superior texture, their resistance to abrasion and wear."
 
-#: .\templates\home.html:106
+#: .\templates\home.html:103
 msgid "Υφάσματα αυτοκινήτου JB Car Textile"
 msgstr "JB Car Textile automotive fabrics"
 
-#: .\templates\home.html:116
+#: .\templates\home.html:113
 msgid ""
 "Τα χρώματα παραμένουν σταθερά και αναλλοίωτα στον χρόνο, εξασφαλίζοντας "
 "άριστη εμφάνιση και μεγάλη διάρκεια ζωής."
@@ -733,16 +726,16 @@ msgstr ""
 "The colours remain stable and unaltered in time, ensuring an excellent "
 "appearance and a long service life."
 
-#: .\templates\home.html:117 .\templates\home.html:151
-#: .\templates\home.html:185
+#: .\templates\home.html:114 .\templates\home.html:148
+#: .\templates\home.html:182
 msgid "Αναλυτικά..."
 msgstr "In detail..."
 
-#: .\templates\home.html:135 .\templates\home.html:148
+#: .\templates\home.html:132 .\templates\home.html:145
 msgid "Τεχνογνωσία & Εξειδίκευση"
 msgstr "Know-how & Specialisation"
 
-#: .\templates\home.html:137
+#: .\templates\home.html:134
 msgid ""
 "Η εμπειρία μας στην κατασκευή υφασμάτων αυτοκινήτου διαμορφώνει λύσεις "
 "υψηλής απόδοσης για κάθε ανάγκη του επαγγελματία."
@@ -750,11 +743,11 @@ msgstr ""
 "Our experience in the manufacture of automotive fabrics shapes high "
 "performance solutions for every need of the professional."
 
-#: .\templates\home.html:140
+#: .\templates\home.html:137
 msgid "Auto Textile"
 msgstr "Auto Textile"
 
-#: .\templates\home.html:150
+#: .\templates\home.html:147
 msgid ""
 "Η τεχνογνωσία μας μεταφράζεται σε σταθερή ποιότητα, ταχύτατη ανταπόκριση και "
 "άρτια προσαρμοσμένες λύσεις σε κάθε συνεργασία."
@@ -762,11 +755,11 @@ msgstr ""
 "Our know-how translates into consistent quality, a very fast response and "
 "perfectly adapted solutions in every collaboration."
 
-#: .\templates\home.html:169 .\templates\home.html:182
+#: .\templates\home.html:166 .\templates\home.html:179
 msgid "Εξοπλισμός & Δυνατότητες"
 msgstr "Equipment & Capabilities"
 
-#: .\templates\home.html:171
+#: .\templates\home.html:168
 msgid ""
 "Ο σύγχρονος εξοπλισμός μας εξασφαλίζει ταχύτατη παραγωγή, ακρίβεια στις "
 "λεπτομέρειες και σταθερή ποιότητα."
@@ -774,7 +767,7 @@ msgstr ""
 "Our modern equipment ensures a very fast production, accuracy in the details "
 "and consistent quality."
 
-#: .\templates\home.html:184
+#: .\templates\home.html:181
 msgid ""
 "Ο αυστηρός έλεγχος σε κάθε στάδιο εγγυάται προϊόντα υψηλής ακρίβειας, χωρίς "
 "αποκλίσεις και με μηδενικά περιθώρια λάθους."
@@ -782,7 +775,7 @@ msgstr ""
 "The strict control at every stage guarantees products of high precision, "
 "with no deviations and zero margin for error."
 
-#: .\templates\home.html:211
+#: .\templates\home.html:208
 msgid ""
 "Παραγωγή Υφασμάτων <br>\n"
 "                                Εσωτερικής Επένδυσης."
@@ -790,7 +783,7 @@ msgstr ""
 "Production of Fabrics <br>\n"
 "                                for Interior Lining."
 
-#: .\templates\home.html:214
+#: .\templates\home.html:211
 msgid ""
 "Η JB Car Textile είναι ένας κορυφαίος προμηθευτής και εξαγωγέας <br> που "
 "ειδικεύεται σε υφάσματα ουρανού και καθισμάτων αυτοκινήτων."
@@ -798,351 +791,351 @@ msgstr ""
 "JB Car Textile is a leading supplier and exporter <br> specialising in "
 "headliner and seat fabrics for the automotive industry."
 
-#: .\templates\home.html:217
+#: .\templates\home.html:214
 msgid "Ιδιόκτητες εγκαταστάσεις"
 msgstr "Privately owned premises"
 
-#: .\templates\home.html:220
+#: .\templates\home.html:217
 msgid "+2000 τ.μ"
 msgstr "+2000 sq.m"
 
-#: .\templates\home.html:225 .\templates\home.html:250
-#: .\templates\home.html:289 .\templates\partials\_navbar.html:63
+#: .\templates\home.html:222 .\templates\home.html:247
+#: .\templates\home.html:286 .\templates\partials\_navbar.html:63
 #: .\templates\partials\_navbar.html:142 .\templates\partials\_navbar.html:274
 msgid "Πικέ Ουρανού"
 msgstr "Pique Headliner"
 
-#: .\templates\home.html:226 .\templates\home.html:251
-#: .\templates\home.html:314 .\templates\partials\_navbar.html:70
+#: .\templates\home.html:223 .\templates\home.html:248
+#: .\templates\home.html:311 .\templates\partials\_navbar.html:70
 #: .\templates\partials\_navbar.html:147 .\templates\partials\_navbar.html:275
 msgid "Βελουτέ Ουρανού"
 msgstr "Velour Headliner"
 
-#: .\templates\home.html:227 .\templates\home.html:252
-#: .\templates\home.html:339 .\templates\partials\_navbar.html:77
+#: .\templates\home.html:224 .\templates\home.html:249
+#: .\templates\home.html:336 .\templates\partials\_navbar.html:77
 #: .\templates\partials\_navbar.html:159 .\templates\partials\_navbar.html:277
 msgid "Suede Ουρανού"
 msgstr "Suede Headliner"
 
-#: .\templates\home.html:228 .\templates\home.html:253
-#: .\templates\home.html:364 .\templates\partials\_navbar.html:84
+#: .\templates\home.html:225 .\templates\home.html:250
+#: .\templates\home.html:361 .\templates\partials\_navbar.html:84
 #: .\templates\partials\_navbar.html:153 .\templates\partials\_navbar.html:276
 msgid "Πετσέτα Cotton"
 msgstr "Cotton Towelling"
 
-#: .\templates\home.html:231
+#: .\templates\home.html:228
 msgid "Πλήρες χρωματολόγιο"
 msgstr "Full colour chart"
 
-#: .\templates\home.html:246
+#: .\templates\home.html:243
 msgid "Γραμμή παραγωγής JB Car Textile"
 msgstr "JB Car Textile production line"
 
-#: .\templates\home.html:255
+#: .\templates\home.html:252
 msgid "Αποχρώσεις"
 msgstr "Shades"
 
-#: .\templates\home.html:274
+#: .\templates\home.html:271
 msgid "εφαρμογές"
 msgstr "applications"
 
-#: .\templates\home.html:278
+#: .\templates\home.html:275
 msgid "Υφάσματα Αυτοκινήτου"
 msgstr "Automotive Fabrics"
 
-#: .\templates\home.html:294 .\templates\partials\_footer.html:80
+#: .\templates\home.html:291 .\templates\partials\_footer.html:80
 msgid "Πικέ"
 msgstr "Pique"
 
-#: .\templates\home.html:295 .\templates\home.html:320
-#: .\templates\home.html:345
+#: .\templates\home.html:292 .\templates\home.html:317
+#: .\templates\home.html:342
 msgid "Ουρανού"
 msgstr "Headliner"
 
-#: .\templates\home.html:302 .\templates\home.html:327
-#: .\templates\home.html:352 .\templates\home.html:377 .\textapp\admin.py:135
+#: .\templates\home.html:299 .\templates\home.html:324
+#: .\templates\home.html:349 .\templates\home.html:374 .\textapp\admin.py:135
 msgid "Τεχνικά χαρακτηριστικά"
 msgstr "Technical data sheet"
 
-#: .\templates\home.html:303 .\templates\home.html:328
-#: .\templates\home.html:353 .\templates\home.html:378
+#: .\templates\home.html:300 .\templates\home.html:325
+#: .\templates\home.html:350 .\templates\home.html:375
 msgid "Αίτημα δείγματος"
 msgstr "Sample request"
 
-#: .\templates\home.html:319 .\templates\partials\_footer.html:81
+#: .\templates\home.html:316 .\templates\partials\_footer.html:81
 msgid "Βελουτέ"
 msgstr "Velour"
 
-#: .\templates\home.html:344 .\templates\partials\_footer.html:82
+#: .\templates\home.html:341 .\templates\partials\_footer.html:82
 msgid "Suede"
 msgstr "Suede"
 
-#: .\templates\home.html:369 .\templates\partials\_footer.html:83
+#: .\templates\home.html:366 .\templates\partials\_footer.html:83
 msgid "Πετσέτα"
 msgstr "Towelling"
 
-#: .\templates\home.html:370
+#: .\templates\home.html:367
 msgid "Cotton"
 msgstr "Cotton"
 
-#: .\templates\home.html:399
+#: .\templates\home.html:396
 msgid "Δειγματολόγιο"
 msgstr "Sample range"
 
-#: .\templates\home.html:403
+#: .\templates\home.html:400
 msgid "Υφαντά Jacquard"
 msgstr "Woven Jacquard"
 
-#: .\templates\home.html:416
+#: .\templates\home.html:413
 msgid "Άνοιξη"
 msgstr "Spring"
 
-#: .\templates\home.html:423
+#: .\templates\home.html:420
 msgid "Καλοκαίρι"
 msgstr "Summer"
 
-#: .\templates\home.html:430
+#: .\templates\home.html:427
 msgid "Φθινόπωρο"
 msgstr "Autumn"
 
-#: .\templates\home.html:437
+#: .\templates\home.html:434
 msgid "Χειμώνας"
 msgstr "Winter"
 
-#: .\templates\home.html:450
+#: .\templates\home.html:447
 msgid "Ύφασμα Jacquard 6-751"
 msgstr "Jacquard fabric 6-751"
 
-#: .\templates\home.html:456
+#: .\templates\home.html:453
 msgid "Ύφασμα Jacquard 016"
 msgstr "Jacquard fabric 016"
 
-#: .\templates\home.html:462
+#: .\templates\home.html:459
 msgid "Ύφασμα Jacquard 021"
 msgstr "Jacquard fabric 021"
 
-#: .\templates\home.html:468
+#: .\templates\home.html:465
 msgid "Ύφασμα Jacquard 025"
 msgstr "Jacquard fabric 025"
 
-#: .\templates\home.html:474
+#: .\templates\home.html:471
 msgid "Ύφασμα Jacquard D017"
 msgstr "Jacquard fabric D017"
 
-#: .\templates\home.html:480
+#: .\templates\home.html:477
 msgid "Ύφασμα Jacquard D020"
 msgstr "Jacquard fabric D020"
 
-#: .\templates\home.html:486
+#: .\templates\home.html:483
 msgid "Ύφασμα Jacquard D026"
 msgstr "Jacquard fabric D026"
 
-#: .\templates\home.html:492
+#: .\templates\home.html:489
 msgid "Ύφασμα Jacquard K642"
 msgstr "Jacquard fabric K642"
 
-#: .\templates\home.html:498
+#: .\templates\home.html:495
 msgid "Ύφασμα Jacquard 064"
 msgstr "Jacquard fabric 064"
 
-#: .\templates\home.html:504
+#: .\templates\home.html:501
 msgid "Ύφασμα Jacquard 073"
 msgstr "Jacquard fabric 073"
 
-#: .\templates\home.html:510
+#: .\templates\home.html:507
 msgid "Ύφασμα Jacquard 076"
 msgstr "Jacquard fabric 076"
 
-#: .\templates\home.html:516
+#: .\templates\home.html:513
 msgid "Ύφασμα Jacquard 086"
 msgstr "Jacquard fabric 086"
 
-#: .\templates\home.html:529
+#: .\templates\home.html:526
 msgid "Ύφασμα Jacquard 003"
 msgstr "Jacquard fabric 003"
 
-#: .\templates\home.html:535
+#: .\templates\home.html:532
 msgid "Ύφασμα Jacquard 015"
 msgstr "Jacquard fabric 015"
 
-#: .\templates\home.html:541
+#: .\templates\home.html:538
 msgid "Ύφασμα Jacquard 018"
 msgstr "Jacquard fabric 018"
 
-#: .\templates\home.html:547
+#: .\templates\home.html:544
 msgid "Ύφασμα Jacquard 022"
 msgstr "Jacquard fabric 022"
 
-#: .\templates\home.html:553
+#: .\templates\home.html:550
 msgid "Ύφασμα Jacquard 028"
 msgstr "Jacquard fabric 028"
 
-#: .\templates\home.html:559
+#: .\templates\home.html:556
 msgid "Ύφασμα Jacquard 030"
 msgstr "Jacquard fabric 030"
 
-#: .\templates\home.html:565
+#: .\templates\home.html:562
 msgid "Ύφασμα Jacquard 044"
 msgstr "Jacquard fabric 044"
 
-#: .\templates\home.html:571
+#: .\templates\home.html:568
 msgid "Ύφασμα Jacquard 004"
 msgstr "Jacquard fabric 004"
 
-#: .\templates\home.html:577
+#: .\templates\home.html:574
 msgid "Ύφασμα Jacquard 008"
 msgstr "Jacquard fabric 008"
 
-#: .\templates\home.html:583
+#: .\templates\home.html:580
 msgid "Ύφασμα Jacquard 034"
 msgstr "Jacquard fabric 034"
 
-#: .\templates\home.html:589
+#: .\templates\home.html:586
 msgid "Ύφασμα Jacquard 035"
 msgstr "Jacquard fabric 035"
 
-#: .\templates\home.html:595
+#: .\templates\home.html:592
 msgid "Ύφασμα Jacquard 051"
 msgstr "Jacquard fabric 051"
 
-#: .\templates\home.html:608
+#: .\templates\home.html:605
 msgid "Ύφασμα Jacquard 002"
 msgstr "Jacquard fabric 002"
 
-#: .\templates\home.html:614
+#: .\templates\home.html:611
 msgid "Ύφασμα Jacquard 014"
 msgstr "Jacquard fabric 014"
 
-#: .\templates\home.html:620
+#: .\templates\home.html:617
 msgid "Ύφασμα Jacquard 019"
 msgstr "Jacquard fabric 019"
 
-#: .\templates\home.html:626
+#: .\templates\home.html:623
 msgid "Ύφασμα Jacquard 023"
 msgstr "Jacquard fabric 023"
 
-#: .\templates\home.html:632
+#: .\templates\home.html:629
 msgid "Ύφασμα Jacquard 027"
 msgstr "Jacquard fabric 027"
 
-#: .\templates\home.html:638
+#: .\templates\home.html:635
 msgid "Ύφασμα Jacquard 029"
 msgstr "Jacquard fabric 029"
 
-#: .\templates\home.html:644
+#: .\templates\home.html:641
 msgid "Ύφασμα Jacquard 041"
 msgstr "Jacquard fabric 041"
 
-#: .\templates\home.html:650
+#: .\templates\home.html:647
 msgid "Ύφασμα Jacquard 017"
 msgstr "Jacquard fabric 017"
 
-#: .\templates\home.html:656
+#: .\templates\home.html:653
 msgid "Ύφασμα Jacquard 020"
 msgstr "Jacquard fabric 020"
 
-#: .\templates\home.html:662
+#: .\templates\home.html:659
 msgid "Ύφασμα Jacquard 040"
 msgstr "Jacquard fabric 040"
 
-#: .\templates\home.html:668
+#: .\templates\home.html:665
 msgid "Ύφασμα Jacquard 048"
 msgstr "Jacquard fabric 048"
 
-#: .\templates\home.html:674
+#: .\templates\home.html:671
 msgid "Ύφασμα Jacquard 410-5"
 msgstr "Jacquard fabric 410-5"
 
-#: .\templates\home.html:687
+#: .\templates\home.html:684
 msgid "Ύφασμα Jacquard 039"
 msgstr "Jacquard fabric 039"
 
-#: .\templates\home.html:693
+#: .\templates\home.html:690
 msgid "Ύφασμα Jacquard 071"
 msgstr "Jacquard fabric 071"
 
-#: .\templates\home.html:699
+#: .\templates\home.html:696
 msgid "Ύφασμα Jacquard 078"
 msgstr "Jacquard fabric 078"
 
-#: .\templates\home.html:705
+#: .\templates\home.html:702
 msgid "Ύφασμα Jacquard 087"
 msgstr "Jacquard fabric 087"
 
-#: .\templates\home.html:711
+#: .\templates\home.html:708
 msgid "Ύφασμα Jacquard K622"
 msgstr "Jacquard fabric K622"
 
-#: .\templates\home.html:717
+#: .\templates\home.html:714
 msgid "Ύφασμα Jacquard K627"
 msgstr "Jacquard fabric K627"
 
-#: .\templates\home.html:741
+#: .\templates\home.html:738
 msgid "ΑΦΡΟΛΕΞΑΡΙΣΜΑ"
 msgstr "FOAM LAMINATION"
 
-#: .\templates\home.html:742
+#: .\templates\home.html:739
 msgid "Διαδικασία πλαστικοποίησης με φλόγα συγκόλλησης."
 msgstr "The lamination process with a bonding flame."
 
-#: .\templates\home.html:753
+#: .\templates\home.html:750
 msgid "Κορυφαία Ανθεκτικότητα"
 msgstr "Superior Durability"
 
-#: .\templates\home.html:755
+#: .\templates\home.html:752
 msgid "Η αντοχή και η ελαστικότητα του υφάσματος βελτιώνονται σημαντικά."
 msgstr "The strength and the elasticity of the fabric improve significantly."
 
-#: .\templates\home.html:767
+#: .\templates\home.html:764
 msgid "Ενισχυμένη Πυκνότητα"
 msgstr "Enhanced Density"
 
-#: .\templates\home.html:769
+#: .\templates\home.html:766
 msgid "Το βελτιωμένο βάρος του υφάσματος εγγυάται απόδοση και σταθερότητα."
 msgstr ""
 "The improved weight of the fabric guarantees performance and stability."
 
-#: .\templates\home.html:781
+#: .\templates\home.html:778
 msgid "Προσαρμοσμένο Πάχος"
 msgstr "Customised Thickness"
 
-#: .\templates\home.html:783
+#: .\templates\home.html:780
 msgid "Δυνατότητα παραμετροποίησης του πάχους επένδυσης από 2mm έως 20mm."
 msgstr "Possibility to customise the lining thickness from 2mm to 20mm."
 
-#: .\templates\home.html:799
+#: .\templates\home.html:796
 msgid "Διαδικασία flame lamination υφάσματος"
 msgstr "The flame lamination process of the fabric"
 
-#: .\templates\home.html:805
+#: .\templates\home.html:802
 msgid "Λαμινάρισμα υφάσματος με αφρολέξ"
 msgstr "Lamination of the fabric with foam"
 
-#: .\templates\home.html:811
+#: .\templates\home.html:808
 msgid "Έλεγχος υφάσματος μετά το λαμινάρισμα"
 msgstr "Inspection of the fabric after lamination"
 
-#: .\templates\home.html:836
+#: .\templates\home.html:833
 msgid "Συλλογή"
 msgstr "Collection"
 
-#: .\templates\home.html:840
+#: .\templates\home.html:837
 msgid "Premium <span class=\"theme-gradient\"> Edition</span>"
 msgstr "Premium <span class=\"theme-gradient\"> Edition</span>"
 
-#: .\templates\home.html:845
+#: .\templates\home.html:842
 msgid "Δείτε όλα τα υλικά"
 msgstr "See all the materials"
 
-#: .\templates\home.html:861
+#: .\templates\home.html:858
 msgid "Suede ουρανού"
 msgstr "Suede headliner"
 
-#: .\templates\home.html:865
+#: .\templates\home.html:862
 msgid "Ελαστικό ύφασμα εσωτερικής επένδυσης ουρανού από την JB Car Textile."
 msgstr "An elastic interior headliner lining fabric from JB Car Textile."
 
-#: .\templates\home.html:866
+#: .\templates\home.html:863
 msgid ""
 "Το ιδιαίτερο καινοτόμο υλικό που συνδυάζει την άριστη ελαστικότητα του "
 "πλεκτού υφάσματος με την κομψή και απαλή αίσθηση του suede"
@@ -1150,55 +1143,55 @@ msgstr ""
 "The distinctive innovative material that combines the excellent elasticity "
 "of the knitted fabric with the elegant soft feel of suede"
 
-#: .\templates\home.html:868 .\templates\home.html:886
-#: .\templates\home.html:902 .\templates\home.html:918
+#: .\templates\home.html:865 .\templates\home.html:883
+#: .\templates\home.html:899 .\templates\home.html:915
 msgid "Λεπτομέρειες"
 msgstr "More details"
 
-#: .\templates\home.html:879
+#: .\templates\home.html:876
 msgid "Βελουτέ ουρανού"
 msgstr "Velour headliner"
 
-#: .\templates\home.html:883
+#: .\templates\home.html:880
 msgid "Καινοτόμο πλεκτό ύφασμα εσωτερικής επένδυσης με Βελουτέ υφή"
 msgstr "Innovative knitted interior lining fabric with a velour finish"
 
-#: .\templates\home.html:884
+#: .\templates\home.html:881
 #, python-format
 msgid ""
 "Από 100%% πολυεστερικό νήμα, με ανεξίτηλη βαφή που εξασφαλίζει σταθερότητα."
 msgstr ""
 "From 100%% polyester yarn, with a colourfast dye that ensures stability."
 
-#: .\templates\home.html:895
+#: .\templates\home.html:892
 msgid "Πικέ ουρανού"
 msgstr "Pique headliner"
 
-#: .\templates\home.html:899
+#: .\templates\home.html:896
 msgid "Πικέ ανθεκτικό ύφασμα με σταθερότητα χρώματος και διαχρονική ποιότητα"
 msgstr "Durable pique fabric with colour stability and timeless quality"
 
-#: .\templates\home.html:900
+#: .\templates\home.html:897
 msgid ""
 "Λαμινάρεται με αφρολέξ, χαρίζοντας την ιδανική ελαστικότητα και εφαρμογή"
 msgstr "It is laminated with foam, giving the ideal elasticity and fitting"
 
-#: .\templates\home.html:911
+#: .\templates\home.html:908
 msgid "Δερματίνες καθισμάτων"
 msgstr "Seat leatherette"
 
-#: .\templates\home.html:915
+#: .\templates\home.html:912
 #, python-format
 msgid ""
 "Δερματίνη υψηλής αντοχής από 100%% PVC, σχεδιασμένη για επενδύσεις καθισμάτων"
 msgstr ""
 "High durability leatherette from 100%% PVC, designed for seat upholstery"
 
-#: .\templates\home.html:916
+#: .\templates\home.html:913
 msgid "Αντίσταση στην τριβή για επιφάνειες που δέχονται καθημερινή χρήση"
 msgstr "Resistance to abrasion for surfaces that are in everyday use"
 
-#: .\templates\home.html:944
+#: .\templates\home.html:941
 msgid ""
 "Η χαρακτηριστική suede επιφάνεια με απαλή και ιδιαίτερη αισθητική. <br> Μια "
 "ολοκληρωμένη σειρά αποχρώσεων, σχεδιασμένη και αναπτυγμένη από την JB Car "
@@ -1208,11 +1201,11 @@ msgstr ""
 "A complete and coherent range of shades, designed and developed by JB Car "
 "Textile."
 
-#: .\templates\home.html:1009
+#: .\templates\home.html:1006
 msgid "Στείλτε μας μήνυμα"
 msgstr "Send us a message"
 
-#: .\templates\home.html:1010
+#: .\templates\home.html:1007
 msgid ""
 "Η έμπειρη ομάδα μας αναλαμβάνει να δώσει άμεσες λύσεις και αποτελεσματική "
 "υποστήριξη."
@@ -1220,31 +1213,31 @@ msgstr ""
 "Our experienced team undertakes to give immediate solutions and effective "
 "support."
 
-#: .\templates\home.html:1010 .\templates\partials\_footer.html:92
+#: .\templates\home.html:1007 .\templates\partials\_footer.html:92
 msgid "Δευτέρα - Παρασκευή 09.00 - 17.00"
 msgstr "Monday - Friday 09.00 - 17.00"
 
-#: .\templates\home.html:1018
+#: .\templates\home.html:1015
 msgid "Auto textile Thessaloniki"
 msgstr "Auto textile Thessaloniki"
 
-#: .\templates\home.html:1064
+#: .\templates\home.html:1061
 msgid "Αποστολή"
 msgstr "Submit"
 
-#: .\templates\home.html:1081
+#: .\templates\home.html:1078
 msgid "Βρείτε μαζί μας"
 msgstr "Find with us"
 
-#: .\templates\home.html:1085
+#: .\templates\home.html:1082
 msgid "Υφάσματα."
 msgstr "Fabrics."
 
-#: .\templates\home.html:1086
+#: .\templates\home.html:1083
 msgid "Υλικά."
 msgstr "Materials."
 
-#: .\templates\home.html:1087
+#: .\templates\home.html:1084
 msgid "Λύσεις."
 msgstr "Solutions."
 
@@ -2229,6 +2222,24 @@ msgstr "Your email is already subscribed."
 #: .\textapp\views.py:104
 msgid "Σας στείλαμε email επιβεβαίωσης. Ελέγξτε τα εισερχόμενά σας."
 msgstr "We sent you a confirmation email. Please check your inbox."
+
+#~ msgid ""
+#~ "Σήμερα, η Car Textile JB είναι μια πρωτοπόρος εταιρία με εγκαταστάσεις "
+#~ "που εκτείνονται σε 2.000 τ.μ. και με σύγχρονο εξοπλισμό, δύναται να "
+#~ "καλύψει με επιτυχία κάθε ανάγκη του επαγγελματία."
+#~ msgstr ""
+#~ "Today, Car Textile JB is a pioneering company with facilities that extend "
+#~ "over 2,000 sq.m. and with modern production equipment, able to cover "
+#~ "successfully every need of the professional."
+
+#~ msgid "Νέα γραμμή <br /> <span>Υφασμάτων </span> Ουρανού."
+#~ msgstr "New range of <br /> <span>Headliner </span> Fabrics."
+
+#~ msgid "Σωστή Επιλογή <br /> <span>Απόλυτη</span> Εφαρμογή."
+#~ msgstr "Right Choice <br /> <span>Perfect</span> Fitting."
+
+#~ msgid "Εξαιρετική Δύναμη <br /> <span>Θερμής</span> Κόλλησης."
+#~ msgstr "Exceptional Strength <br /> <span>Flame</span> Bonding."
 
 #~ msgid "Χωρίς παρακολούθηση"
 #~ msgstr "Without any tracking"
