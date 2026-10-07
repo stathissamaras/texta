@@ -11,7 +11,7 @@ class StaticViewSitemap(Sitemap):
     protocol = "https"
     i18n = True          # μία εγγραφή ανά γλώσσα
     alternates = True    # hreflang μέσα στο sitemap
-    x_default = True
+    x_default = False
 
     def items(self):
         return ["textapp:home", "textapp:facilities", "textapp:legal"]
@@ -31,7 +31,7 @@ class CategorySitemap(Sitemap):
     protocol = "https"
     i18n = True
     alternates = True
-    x_default = True
+    x_default = False    # βλ. σχόλιο στο StaticViewSitemap
 
     def items(self):
         return Category.objects.filter(is_active=True)
