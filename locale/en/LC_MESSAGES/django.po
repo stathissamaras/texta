@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cartextile 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-04 19:15+0300\n"
+"POT-Creation-Date: 2026-10-15 20:27+0300\n"
 "PO-Revision-Date: 2026-10-01 14:00+0300\n"
 "Last-Translator: OktoWeb\n"
 "Language-Team: English\n"
@@ -663,8 +663,8 @@ msgid "Υφάσματα εσωτερικής επένδυσης αυτοκινή
 msgstr "Fabrics for automotive interior lining"
 
 #: .\templates\home.html:17 .\templates\home.html:40 .\templates\home.html:63
-msgid "Υλικά καλυμμάτων <span>και</span> <br /> <span>ταπετσαρίες</span> αυτοκινήτων."
-msgstr "Covering materials <span>and</span> <br /> <span>upholstery for</span> vehicles."
+msgid "Υφάσματα <span>και</span> <br /> <span>δερματίνες</span> αυτοκινήτων"
+msgstr "Automotive <span>Fabrics</span> <br /> <span>and </span> leatherette"
 
 #: .\templates\home.html:18
 msgid ""
