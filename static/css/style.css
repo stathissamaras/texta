@@ -8114,9 +8114,11 @@ bottom: 60px;
     display: flex;
 }
 
-/* Πριν ξεκινήσει το slick δείχνουμε μόνο το πρώτο slide - αποφεύγεται το «πήδημα» της σελίδας (CLS) */
 .slider-activation-2:not(.slick-initialized) > .slider-area:not(:first-child) {
-    display: none;
+    height: 0;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .height-850 {
