@@ -24,15 +24,12 @@
             invJs.odoMeter();
             invJs.portfoliobounceAnimation();
             invJs.preloader();
-            invJs.masonryActivation();
             invJs.wowActivation();
             invJs.headerTopActivation();
             invJs.headerSticky();
             invJs.salActive();
-            invJs.magnifyPopup();
             invJs.popupMobileMenu();
             invJs.slickSliderActivation();
-            invJs.radialProgress();
             invJs.radialProgressOne();
             invJs.menuCurrentLink();
             invJs.counterJumpanimation();
@@ -355,31 +352,6 @@
 
         },
         
-        masonryActivation: function() {
-          // Wait for window load only for Isotope
-          $(window).on('load', function() {
-            $('.masonary-wrapper-activation').imagesLoaded(function() {
-              var $grid = $('.mesonry-list').isotope({
-                percentPosition: true,
-                transitionDuration: '0.7s',
-                layoutMode: 'masonry',
-                masonry: {
-                  columnWidth: '.resizer',
-                }
-              });
-
-              $('.messonry-button').on('click', 'button', function() {
-                var filterValue = $(this).attr('data-filter');
-                $(this).siblings('.is-checked').removeClass('is-checked');
-                $(this).addClass('is-checked');
-                $grid.isotope({ filter: filterValue });
-              });
-              
-              // Refresh ScrollTrigger after Isotope
-              ScrollTrigger.refresh();
-            });
-          });
-        },
 
         menuCurrentLink: function () {
             var currentPage = location.pathname.split("/"),
@@ -390,12 +362,6 @@
                     $this.addClass('active');
                     $this.parents('.has-menu-child-item').addClass('menu-item-open')
                 }
-            });
-        },
-
-        magnifyPopup: function () {
-            $('.popup-video').magnificPopup({
-                type: 'iframe'
             });
         },
 
@@ -704,22 +670,6 @@
             $('.bgsection-activation').on('click', function () {
                 $('.header-top-news').addClass('deactive')
             })
-        },
-
-        radialProgress: function () {
-            $('.radial-progress').waypoint(function () {
-                $('.radial-progress').easyPieChart({
-                    lineWidth: 20,
-                    scaleLength: 0,
-                    rotate: 0,
-                    trackColor: false,
-                    lineCap: 'round',
-                    size: 220
-                });
-            }, {
-                triggerOnce: true,
-                offset: 'bottom-in-view'
-            });
         },
 
         autoslidertab: function () {
