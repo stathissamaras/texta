@@ -1636,8 +1636,8 @@ msgid "Γενικοί όροι"
 msgstr "General terms"
 
 #: .\templates\partials\_footer.html:141
-msgid "All Right Reserved © OktoWeb"
-msgstr "All Right Reserved © OktoWeb"
+msgid "All Rights Reserved © OktoWeb"
+msgstr "All Rights Reserved © OktoWeb"
 
 #: .\templates\partials\_navbar.html:51 .\templates\partials\_navbar.html:99
 #: .\templates\partials\_navbar.html:106 .\templates\partials\_navbar.html:113

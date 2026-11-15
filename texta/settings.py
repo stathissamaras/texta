@@ -11,6 +11,9 @@ load_dotenv(BASE_DIR / '.env')
 
 SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
+# Η διεύθυνση του admin - μυστική, από το .env (πρέπει να τελειώνει σε /)
+ADMIN_URL = os.environ.get('ADMIN_URL', 'admin/')
+
 # Το DEBUG και το ALLOWED_HOSTS ορίζονται στο dev.py / prod.py
 
 INSTALLED_APPS = [
